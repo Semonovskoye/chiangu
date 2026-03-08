@@ -1,4 +1,4 @@
-# chiatri.bottom - nhantri.top's evil twin brother, chiatri.bottom
+# chiatri.bottom - nhantri.top's evil twin brother
 
 <h3>Default command string (just copy and paste this into the console)</h3>
 const section1 = document.getElementById('videoSection');
