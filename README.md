@@ -53,6 +53,8 @@ To simply put it,
 2. I believe information (some of them) should be free
 => That is why I removed the paywall to the question generator that gives you answers, so that you can revise without any restrictions.
 <br>
-<a href="questionbank10.html">To The Question Bank (G10)</a>
-<a href="questionbank11.html">To The Question Bank (G11)</a>
-<a href="questionbank12.html">To The Question Bank (G12)</a>
+<a href="questionbank10.html">The Question Bank (G10)</a>
+<br>
+<a href="questionbank11.html">The Question Bank (G11)</a>
+<br>
+<a href="questionbank12.html">The Question Bank (G12)</a>
