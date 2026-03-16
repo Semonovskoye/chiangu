@@ -20,7 +20,7 @@ for (const type of Object.keys(encryptedQuestionBank)) {
 console.log(all);
 <br>
 <h2>Detailed commands</h2>
-<h3>Decrpting answers</h3>
+<h3>Decrypting answers</h3>
 const all = {};
 for (const type of Object.keys(encryptedQuestionBank)) {
   all[type] = {};
