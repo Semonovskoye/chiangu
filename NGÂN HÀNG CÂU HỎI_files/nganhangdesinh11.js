@@ -589,7 +589,7 @@ const questionBank = {
             },
             {
                 question: "MB-TĐNVK-L2-007. Trong các thí nghiệm sau đây, thí nghiệm nào sau đây chứng minh quá trình thoát hơi nước ở lá?",
-                image: "/media/Grade11/Thoathoinuocola.png",
+                image: "https://nhantri.top/media/Grade11/Thoathoinuocola.png",
                 options: ["A. Thí nghiệm 1.", "B. Thí nghiệm 3.", "C.Thí nghiệm 4.", "D.Thí nghiệm 2."],
                 answer: 2
             },
@@ -981,7 +981,7 @@ const questionBank = {
             },
             {
                 question: "MB-TĐNVK-L3-003. Trong sản xuất, người ta thường ủ ấm gốc cây bằng rơm rạ. Mục đích của việc làm này là gì?",
-                image: "/media/Grade11/urom.png",
+                image: "https://nhantri.top/media/Grade11/urom.png",
                 options: ["A. Để hạn chế ảnh hưởng của nhiệt độ cao đến khả năng hút nước và chất khoáng của hệ rễ.", "B. Để hạn chế ảnh hưởng của nhiệt độ thấp đến khả năng hút nước và chất khoáng của hệ rễ.", "C. Để hạn chế ảnh hưởng của lượng nước đến khả năng hút chất khoáng của hệ rễ.", "D. Để hạn chế ảnh hưởng của lượng chất khoáng đến khả năng hút nước của hệ rễ."],
                 answer: 1
             },
@@ -1301,7 +1301,7 @@ const questionBank = {
         level2: [
             {
                 question: "MB-QHOTV-L2-001. Một thí nghiệm sử dụng rong đuôi chồn được bố trí như hình dưới đây. Ống 1 và ống 2 có chiếu sáng; ống 3 và ống 4 đặt trong tối; các điều kiện thí nghiệm khác là như nhau. Ở ống nghiệm nào bọt khí oxygen được tạo ra nhiều nhất?",
-                image: "/media/Grade11/rongduoichon.png",
+                image: "https://nhantri.top/media/Grade11/rongduoichon.png",
                 options: ["A. 1.", "B. 2.", "C. 3.", "D. 4."],
                 answer: 0
             },
@@ -1471,7 +1471,7 @@ const questionBank = {
                     "D. Thực vật sống ở vùng cực."
                 ],
                 "answer": 2,
-                image: "/media/Grade11/hapthucarbonic.png",
+                image: "https://nhantri.top/media/Grade11/hapthucarbonic.png",
             },
 
             // Thêm các câu hỏi Quang hợp ở thực vật level 3 khác...
@@ -1677,7 +1677,7 @@ const questionBank = {
                     "D. Điểm 3, 4."
                 ],
                 "answer": 2,
-                image: "/media/Grade11/bubaohoaas.png",
+                image: "https://nhantri.top/media/Grade11/bubaohoaas.png",
             },
             {
                 "question": "MB-HHOTV-L3-006. Cây cà chua trồng trên cạn khi bị ngập úng lâu ngày sẽ chết, nguyên nhân chủ yếu dẫn tới hiện tượng này là do",
@@ -3645,7 +3645,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/Timtrom.png",
+                image: "https://nhantri.top/media/Grade12/Timtrom.png",
                 statements: [
                     {
                         text: "Băng điện di 1 không có tác dụng trong cuộc điều tra này.", correct: true
@@ -3884,7 +3884,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-TĐNVMK-L3-001. Biểu đồ sau đây nói về mối quan hệ giữ phân bón và năng suất cây trồng. Dựa vào biểu đồ trên, các phát biểu sau đây là đúng hay sai?",
-                image: "/media/Grade11/phanbonns.png",
+                image: "https://nhantri.top/media/Grade11/phanbonns.png",
                 statements: [
                     {
                         text: "Nếu bón phân lượng quá ít, không đáp ứng đủ nhu cầu dinh dưỡng của cây, gây giảm năng suất cây trồng.", correct: true
@@ -3923,7 +3923,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-QHOTV-L2-001. Dựa trên hình vẽ minh họa về hai pha của quang hợp, mỗi nhận định sau là đúng hay sai?",
-                image: "/media/Grade11/psvptquanghop.png",
+                image: "https://nhantri.top/media/Grade11/psvptquanghop.png",
                 statements: [
                     {
                         text: "Chú thích (I) là oxygen được tạo ra từ quang phân li nước, chú thích (II) là NADPH được tạo ra từ pha sáng của quang hợp.", correct: true
@@ -3962,7 +3962,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-HHOTV-L1-001. Để tìm hiểu về quá trình hô hấp ở thực vật, một bạn học sinh đã bố trí thí nghiệm như trong hình vẽ. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade11/thaicarbonic.png",
+                image: "https://nhantri.top/media/Grade11/thaicarbonic.png",
                 statements: [
                     {
                         text: "Thay nước vôi trong ống nghiệm bằng dung dịch Na(OH)<sub>2<sub/> thì kết quả thí nghiệm vẫn không thay đổi.", correct: false
@@ -3982,7 +3982,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-HHOTV-L2-001. Để phát hiện hô hấp ở thực vật, bạn Toàn đã thực hiện thí nghiệm như sau. Đặt 2 cốc nước vôi trong vào bình thủy tinh kín. Sau khoảng hai giờ, bạn Toàn thấy một trong 2 cốc thủy tinh (2) có lớp váng trắng đục trên bề mặt. Nhưng bạn Toàn lại quên mất 2 cốc được lấy từ những chuông nào nên đành đánh số thứ tự 1 và 2. Dựa vào kiến thức về hô hấp, mỗi phát biểu sau đây là đúng hay sai?",
-                image: "/media/Grade11/bttvoitrong.png",
+                image: "https://nhantri.top/media/Grade11/bttvoitrong.png",
                 statements: [
                     {
                         text: "Oxygen làm nước vôi trong ở cốc [2] xuất hiện váng đục.", correct: false
@@ -4002,7 +4002,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-HHOTV-L3-001. Người ta giữ khoai tây một tuần trong không khí sạch, sau đó giữ một tuần trong nitrogen sạch, rồi lại giữ một tuần trong không khí sạch. Lượng CO<sub>2</sub> giải phóng ra trong thí nghiệm được biểu diễn ở đồ thị bên. Giải thích kết quả và cho biết mỗi nhận định sau đây đúng hay sai?",
-                image: "/media/Grade11/hhhieukikhi.png",
+                image: "https://nhantri.top/media/Grade11/hhhieukikhi.png",
                 statements: [
                     {
                         text: "Quá trình hô hấp làm chất lượng nông sản bị giảm.", correct: true
@@ -4066,7 +4066,7 @@ const questionBank = {
             {
                 question: "DB-DDVTHOĐV-L3-001. Hình ảnh mô tả các tế bào trong niêm mạc dạ dày và cơ chế của hội chứng Zollinger - Elisson thường biểu hiện bệnh lí loét dạ dày tá tràng với các ổ loét ở vị trí bất thường. Người ta phát hiện ra các u tiết gastrin khu trú ở tụy và thành tá tràng của các bệnh nhân mắc hội chứng này. Mỗi nhận định sau đây đúng hay sai?",
                 
-                image: "/media/Grade11/zollingerelisson.png",
+                image: "https://nhantri.top/media/Grade11/zollingerelisson.png",
                 statements: [
                     {
                         text: "Tế bào tiết nhầy: Tiết chất nhầy bôi trơn và lót trong, bảo vệ dạ dày, tế bào chính sản xuất pepsinogen rồi biến đổi thành pepsin là một enzyme có vai trò tiêu hóa carbohydrate.", correct: false
@@ -4091,7 +4091,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-HHOĐV-L1-001. Hình ảnh mô tả quá trình trao đổi khí ở Ruồi. Hãy cho biết có mỗi mệnh đề sau là đúng hay sai?",
-                image: "/media/Grade11/ruoitho.png",
+                image: "https://nhantri.top/media/Grade11/ruoitho.png",
                 statements: [
                     {
                         text: "[4] là luồng khí giàu CO<sub>2</sub> từ ống khí tận đến tế bào.", correct: false
@@ -4133,7 +4133,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-HHOĐV-L3-001. Trong thí nghiệm nghiên cứu về ảnh hưởng của các khí O<sub>2</sub>, CO<sub>2</sub>, CO đến nhịp tim của chuột, một số bước sau đã được thực hiện:</br>- Bước 1: Xác định vật liệu, phương pháp, bố trí thí nghiệm, kết quả dự kiến.</br>- Bước 2: Chọn các con chuột được 10 tuần tuổi khỏe mạnh, đồng đều về kích thước, khối lượng.Chuẩn bị bốn thí nghiệm có áp suất mỗi loại khí(mmHg) khác nhau được thể hiện ở bảng dưới đây.Trong đó, buồng I chứa không khí tiêu chuẩn (đối chứng).</br>- Bước 3: Đo nhịp tim của chuột bằng thiết bị cảm biến.</br>- Bước 4: Chọn 40 con chuột có nhịp tim tương đương nhau và chia đều thành 4 nhóm.Đưa mỗi nhóm chuột vào từng buồng thí nghiệm.</br>- Bước 5: Sau 15 phút, đo nhịp tim của chuột trong mỗi buồng thí nghiệm.",
-                image: "/media/Grade11/TNchuot.png",
+                image: "https://nhantri.top/media/Grade11/TNchuot.png",
                 statements: [
                     {
                         text: "Bước 1 thể hiện việc lập kế hoạch nghiên cứu.", correct: true
@@ -4151,7 +4151,7 @@ const questionBank = {
             },
             {
                 question: "DB-HHOĐV-L3-002. Hình ảnh sau đây mô tả quá trình trao đổi khí ở chim. Phát biểu nào đúng, phát biểu nào sai?",
-                image: "/media/Grade11/chimtho.png",
+                image: "https://nhantri.top/media/Grade11/chimtho.png",
                 statements: [
                     {
                         text: "Khi hít vào và thở ra, các túi khí đều đầy không khí.", correct: false
@@ -4194,7 +4194,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-THOĐV-L2-001. Trong một nghiên cứu về sự đáp ứng của hệ tim mạch với sự luyện tập thể dục, một người phụ nữ đáp ứng các tiêu chí nghiên cứu (từ 25 đến 40 tuổi, không dùng thuốc, cân nặng bình thường về chiều cao, huyết áp bình thường) được chọn để nghiên cứu. Các thông số đối chứng (trước luyện tập thể dục) về huyết áp, nhịp tim và Po<sub>2</sub> động mạch và tĩnh mạch; thể tích tâm thu của cô ta được xác định. Sau đó người phụ nữ này đi trên một máy chạy bộ trong thời gian 30 phút với vận tốc 3 dặm/giờ. Huyết áp và nhịp tim của cô được theo dõi liên tục, và Po<sub>2</sub> động mạch và tĩnh mạch của cô được đo vào cuối giai đoạn tập thể dục (Bảng dưới đây). Mỗi nhận định sau là đúng hay sai?",
-                image: "/media/Grade11/huyetapcactam.png",
+                image: "https://nhantri.top/media/Grade11/huyetapcactam.png",
                 statements: [
                     {
                         text: "Khi tập luyện thể dục, huyết áp tâm thu của người này được tăng lên và huyết áp tâm trương giảm đi.", correct: false
@@ -4232,7 +4232,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-THOĐV-L3-001. Hình sau đây mô tả thời gan thực hiện các pha của một chu kì tim, ô màu sẫm thể hiện thời gian co. Phát biều nào đúng, phát biểu nào sai?",
-                image: "/media/Grade11/cacphacktim.png",
+                image: "https://nhantri.top/media/Grade11/cacphacktim.png",
                 statements: [
                     {
                         text: "Trong một chu kì tim, thời gian nghĩ của tâm thất nhiều hơn tâm nhĩ.", correct: false
@@ -4249,7 +4249,7 @@ const questionBank = {
             },
             {
                 question: "DB-THOĐV-L3-002. Điện tâm đồ (Electrocardiogram, ECG) là đồ thị ghi những thay đổi dòng điện tim. ECG gồm các sóng P, Q, R, S, T và các khoảng, đoạn tương ứng với hoạt động của tim. Hình vẽ thể hiện ECG ở trạng thái bình thường của động vật có vú. Một nhà khoa học đã tiến hành thí nghiệm tìm hiểu tác động của thân nhiệt lên ECG của một loài động vật có vú. Kết quả nghiên cứu về khoảng thời gian RR và QT của loài này ở các thân nhiệt khác nhau được thể hiện ở bảng bên dưới. Mỗi nhận định sau là đúng hay sai?",
-                image: "/media/Grade11/dientamdo.png",
+                image: "https://nhantri.top/media/Grade11/dientamdo.png",
                 statements: [
                     {
                         text: "Thân nhiệt tỉ lệ thuận với khoảng thời gian RR.", correct: true
@@ -4291,7 +4291,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-MDOĐV-L2-001. Sơ đồ mô tả cơ chế diễn ra miễn dịch đặc hiệu. Mỗi mệnh đề sau là đúng hay sai?",
-                image: "/media/Grade11/mddichthetebao.png",
+                image: "https://nhantri.top/media/Grade11/mddichthetebao.png",
                 statements: [
                     {
                         text: "Đây là giai đoạn đáp ứng thứ phát của miễn dịch đặc hiệu.", correct: false
@@ -4310,7 +4310,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-MDOĐV-L3-001. ",
-                image: "/media/Grade11/testcovid.png",
+                image: "https://nhantri.top/media/Grade11/testcovid.png",
                 statements: [
                     {
                         text: "Cặp vợ chồng này có thể sinh con bình thường không mắc bệnh Down.", correct: true
@@ -4445,7 +4445,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-BTVCBNM-L2-001. Hình dưới đây mô tả cơ chế điều hòa cân bằng nội môi. Khi nói về sơ đồ này, phát biểu nào Đúng, phát biểu nào Sai?",
-                image: "/media/Grade11/ccdhcbnm.png",
+                image: "https://nhantri.top/media/Grade11/ccdhcbnm.png",
                 statements: [
                     {
                         text: "Quá trình điều khiển được điều khiển bởi trung ương thần kinh hoặc tuyến nội tiết.", correct: true
@@ -4499,7 +4499,7 @@ const questionBank = {
             },
             {
                 question: "DB-BTVCBNM-L2-004. Lượng đường trong máu của một người mắc bệnh đái tháo đường và một người không mắc bệnh có cùng khối lượng cơ thể được theo dõi trong khoảng thời gian 12 giờ. Cả hai người đều ăn một bữa giống hệt nhau và thực hiện 1 giờ tập thể dục với cường độ giống nhau. Sử dụng dữ liệu được cung cấp, hãy cho biết các nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade11/btieuduong.png",
+                image: "https://nhantri.top/media/Grade11/btieuduong.png",
                 statements: [
                     {
                         text: "A là người bệnh, B là người bình thường.", correct: false
@@ -4627,7 +4627,7 @@ const questionBank = {
             },
             {
                 question: "DB-BTVCBNM-L3-002. Hình dưới đây mô tả quá trình điều hòa áp suất thẩm thấu của thận. Khi nói về quá trình này, mỗi phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade11/ccdhastt.png",
+                image: "https://nhantri.top/media/Grade11/ccdhastt.png",
                 statements: [
                     {
                         text: "(B) là hormone ADH được tiết bởi tuyến tụy(A).", correct: false
@@ -4645,7 +4645,7 @@ const questionBank = {
             },
             {
                 question: "DB-BTVCBNM-L3-003. Glucose là nguồn năng lượng chính của các tế bào, được sản sinh ra từ những loại thực phẩm mà chúng ta tiêu thụ mỗi ngày. Tình trạng thiếu hụt hay dư thừa glucose đều có thể gây ra nhưng vấn đề gây ảnh hưởng nghiêm trọng đến sức khỏe. Chỉ số glucose trong máu hay còn gọi là chỉ số đường huyết. Hàm lượng đường trong máu được xác định thông qua xét nghiệm lượng glucose có trong máu thông qua xét nghiệm trước và sau bữa ăn. Bữa ăn được tính bắt đầu từ thời điểm 0, các nhà khoa học đã lập được đồ thị theo dõi lượng đường glucose máu và các loại hormone được biểu diễn trong hình dưới đây. Mỗi nhận định về kết quả thu được là đúng hay sai?",
-                image: "/media/Grade11/dieuhoaglumau.png",
+                image: "https://nhantri.top/media/Grade11/dieuhoaglumau.png",
                 statements: [
                     {
                         text: "Đường I biểu diễn đồ thị xét nghiệm khi ăn bữa ăn giàu carbohydrate và đường II biểu diễn đồ thị xét nghiệm khi ăn bữa ăn giàu protein.", correct: true
@@ -4663,7 +4663,7 @@ const questionBank = {
             },
             {
                 question: "DB-BTVCBNM-L3-004. Bệnh đái tháo đường hay còn gọi là tiểu đường là bệnh rối loạn chuyển hóa đặc trưng với biểu hiện lượng đường ở trong máu luôn ở mức cao hơn so với bình thường. Bệnh sẽ kéo theo hàng loạt bệnh lí khác nhau và là một trong những bệnh lí phổ biến ở Việt Nam. Khi nói về bệnh tiểu đường, mỗi phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade11/dieuhoaglumau.png",
+                image: "https://nhantri.top/media/Grade11/dieuhoaglumau.png",
                 statements: [
                     {
                         text: "Bệnh tiểu đường là bệnh lâu năm có thể dẫn đến suy thận.", correct: true
@@ -4681,7 +4681,7 @@ const questionBank = {
             },
             {
                 question: "DB-BTVCBNM-L3-005. Hormone ADH của thùy sau tuyến yên và hệ RAA (hệ thống Renin-Angiotensin-Aldosterone) có vai trò trong điều hòa cân bằng điện giải, thể tích máu và huyết áp, có vai trò quan trọng trong điều hòa cân bằng nước và muối của cơ thể. Hình dưới đây thể hiện nồng độ ADH, renin và aldosterone trong máu ở người bình thường (BT) và trong một số trạng thái sinh lí khác nhau ở 4 người A, B, C, D. Cho biết. (1) Hormone ADH hay hormone chống bài niệu được sản xuất ở vùng dưới đồi và được dự trữ ở thùy sau tuyến yên. Hormone ADH điều khiển lượng nước được tái hấp thu ở gan. (2) Renin là một loại hormone quan trọng đảm nhận vai trò kiểm soát huyết áp trong cơ thể. (3) Hormone aldosterone là một trong những loại hormone được sản xuất tại tuyến thượng thận, giữ chức năng duy trì nồng độ sodium và postasium trong máu ở mức độ bình thường nhằm tạo nên sự cân bằng về thể tích máu cũng như huyết áp động mạch. Các nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade11/hormonetietnieu.png",
+                image: "https://nhantri.top/media/Grade11/hormonetietnieu.png",
                 statements: [
                     {
                         text: "Người B là người thường xuyên uống nhiều rượu.", correct: true
@@ -4699,7 +4699,7 @@ const questionBank = {
             },
             {
                 question: "DB-BTVCBNM-L3-006. Trong thí nghiệm về chức năng thận, các học sinh được chia thành hai nhóm A và B. Trước thời điểm thí nghiệm khoảng 1 giờ, một nhóm học sinh được uống một lượng nước như nhau, trong khi nhóm còn lại uống ít hơn một phần ba lượng nước so với nhóm kia. Tại thời điểm bắt đầu thí nghiệm (t = 0 phút), các học sinh ở cả hai nhóm đều uống 500 ml nước. Số liệu đo được thể hiện ở hình dưới đây. Biết rằng, hormone aldosterone là một trong những loại hormone được sản xuất tại tuyến thượng thận, giữ chức năng duy trì nồng độ sodium và potasium trong máu ở mức độ bình thường nhằm tạo nên sự cân bằng về thể tích máu cũng như huyết áp động mạch. Các nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade11/cnthan.png",
+                image: "https://nhantri.top/media/Grade11/cnthan.png",
                 statements: [
                     {
                         text: "Nồng độ aldosteron trong máu hai nhóm học sinh cao nhất ở thời điểm t = 0.", correct: true
@@ -4717,7 +4717,7 @@ const questionBank = {
             },
             {
                 question: "DB-BTVCBNM-L3-007. Khi bệnh nhân được tiêm hormone tuyến cận giáp (PTH: Para Thyroid Hormone) làm một số chỉ số hóa sinh của máu bị thay đổi trong đó tiêu biểu nhất là nồng độ hai ion A và B (mmol/L) như được thể hiện ở biểu đồ dưới đây. Các nhận định là đúng hay sai?",
-                image: "/media/Grade11/pth.png",
+                image: "https://nhantri.top/media/Grade11/pth.png",
                 statements: [
                     {
                         text: "A là ion calcium, B là phosphate vì PTH làm tăng nồng độ calcium máu, đồng thời làm tăng sự thải ion phosphate ở thận.", correct: true
@@ -4877,7 +4877,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-CUOĐV-L1-001. Hình sau mô tả quá trình truyền tin qua synapse thần kinh, mỗi nhận định sau đây là đúng hay sai về hình này?",
-                image: "/media/Grade11/cacbuocttqsn.png",
+                image: "https://nhantri.top/media/Grade11/cacbuocttqsn.png",
                 statements: [
                     {
                         text: "Giai đoạn (1) là giai đoạn ion Ca<sub>2</sub><sup>+</sup> đi qua kênh protein vào phần hậu synapse.", correct: false
@@ -4972,7 +4972,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-CUOĐV-L3-001. Hình ảnh mô tả hệ cung phản xạ của người khi tay chạm vào cây xương rồng, mỗi mệnh đề sau là đúng hay sai?",
-                image: "/media/Grade11/chamgaixr.png",
+                image: "https://nhantri.top/media/Grade11/chamgaixr.png",
                 statements: [
                     {
                         text: "Các số lần lượt là (1) Thụ quan đau ở da; (2) neuron cảm giác, (3) tủy sống, (4) neuron vận động.", correct: true
@@ -5033,7 +5033,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-KQSTVPTOSV-L2-001. Hình ảnh mô tả hai loài thực vật, mỗi nhận định sau là đúng hay sai khi nói về sự sinh trưởng của hai loài này?",
-                image: "/media/Grade11/trego.png",
+                image: "https://nhantri.top/media/Grade11/trego.png",
                 statements: [
                     {
                         text: "Cây 1 là cây một lá mầm có sinh trưởng thứ cấp.", correct: false
@@ -5076,7 +5076,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-STVPTOTV-L1-001. Hình dưới mô tả sinh trưởng sơ cấp của cây thân gỗ. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade11/ssscthango.png",
+                image: "https://nhantri.top/media/Grade11/ssscthango.png",
                 statements: [
                     {
                         text: "(1) là biểu bì, (2) là vỏ.", correct: true
@@ -5097,7 +5097,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-STVPTOTV-L2-001. Hình ảnh mô tả cấu tạo hóa học của gibberillin (GA), khi nói về GA mỗi nhận định sau đây đúng hay sai?",
-                image: "/media/Grade11/gibberellin.png",
+                image: "https://nhantri.top/media/Grade11/gibberellin.png",
                 statements: [
                     {
                         text: "Tác dụng kích thích hay kìm hãm không phụ thuộc vào nồng độ.", correct: false
@@ -5118,7 +5118,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-STVPTOTV-L3-001. Để nghiên cứu ảnh hưởng của hormone thực vật ảnh hưởng đến sự hình thành chồi ở mô sẹo trong nuôi cấy mô thực vật, người ta tiến hành nuôi mẫu cấy ống số (1) trên môi trường thạch dinh dưỡng có bổ sung hormone auxin và cytokinin, các ống nghiệm (2), (3), (4), (5) lần lượt là các kết quả khác nhau khi thay đổi hàm lượng giữa hai hormone auxin và cytokinin, mỗi nhận định sau đây là đúng hay sai khi nói về thí nghiệm này?",
-                image: "/media/Grade11/ncmtebao.png",
+                image: "https://nhantri.top/media/Grade11/ncmtebao.png",
                 statements: [
                     {
                         text: "Ở ống (2) tỉ lệ auxin lớn hơn cytokinin dẫn đến xuất hiện mô sẹo.", correct: true
@@ -5159,7 +5159,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-STVPTOĐV-L1-001. Hình trên minh họa sơ đồ phát triển ở châu chấu, mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade11/vdchauchau.png",
+                image: "https://nhantri.top/media/Grade11/vdchauchau.png",
                 statements: [
                     {
                         text: "Vòng đời của châu chấu là biến thái hoàn toàn.", correct: false
@@ -5201,7 +5201,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-STVPTOĐV-L3-001. Hai đồ thị sau đây mô tả sự biến động các hormone sinh dục ở trong máu của 2 người phụ nữ trưởng thành không bị mắc các bệnh về nội tiết (người A và người B). Hãy cho biết mỗi nhận định sau đây đúng hay sai?",
-                image: "/media/Grade11/hormonethaiki.png",
+                image: "https://nhantri.top/media/Grade11/hormonethaiki.png",
                 statements: [
                     {
                         text: "Đường (I) hormone estrogen, Đường (II) hormone progesterone.", correct: true
@@ -5329,7 +5329,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-KQSSSV-L3-001. Hình dưới mô tả kĩ thuật nhân giống vô tính của thực vật, mỗi nhận định sau đây là đúng hay sai khi nói về kĩ thuật này?",
-                image: "/media/Grade11/ghepcay.png",
+                image: "https://nhantri.top/media/Grade11/ghepcay.png",
                 statements: [
                     {
                         text: "Hình A mô tả kĩ thuật ghép cành, Hình B mô tả kĩ thuật ghép mắt.", correct: false
@@ -5391,7 +5391,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-SSOĐV-L3-001. Thuốc tránh thai khẩn cấp được sử dụng cho phụ nữ sau quan hệ tình dục không bảo vệ hoặc gặp sự cố trong việc sử dụng các biện pháp tránh thai khác. Bằng cách sử dụng thuốc tránh thai khẩn cấp trong vòng 3 ngày kể từ ngày quan hệ, bạn có thể giảm đáng kể khả năng có thai. Thuốc tránh thai có 2 loại: Thuốc tránh thai kết hợp: Là thuốc chứa dạng tổng hợp của 2 loại hormone estrogen và progestin; Thuốc tránh thai chỉ chứa progestin: Thuốc chỉ chứa hormone progestin mà không chứa estrogen, còn được gọi là minipill. Thuốc này có thể hữu dụng với trường hợp phụ nữ không thể sử dụng estrogen vì lí do sức khỏe hoặc nguyên nhân khác. Hình mô tả hiệu quả của thuốc tránh thai với thời gian sử dụng trong vòng 72h. Sử dụng dữ liệu trên hãy cho biết mỗi nhận định sau đây đúng hay sai?",
-                image: "/media/Grade11/thuoctranhthai.png",
+                image: "https://nhantri.top/media/Grade11/thuoctranhthai.png",
                 statements: [
                     {
                         text: "Thời gian vàng hiệu quả khi sử dụng thuốc tránh thai khẩn cấp là trong vòng 24h sau khi quan hệ tình dục không an toàn.", correct: true
@@ -5495,7 +5495,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade11/chutrinhtitrogen.png",
+                image: "https://nhantri.top/media/Grade11/chutrinhtitrogen.png",
                 answer: "36"
             },
 
@@ -5504,7 +5504,7 @@ const questionBank = {
         level4: [
             {
                 question: "...",
-                image: "/media/Grade11/chutrinhtitrogen.png",
+                image: "https://nhantri.top/media/Grade11/chutrinhtitrogen.png",
                 answer: "..."
             },
 
@@ -5524,7 +5524,7 @@ const questionBank = {
         level2: [
             {
                 question: "TB-TĐNVMK-L2-001. Khi đo lượng nước thoát ra và lượng nước hút vào của 4 cây cà chua trong cùng một đơn vị thời gian thu được kết quả thể hiện trong biểu đồ. Theo lí thuyết, có mấy cây không bị héo?",
-                image: "/media/Grade11/bdthoatnuoc.png",
+                image: "https://nhantri.top/media/Grade11/bdthoatnuoc.png",
                 answer: "1"
             },
             
@@ -5688,7 +5688,7 @@ const questionBank = {
             },
             {
                 question: "TB-QHOTV-L4-003. Sử dụng nguồn <sup>14</sup>CO<sub>2</sub> để theo dõi sự xuất hiện của <sup>14</sup>C trong các hợp chất hữu cơ trong quá trình quang hợp xảy ra ở cây mía. Kết quả được thể hiện ở đồ thị dưới đây. Hãy xác định các đường 1, 2, 3, 4 trong đồ thị đã cho ứng với các hợp chất nào trong số các hợp chất sau: acid malic, tinh bột, saccharose, 3-Phosphoglycerate? Giải thích.",
-                image: "/media/Grade11/chutrinhcayc4.png",
+                image: "https://nhantri.top/media/Grade11/chutrinhcayc4.png",
                 answer: "1 là acid malic; 2 – 3 là Phosphoglycerate, 3 là saccharose, 4 là tinh bột. Mía là thực vật C4 do đó quá trình cố định CO2 trải qua hai giai đoạn: giai đoạn thứ nhất, chất nhận CO2 đầu tiên là PEP nhờ sự xúc tác của enzyme PEP – cacboxylase tạo thành oxaloacetate sau đó chuyển thành acid malic. Từ acid malic, chất này lại phân giải tạo ra CO2 trong tế bào bao bó mạch để CO2 kết hợp với Ribulose-1,5-biphosphate tạo thành hợp chất bền là 3-phosphoglycerate. Từ 3-Phosphoglycerate chất này tiếp tục được chuyển thành AlPG và tạo thành đường saccarose, sau đó được chuyển đến các cơ quan tích trữ dưới dạng tinh bột."
             },
         ]
@@ -5698,7 +5698,7 @@ const questionBank = {
         level1: [
             {
                 question: "...",
-                image: "/media/Grade12/lienketkt.png",
+                image: "https://nhantri.top/media/Grade12/lienketkt.png",
                 answer: "..."
             },
             // Thêm các câu hỏi SA Hô hấp ở thực vật level 1 khác...
@@ -5714,7 +5714,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-QHOTV-L3-001. ...",
-                image: "/media/Grade11/hohaphieukhicgd.png",
+                image: "https://nhantri.top/media/Grade11/hohaphieukhicgd.png",
                 answer: "..."
             },
            
@@ -5723,7 +5723,7 @@ const questionBank = {
         level4: [
             {
                 question: "TB-QHOTV-L4-001. Hình dưới đây mô tả quá trình hô hấp nội bào khi môi trường có đủ oxygen. Hãy cho biết tên các cấu trúc từ 1 đến 4, các quá trình A, B, C.",
-                image: "/media/Grade11/hohaphieukhicgd.png",
+                image: "https://nhantri.top/media/Grade11/hohaphieukhicgd.png",
                 answer: "A: Đường phân; B: Chu trình Krebs; C: Chuỗi chuyền điện tử hô hấp; 1: Glucose; 2: acid pyruvic; 3: NAPH; 4: FADH<sub>2</sub>"
             },
             {
@@ -5933,7 +5933,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "..."
             },
           
@@ -5941,7 +5941,7 @@ const questionBank = {
         level4: [
             {
                 question: "...",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "..."
             },
 
@@ -5966,7 +5966,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "..."
             },
           
@@ -5998,7 +5998,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "..."
             },
           
@@ -6042,7 +6042,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/bangmdct.png",
+                image: "https://nhantri.top/media/Grade12/bangmdct.png",
                 answer: "..."
             },
         
@@ -6050,7 +6050,7 @@ const questionBank = {
         level4: [
             {
                 question: "...",
-                image: "/media/Grade12/bangmdct.png",
+                image: "https://nhantri.top/media/Grade12/bangmdct.png",
                 answer: "..."
             },
 
@@ -6060,7 +6060,7 @@ const questionBank = {
         level1: [
             {
                 question: "...",
-                image: "/media/Grade12/consagiong.png",
+                image: "https://nhantri.top/media/Grade12/consagiong.png",
                 answer: "0,56"
             },
          
@@ -6076,7 +6076,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "4,47"
             },
            
@@ -6084,7 +6084,7 @@ const questionBank = {
         level4: [
             {
                 question: "...",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "..."
             },
 
@@ -6143,7 +6143,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-KQSSSV-L3-001. ...",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "..."
             },
 
@@ -6152,7 +6152,7 @@ const questionBank = {
         level4: [
             {
                 question: "TB-KQSSSV-L4-001. ...",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "..."
             },
 
@@ -6179,7 +6179,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-SSOTV-L3-001. ...",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "..."
             },
 
@@ -6188,7 +6188,7 @@ const questionBank = {
         level4: [
             {
                 question: "TB-SSOTV-L4-001. ...",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "..."
             },
 
@@ -6214,7 +6214,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-KQSSSV-L3-001. ...",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "2,31"
             },
 
@@ -6223,7 +6223,7 @@ const questionBank = {
         level4: [
             {
                 question: "TB-KQSSSV-L4-001. ...",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "..."
             },
 
@@ -6247,7 +6247,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "2,31"
             },
 
@@ -6255,7 +6255,7 @@ const questionBank = {
         level4: [
             {
                 question: "...",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "..."
             },
 
