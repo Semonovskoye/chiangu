@@ -1,4 +1,4 @@
-# chiangu.bottom - nh**7r1.top's evil twin brother
+# chiangu.bottom - nh**7r1.top's evil twin
 
 <h2>Default command string (just copy and paste this into the console)</h2>
 const section1 = document.getElementById('videoSection');
