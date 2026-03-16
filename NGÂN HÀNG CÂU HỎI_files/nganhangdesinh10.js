@@ -554,7 +554,7 @@ const questionBank = {
                     "D. vườn rau sạch."
                 ],
                 "answer": 2,
-                "image": "/media/Grade10/ngobdg.jpg",
+                "image": "https://nhantri.top/media/Grade10/ngobdg.jpg",
             },
             {
                 "question": "MB_PPNCHT_L1_002. Trong phương pháp quan sát trong môn Sinh học, đối tượng quan sát là gì?",
@@ -1645,7 +1645,7 @@ const questionBank = {
                     "D. Tương tác với môi trường."
                 ],
                 "answer": 1,
-                "image": "/media/Grade10/insulgu.png"
+                "image": "https://nhantri.top/media/Grade10/insulgu.png"
             },
 
 
@@ -3015,7 +3015,7 @@ const questionBank = {
                     "D. Động vật."
                 ],
                 "answer": 0,
-                "image": "/media/Grade10/tbaovk.png"
+                "image": "https://nhantri.top/media/Grade10/tbaovk.png"
             },
             {
                 "question": "MB_TBNT_L2_004. Bào quan nào sau đây trực tiếp tham gia quá trình tiêu hóa nội bào ở trùng giày?",
@@ -3710,7 +3710,7 @@ const questionBank = {
                     "D. Mức dung dịch ở bên nhánh b cao hơn so với bên nhánh a."
                 ],
                 "answer": 3,
-                "image": "/media/Grade10/ongchuu.png"
+                "image": "https://nhantri.top/media/Grade10/ongchuu.png"
             },
             {
                 "question": "MB_VCCCQM_L2_005. Sự vận chuyển chủ động và xuất nhập bào luôn tiêu hao ATP vì",
@@ -3845,7 +3845,7 @@ const questionBank = {
                     "D. Hình trên mô tả hình thức vận chuyển thụ động ở tế bào, khuếch tán tăng cường."
                 ],
                 "answer": 0,
-                "image": "/media/Grade10/nhapbao.png"
+                "image": "https://nhantri.top/media/Grade10/nhapbao.png"
             },
             {
                 "question": "MB_VCCCQM_L3_002. Một tế bào động vật và một tế bào thực vật được đặt trong nước cất. Tế bào động vật to dần rồi vỡ còn tế bào thực vật trương lên nhưng không vỡ, sự khác nhau này là do:",
@@ -5141,7 +5141,7 @@ const questionBank = {
                     "C. Phần lớn các nhiễm sắc thể xếp thẳng hàng ở mặt phẳng xích đạo.",
                     "D. Các sợi tơ vô sắc đang kéo các nhiễm sắc thể rời ra."],
                 answer: 1,
-                "image": "/media/Grade10/quansatnst.png",
+                "image": "https://nhantri.top/media/Grade10/quansatnst.png",
             },
             {
                 question: "MB_CKTBVNP_L3_005. Một tế bào sinh dưỡng của người có khối lượng DNA là 6,6.10<sup>-12</sup> gam và có 46 nhiễm sắc thể. Khối lượng và số lượng nhiễm sắc thể kép của tế bào ở giai đoạn pha G2 là?",
@@ -7573,7 +7573,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB_TBNT_L1_001. Quan sát hình ảnh sau về cấu tạo của tế bào, hãy cho biết các nhận định dưới đây là <b>Đúng</b> hay <b>Sai</b>?",
-                image: "/media/Grade10/TBTVdien.png",
+                image: "https://nhantri.top/media/Grade10/TBTVdien.png",
                 statements: [
                     {
                         text: "Bào quan 6 được bao bọc bởi lớp màng đơn.", correct: false
@@ -7589,7 +7589,7 @@ const questionBank = {
             },
             {
                 question: "DB_TBNT_L1_002. Quan sát hình ảnh sau về cấu tạo của tế bào, hãy cho biết các nhận định dưới đây là <b>Đúng</b> hay <b>Sai</b>?",
-                image: "/media/Grade10/TBTVdien.png",
+                image: "https://nhantri.top/media/Grade10/TBTVdien.png",
                 statements: [
                     {
                         text: "Bào quan 6 là trung tâm điều khiển các hoạt động của tế bào, được bao bọc bởi lớp màng đơn.", correct: false
@@ -7756,7 +7756,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB_TBNT_L3_001. Hai mẫu tế bào khác nhau (mẫu A và mẫu B) được phân lập từ cùng một người để xử lí phá màng tế bào. Sau đó tiến hành li tâm phân đoạn các thành phần trong từng mẫu. Kết quả thí nghiệm được thể hiện như hình dưới đây. Hãy cho biết mỗi nhận định sau đây là <b>Đúng</b> hay <b>Sai</b>?",
-                image: "/media/Grade10/dothilitam.png",
+                image: "https://nhantri.top/media/Grade10/dothilitam.png",
                 statements: [
                     {
                         text: "Tế bào B có nhu cầu sử dụng năng lượng ATP cao hơn so với tế bào A.", correct: true
@@ -7778,7 +7778,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB_VCCCQM_L1_001. Khi nghiên cứu hiện tượng thẩm thấu, người ta tiến hành đặt tế bào hồng cầu và tế bào thực vật vào 3 loại môi trường khác nhau như hình bên trái. Hãy cho biết, mỗi kết luận dưới đây là đúng hay sai?",
-                image: "/media/Grade10/vcccqmtbtv.jpg",
+                image: "https://nhantri.top/media/Grade10/vcccqmtbtv.jpg",
                 statements: [
                     {
                         text: "Hình (a) _ nước bên trong tế bào hồng cầu di chuyển ra bên ngoài làm tế bào mất nước và bị co lại.", correct: true
@@ -7799,7 +7799,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB_VCCCQM_L2_001. Hình dưới đây mô tả tóm tắt quá trình tổng hợp, hoàn thiện và vận chuyển protein ở tế bào nhân thực. Mỗi nhận định sau đây là <b>Đúng</b> hay <b>Sai</b> về thí nghiệm này?",
-                image: "/media/Grade10/thinghiemtrung.png",
+                image: "https://nhantri.top/media/Grade10/thinghiemtrung.png",
                 statements: [
                     {
                         text: "Ở cốc 1, sau 24 giờ ngâm giấm rồi ngâm NaCl thì khối lượng quả trứng tăng 4,7g/giờ.", correct: true
@@ -7815,7 +7815,7 @@ const questionBank = {
             },
             {
                 question: "DB_VCCCQM_L2_002. Hình dưới đây mô tả 3 hình thức vận chuyển các chất qua màng tế bào, kí hiệu là a, b, c. Mỗi nhận định sau đây là <b>Đúng</b> hay <b>Sai</b> về quá trình này?",
-                image: "/media/Grade10/cachtvc.png",
+                image: "https://nhantri.top/media/Grade10/cachtvc.png",
                 statements: [
                     {
                         text: "hình thức a, b là vận chuyển chủ động có sử dụng năng lượng ATP.", correct: false
@@ -7871,7 +7871,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB_VCCCQM_L3_001. Để nghiên cứu ảnh hưởng của nồng độ muối đến khối lượng của quả trứng gà, một thí nghiệm được tiến hành như sau:</br> (1) Ngâm ngập 4 quả trứng gà trong 24 giờ với giấm ăn(một loại acid yếu) để hòa tan lớp vỏ cứng.</br> (2) Vớt trứng ra, dùng khăn giấy lau khô, cân khối lượng từng quả trứng và ghi lại.</br >(3) Chuẩn bị 4 cốc, mỗi cốc có chứa 200 mL dung dịch NaCl với nồng độ khác nhau, đặt vào mỗi cốc 1 quả trứng và ngâm trong 1 giờ.</br >(4) Vớt trứng ra, dùng khăn giấy lau khô, cân khối lượng từng quả trứng và ghi lại. Kết quả thí nghiệm được thể hiện ở bảng dưới đây.</br>Mỗi nhận định sau đây là <b>Đúng</b> hay <b>Sai</b> về quá trình này?",
-                image: "/media/Grade11/TNchuot.png",
+                image: "https://nhantri.top/media/Grade11/TNchuot.png",
                 statements: [
                     {
                         text: "Bước 1 thể hiện việc lập kế hoạch nghiên cứu.", correct: true
@@ -7960,7 +7960,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB_KQCHVCVNL_L1_001. Cho vào cốc mỏ 1ml nước bọt, 19ml nước cất. Lắc đều để tạo dung dịch nước bọt 1/20. Lấy 5 ống nghiệm lần lượt cho vào mỗi ống 1ml hồ tinh bột 1% và 0, 5ml dung dịch nước bọt 1/20. Để các ống nghiệm ở trên nhiệt độ thường hoặc đun cách thủy 37 độ. Tiến hành phản ứng với dung dịch Iodine như trong bảng dưới đây.Các nhận định rút ra từ thí nghiệm là đúng hay sai?",
-                image: "/media/Grade10/thenzyme.png",
+                image: "https://nhantri.top/media/Grade10/thenzyme.png",
                 statements: [
                     {
                         text: "Ở ống 1: sau thời gian đun cách nhiệt 1 phút, enzyme đã thủy phân hết hồ tinh bột, nên khi cho Iodine vào dung dịch có màu xanh tím đậm.", correct: false
@@ -8019,7 +8019,7 @@ const questionBank = {
 
             {
                 question: "...",
-                image: "/media/Grade10/btquanghop.png",
+                image: "https://nhantri.top/media/Grade10/btquanghop.png",
                 statements: [
                     {
                         text: "Pha (1) thực hiện nhờ hệ sắc tố quang hợp và chuỗi chuyền elctron quan hợp nằm xoang thylakoid.", correct: false
@@ -8103,7 +8103,7 @@ const questionBank = {
             },
             {
                 question: "DB_CHVCVNL_L3_002. Quá trình quang hợp ở thực vật là quá trình oxy hóa - khử gồm 2 pha và được thực hiện bởi bào quan lục lạp theo sơ đồ trong hình. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade10/btquanghop.png",
+                image: "https://nhantri.top/media/Grade10/btquanghop.png",
                 statements: [
                     {
                         text: "Pha (1) thực hiện nhờ hệ sắc tố quang hợp và chuỗi chuyền elctron quan hợp nằm xoang thylakoid.", correct: false
@@ -8328,7 +8328,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB_CNTB_L2_001. Cừu Dolly (05/07/1996) là động vật có vú đầu tiên được nhân bản vô tính trên thế giới. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade10/cuubt.png",
+                image: "https://nhantri.top/media/Grade10/cuubt.png",
                 statements: [
                     {
                         text: "Cừu (S) là cứu Dolly và tế bào Y là tế bào soma.", correct: false
@@ -8348,7 +8348,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB_CNTB_L3_001. Mỗi nhận định sau là đúng hay sai khi nói về ý nghĩa của việc ứng dụng nhân giống vô tính trong ống nghiệm ở cây trồng?",
-                image: "/media/Grade10/ngvtton.png",
+                image: "https://nhantri.top/media/Grade10/ngvtton.png",
                 statements: [
                     {
                         text: "Giúp tạo ra giống có nhiều ưu điểm như sạch nấm bệnh, đồng đều về đặc tính của giống gốc.", correct: true
@@ -8472,7 +8472,7 @@ const questionBank = {
             },
             {
                 question: "DB_STVSSOVSV_L2_002. Hình sau đây là một ví dụ về quá trình nhân lên của virus trong tế bào chủ, cho biết mỗi nhận định sau đây là đúng hay sai khi nói về quá trình này?",
-                image: "/media/Grade10/ctnhanlenvr.png",
+                image: "https://nhantri.top/media/Grade10/ctnhanlenvr.png",
                 statements: [
                     {
                         text: "Virus trong hình là thể thực khuẩn.", correct: true
@@ -9359,7 +9359,7 @@ const questionBank = {
         level1: [
             {
                 question: "TB_CĐPTHC_L1_001. Ghép tên phân tử với đặc điểm của phân tử đó.",
-                image: "/media/Grade10/ghepnoidpthc.png",
+                image: "https://nhantri.top/media/Grade10/ghepnoidpthc.png",
                 answer: "a_3; b_4; c_1; d_2; e_5"
             },
             {
@@ -9507,7 +9507,7 @@ const questionBank = {
             },
             {
                 question: "TB_CĐPTHC_L3_004. Khi phân tích thành phần % nucleotide của vật chất di truyền ở các loài sinh vật khác nhau người ta thu được bảng số liệu. Hãy cho biết loại vật chất di truyền của mỗi loài. Giải thích.",
-                image: "/media/Grade10/cautaonucleicacid.png",
+                image: "https://nhantri.top/media/Grade10/cautaonucleicacid.png",
                 answer: "Loài I và loài II có DNA cấu trúc 2 mạch vì trong phân tử có 4 loại nucleotide A, T, G, C; A = T và G = C; Loài III có DNA cấu trúc 1 mạch vì trong phân tử có 4 loại nucleotide A, T, G, C; A khác T và G khác C; Loài IV có cấu trúc 2 mạch RNA vì trong phân tử có 4 loại nucleotide A, U, G, C; A = U và G = C; Loài V có RNA cấu trúc 1 mạch vì trong phân tử có 4 loại nucleotide A, U, G, C; A khác U và G khác C."
             },
             {
@@ -9520,7 +9520,7 @@ const questionBank = {
 
             {
                 question: "TB_CĐPTHC_L4_001. Hình sau mô tả cấu trúc của một số phân tử lipid.</br>a. Hãy nêu tên của các loại lipid I, II, III.</br>b. Nêu tên của các phần A, B của I và C, D của phân tử II.</br>c. Nêu một chức năng quan trọng của kiểu lipid I và kiểu lipid II",
-                image: "/media/Grade10/cacloailipid.png",
+                image: "https://nhantri.top/media/Grade10/cacloailipid.png",
                 answer: "a.Tên các loại lipid: I là Phospholipid; II là triglyceride; III là Steroid.</br>b.Các thành phần của I: A là đầu ưa nước, B là đuôi kị nước; Các thành phần của II: C là glycerol, D là acid béo.</br>c.Chức năng của I: Cấu tạo nên màng sinh học; Chức năng của II: dự trữ năng lượng."
             },
             {
@@ -9535,7 +9535,7 @@ const questionBank = {
             },
             {
                 question: "TB_CĐPTHC_L4_004 [HSGTPHN2526 - 1.5 điểm]. </br>Dung dịch trong mỗi ống nghiệm 1, 2, và 3 có chứa một trong các chất sau: glucose, hồ tinh bột, lòng trắng trứng, các điều kiện thí nghiệm xảy ra. Dựa vào các kết quả trong Bảng 1, kiểm tra bằng các thuốc thử, em hãy xác định mỗi ống nghiệm có một chất nào ở trên (Biết rằng kí hiệu + là kết quả có phản ứng, - là không phản ứng). Giải thích.",
-                image: "/media/Grade10/thuhchc.png",
+                image: "https://nhantri.top/media/Grade10/thuhchc.png",
                 answer: "- Ống nghiệm 1 có lòng trắng trứng, vì lòng trắng trứng chứa protein albumin, khi thử nghiệm Biuret sẽ cho kết tủa màu tím.</br>- Ống nghiệm 2 có hồ tinh bột, vì hồ tinh bột khi gặp thuốc thử Lugol(KI) sẽ chuyển màu từ màu vàng sang màu xanh tím đặc trưng.</br>- Ống nghiệm 3 có glucose, vì khi glucose là loại đường khử, khi gặp thuốc thử Benedict sẽ tạo kết tủa màu đỏ gạch."
             },
 
@@ -9671,7 +9671,7 @@ const questionBank = {
         level1: [
             {
                 question: "TB_TBNT_L1_001. Quan sát hình ảnh sau và cho biết, bào quan số mấy là nơi tập trung chế biến, lắp ráp, đóng gói các phân tử protein, lipid rồi phân phối chúng đến nơi cần thiết.",
-                image: "/media/Grade10/ndbmgg.png",
+                image: "https://nhantri.top/media/Grade10/ndbmgg.png",
                 answer: "6"
             },
             {
@@ -9711,22 +9711,22 @@ const questionBank = {
             },
             {
                 question: "TB_TBNT_L1_009. Quan sát hình ảnh sau và cho biết, bào quan số mấy là hệ thống mạng lưới các túi dẹt và ống thông nhau, nơi đính gắn của ribosome?",
-                image: "/media/Grade10/ndbmgg.png",
+                image: "https://nhantri.top/media/Grade10/ndbmgg.png",
                 answer: "9"
             },
             {
                 question: "TB_TBNT_L1_010. Quan sát hình ảnh sau và cho biết, bào quan số mấy là dịch đặc bên trong nhân, chứa sợi nhiễm sắc (DNA và protein), điều khiển các hoạt động sống của tế bào?",
-                image: "/media/Grade10/ndbmgg.png",
+                image: "https://nhantri.top/media/Grade10/ndbmgg.png",
                 answer: "8"
             },
             {
                 question: "TB_TBNT_L1_011. Quan sát hình ảnh sau và cho biết, bào quan số mấy Bào quan được coi là nhà máy năng lượng của tế bào?",
-                image: "/media/Grade10/ndbmgg.png",
+                image: "https://nhantri.top/media/Grade10/ndbmgg.png",
                 answer: "1"
             },
             {
                 question: "TB_TBNT_L1_012. Quan sát hình ảnh sau và cho biết bào quan số mấy là nơi tập trung chế biến, lắp ráp, đóng gói các phân tử protein, lipid rồi phân phối chúng đến nơi cần thiết?",
-                image: "/media/Grade10/ndbmgg.png",
+                image: "https://nhantri.top/media/Grade10/ndbmgg.png",
                 answer: "6"
             },
             {
@@ -9832,17 +9832,17 @@ const questionBank = {
             },
             {
                 question: "TB_TBNT_L2_002. Quan sát hình dưới đây và cho biết, tế bào ở hình số mấy là tế bào nhân sơ?",
-                image: "/media/Grade10/chonnhanso.png",
+                image: "https://nhantri.top/media/Grade10/chonnhanso.png",
                 answer: "3"
             },
             {
                 question: "TB_TBNT_L2_003. Hình dưới đây mô tả cấu trúc tế bào thực vật. Cấu trúc số mấy thực hiện quang hợp?",
-                image: "/media/Grade10/ndluclap.jpg",
+                image: "https://nhantri.top/media/Grade10/ndluclap.jpg",
                 answer: "2"
             },
             {
                 question: "TB_TBNT_L2_004. Quan sát hình sau và cho biết nhân con là cấu trúc số mấy?",
-                image: "/media/Grade10/ndnhan.png",
+                image: "https://nhantri.top/media/Grade10/ndnhan.png",
                 answer: "4"
             },
 
@@ -9881,32 +9881,32 @@ const questionBank = {
             },
             {
                 question: "TB_TBNT_L3_007. Hãy chú thích các thành phần cấu tạo của tế bào động vật và thực vật trong hình sau:",
-                image: "/media/Grade10/tbdvtv.png",
+                image: "https://nhantri.top/media/Grade10/tbdvtv.png",
                 answer: "TBĐV: 1 - ti thể; 2 - màng tế bào; 3 - tế bào chất; 4 - nhân; 5 - không bào nhỏ; 6 - trung thể; 7 - lysosome. TBTV: 1 - ti thể; 2 - màng tế bào; 3 - tế bào chất; 4 - nhân; 5 - không bào trung tâm; 8 - thành tế bào; 9 - lục lạp."
             },
             {
                 question: "TB_TBNT_L3_008. Điền từ vào chỗ trống để hoàn thành sơ đồ cấu trúc của nhân.",
-                image: "/media/Grade10/diennhan.png",
+                image: "https://nhantri.top/media/Grade10/diennhan.png",
                 answer: "1 - màng nhân; 2 - lỗ nhân; 3 - nhiễm sắc thể; 4 - nhân con."
             },
             {
                 question: "TB_TBNT_L3_009. Điền vào chỗ trống các cấu trúc bên dưới đây bằng các từ gợi ý: Lưới nội chất trơn, lưới nội chất hạt, ribosome, màng nhân.",
-                image: "/media/Grade10/cacbophan.png",
+                image: "https://nhantri.top/media/Grade10/cacbophan.png",
                 answer: "1 - nhân; 2 - mạng lưới nội chất trơn; 3 - mạng lưới nội chất hạt; 4 - ribosome."
             },
             {
                 question: "TB_TBNT_L3_010. Điền vào chỗ trống các cấu trúc bên dưới đây bằng các từ gợi ý: Lưới nội chất trơn, lưới nội chất hạt, ribosome, màng nhân.",
-                image: "/media/Grade10/thanhphantb.png",
+                image: "https://nhantri.top/media/Grade10/thanhphantb.png",
                 answer: "1 - mạng lưới nội chất hạt; 2 - nhân; 3 - màng nhân; 4 - lỗ nhân; 5 - ribosome; 6 - mạng lưới nội chất trơn; 7 - lysosome; 8 - túi tiết (bóng tải); 9 - màng tế bào; 10 - bộ máy Golgi."
             },
             {
                 question: "TB_TBNT_L3_011. Chú thích hình cấu trúc ti thể bằng các từ gợi ý sau: mào, chất nền, DNA, màng trong, màng ngoài, ribosome.",
-                image: "/media/Grade10/dientithe.png",
+                image: "https://nhantri.top/media/Grade10/dientithe.png",
                 answer: "1 - màng trong; 2 - màng ngoài; 3 - DNA; 4 - chất nền; 5 - mào; 6 - ribosome"
             },
             {
                 question: "TB_TBNT_L3_012. Hoàn thành cấu trúc lục lạp bằng các từ gợi ý: DNA, màng trong, thylakoid, màng ngoài, stroma, ribosome.",
-                image: "/media/Grade10/dienluclap.png",
+                image: "https://nhantri.top/media/Grade10/dienluclap.png",
                 answer: "1 - màng trong; 2 - màng ngoài; 3 - DNA; 4 - chất nền (stroma); 5 - ribosome; 6 - thylakoid"
             },
             {
@@ -10025,12 +10025,12 @@ const questionBank = {
             },
             {
                 question: "TB_TBNT_L4_019. Sơ đồ mô tả lát cắt của một tế bào niêm mạc ruột non ở người. Tế bào này thích nghi với 3 chức năng: Vận chuyển chủ động các chất từ tế bào vào dòng máu; Tổng hợp các enzyme; Khuếch tán nhanh chóng các cơ chất từ xoang ruột vào tế bào chất của tế bào niêm mạc. Dựa trên hình ảnh về cấu trúc của tế bào niêm mạc ruột này, giải thích sự phù hợp giữa cấu trúc và 3 chức năng kể trên.",
-                image: "/media/Grade10/niemmacruot.png",
+                image: "https://nhantri.top/media/Grade10/niemmacruot.png",
                 answer: "- Để vận chuyển chủ động các chất từ tế bào chất vào dòng máu, tế bào cần sự có mặt của ti thể cung cấp ATP cho hoạt động vận chuyển chủ động. </br>- Để tổng hợp các enzyme, tế bào cần có hệ thống lưới nội chất hạt, trên đó có các hạt ribosome tiến hành tổng hợp các chuỗi polypeptide cấu thành enzyme. Tế bào cần sử dụng bộ máy golgi để hoàn thiện enzyme đó tạo ra sản phẩm hoàn thiện.</br>- Để khuếch tán nhanh các chất từ xoang ruột vào trong tế bào chất của tế bào niêm mạc cần có màng sinh chất với diện tích lớn, tế bào thích ứng bằng cách tạo ra các vi nhung làm tăng tổng diện tích khuếch tán."
             },
             {
                 question: "TB_TBNT_L4_020. Một liposome nhân tạo là điều kiện lí tưởng để nghiên cứu sự di chuyển electron trong chuỗi truyền electron thay vì sử dụng ti thể (hình a). Khi một chất cho và một chất nhận electron phù hợp được cho vào liposome, cùng với phức hệ IV (cytochrome c oxidase) gắn trên màng với mục đích nghiên cứu sự vận chuyển electron từ cytochrome c dạng khử đến oxygen phân tử (O<sub>2</sub>). K<sub>+</sub> gắn với valinomycin được đưa vào với mục đích cân bằng điện thế giữa màng trong và ngoài (K<sub>+</sub> thường không thẩm thấu qua màng trong, nhưng valinomycin là một chất vận chuyển ion giúp mang K<sub>+</sub> qua màng). </br>a. Khi thêm O2 vào bên trong liposome chất nào được tạo ra? Nêu cơ chế của quá trình đó.</br>b.Dựa vào đồ thị (hình b) giải thích tại sao khi lượng O<sub>2</sub> được đưa vào thì có sự thay đổi pH như vậy?</br>c.Chất độc đã được dùng như vũ khí hóa học là hơi ga để giết người trong chiến tranh, bám vào hem α3 của cytochrome c oxidase. Giải thích tại sao chúng gây độc",
-                image: "/media/Grade10/liposome.png",
+                image: "https://nhantri.top/media/Grade10/liposome.png",
                 answer: "a.Khi thêm O<sub>2</sub>, oxygen sẽ nhận được e từ quá trình khử cyt c<sup>2+</sup> thành cyt c<sup>3+</sup> xúc tác hình thành H<sub>2</sub>O </br>Phương trình: 2 H<sup>+</sup> + ½ O<sub>2</sub> → H<sub>2</sub>O </br>1.b. Dựa vào đồ thị ta thấy lượng O<sub>2</sub> được đưa vào làm pH giảm mạnh vì cyt c <sup>2+</sup> ở dạng khử được oxy hóa thành cyt c <sup>3+</sup>, electron được đưa đến O<sub>2</sub> để tạo H<sub>2</sub>O. Electron được vận chuyển vào thì đồng thời H<sup>+</sup> được đưa ra ngoài môi trường làm pH giảm </br>1.c. Cyanine có trong khí gas đưa vào hệ hô hấp, sẽ ngăn chặn sự vận chuyển e, quá trình phosphoryl hóa – oxy hóa bị ngăn cản lại ngừng tổng hợp ATP nên cơ thể chết.</br>- Khi cyt dạng khử được oxy hóa hoàn toàn, proton lại quay trở lại dung môi trong túi, pH lại quay lại giá trị ban đầu."
             },
             {
@@ -10040,12 +10040,12 @@ const questionBank = {
             },
             {
                 question: "TB_TBNT_L4_021 [HSGTPHN2526-1.5 điểm]. Bảng 1 cho biết thành phần chủ yếu của thành tế bào và cấu tạo cơ thể của 4 sinh vật (kí hiệu A, B, C và D). </br>a. Sinh vật A, B, C và D tương ứng với các sinh vật nào sau đây: thực vật, động vật, nấm, vi khuẩn.</br>b.Cho biết vật chất di truyền của các sinh vật trên.",
-                image: "/media/Grade10/thanhtbsv.png",
+                image: "https://nhantri.top/media/Grade10/thanhtbsv.png",
                 answer: "a. Sinh vật A là nấm; sinh vật B là thực vật; sinh vật C là vi khuẩn; sinh vật D là động vật.</br>b.Vật chất di truyền của sinh vật A, B, D (nấm, thực vật, động vật) là DNA kép, dạng thẳng có kết hợp với protein Histon tạo NST.</br>Vật chất di truyền của sinh vật C(vi khuẩn) là DNA kép, dạng vòng không kết hợp với protein."
             },
             {
                 question: "TB_TBNT_L4_022 [HSGTPHN2526-2.5 điểm]. Hình 1 mô tả cấu trúc màng sinh chất của sinh vật.</br>a.Hãy chỉ rõ các thành phần(1), (2), (3), (4).</br>b.Theo em, cấu trúc màng sinh chất mô tả trong Hình 2 là của tế bào động vật hay tế bào thực vật ? Giải thích.</br>c.Điều gì có thể xảy ra nếu thành phần(4) chiếm số lượng lớn trong cấu trúc màng sinh chất?",
-                image: "/media/Grade10/dienmsc.png",
+                image: "https://nhantri.top/media/Grade10/dienmsc.png",
                 answer: "a. Chú thích: (1) protein(xuyên màng); (2) phospholipid; (3) carbohydrate(hoặc glicoprotein); (4) Cholesterol.</br>b.Đây là màng tế bào động vật vì bên ngoài màng có cholesterol (chỉ có ở tế bào động vật).</br>c.Nếu thành phần 4 (cholesterol) có nhiều trong màng tế bào sẽ làm màng tế bào trở nên ổn định, vững chắc hơn. </br>Số cholesterol càng nhiều thì độ linh hoạt của màng càng kém, màng càng cứng và dễ vỡ.</br>Ví dụ: người béo phì thường có lượng cholesterol trong thành mạch máu cao.Khi cholesterol ở mạch máu cao (đặc biệt là ở não và tim) có thể gây vỡ mạch máu và dẫn tới đột quỵ."
             },
             // Thêm các câu hỏi SA TBNT level 3...
@@ -10224,27 +10224,27 @@ const questionBank = {
             },
             {
                 question: "TB_TĐCQM_L4_034 [HSGTPHN2526-2.5 điểm]. Hình 1.1 mô tả các kiểu vận chuyển các chất qua màng tế bào, Hình 1.2 mô tả cơ chế vận chuyển đường saccharose vào trong tế bào thực vật, Hình 1.3 mô tả ảnh hưởng của nồng độ chất tan bên ngoài đến tốc độ hấp thu chất tan đó.</br>a. Gọi tên các kiểu vận chuyển I, II, III. </br>b.Cơ chế hấp thu đường saccharose của tế bào thực vật có thể xếp vào kiểu vận chuyển nào trong các kiểu đó? Giải thích.</br>c.Các đường a, b, c ở Hình 1.3 tương ứng với kiểu vận chuyển nào trong Hình 1.1? Giải thích.",
-                image: "/media/Grade10/vcccquanmangtb.png",
+                image: "https://nhantri.top/media/Grade10/vcccquanmangtb.png",
                 answer: "a. Tên các kiểu vận chuyển:</br>- Kiểu I: Khuếch tán đơn giản (khuếch tán trực tiếp qua lớp phospholipid).</br>- Kiểu II: Khuếch tán qua kênh (khuếch tán tăng cường).</br>- Kiểu III: Vận chuyển chủ động.</br>b.Cơ chế hấp thụ saccharose thuộc kiểu vận chuyển chủ động (kiểu III) vì quá trình vận chuyển đi ngược chiều nồng độ và có sự tiêu tốn ATP.</br>c.Kiểu vận chuyển của các đường a, b, c trong hình III:</br>- Đường a (kiểu III): Vận chuyển chủ động, vì tốc độ vận chuyển cao và không phụ thuộc vào nồng độ chất tan bên ngoài tế bào.</br>- Đường b (kiểu II): Khuếch tán qua kênh (qua protein màng), vì tốc độ vận chuyển tăng nhanh theo sự tăng nồng độ chất tan bên ngoài, đồng thời có hiện tượng bão hòa tốc độ vận chuyển.</br>- Đường c (kiểu I): Khuếch tán đơn giản, vì tốc độ vận chuyển tăng tỉ lệ thuận với nồng độ chất tan bên ngoài tế bào và không có hiện tượng bão hòa."
             },
             {
                 question: "TB_TĐCQM_L4_035. Hãy xác định:</br>a) Tên các thành phần cơ bản cấu tạo nên tế bào.</br>b) Xác định vị trí, kích thước và cấu tạo của màng tế bào.",
-                image: "/media/Grade10/Tbthucvatdien.png",
+                image: "https://nhantri.top/media/Grade10/Tbthucvatdien.png",
                 answer: "1. Màng tế bào; 2. Tế bào chất; 3. Nhân; 4 Thành tế bào."
             },
             {
                 question: "TB_TĐCQM_L4_036. Hãy cho biết:</br>a) Quá trình trao đổi chất ở tế bào có thể chia thành những giai đoạn nào? </br>b) Tại sao các chất dinh dưỡng sau khi vào tế bào được tổng hợp thành chất hữu cơ, chất hữu cơ lại bị phân giải? Điều đó có lãng phí không?",
-                image: "/media/Grade10/Sdotdctb.png",
+                image: "https://nhantri.top/media/Grade10/Sdotdctb.png",
                 answer: "a. Quá trình hấp thu các chất dinh dưỡng; Quá trình tổng hợp các chất hữu cơ đặc trưng; Quá trình phân giải các chất hữu cơ trong tế bào; Quá trình đào thải các chất ra khỏi tế bào.</br>b. Quá trình này không hề lãng phí vì cơ thể cần phải tổng hợp các chất hữu cơ đặc trưng cho cơ thể, giúp cơ thể sinh trưởng, phát triển. Khi cần có năng lượng, tế bào mới phân giải chúng thông qua quá trình hô hấp tế bào."
             },
             {
                 question: "TB_TĐCQM_L4_037. Hình sau biểu diễn hiện tượng khuếch tán. Trong đó, màng bán thấm là một loại màng  cho phép những chất nhất định đi qua theo phương thức khuếch tán. Quan sát hình rồi trả lời các câu hỏi sau:</br>a) So sánh nồng độ chất tan hai bên màng bán thấm lúc ban đầu.</br>b) So sánh nồng độ chất tan hai bên màng bán thấm sau một thời gian. c) Tại sao sau một thời gian thí nghiệm, có sự chênh lệch chiều cao cột nước giữa hai bên màng bán thấm?</br>d) Thế nào là hiện tượng khuếch tán?",
-                image: "/media/Grade10/timhieukhuechtan.png",
+                image: "https://nhantri.top/media/Grade10/timhieukhuechtan.png",
                 answer: "a. Ban đầu, nồng độ chất tan chênh lệch nhau nhiều. </br>b. Sau một thời gian, nồng độ chất tan chênh lệch nhau ít hơn.</br>c. Vì nước đã di chuyển từ cột nước có nồng độ chất tan thấp sang phía có nống độ chất tan cao.</br>d. Khuếch tán là hiện tượng các chất được vận chuyển từ nơi có nồng độ cao đến nơi có nồng độ thấp."
             },
             {
                 question: "TB_TĐCQM_L4_038. Hình sau biểu diễn sự vận chuyển thụ động của các chất qua màng tế bào theo nguyên lí khuếch tán. </br>a) So sánh chiều hướng vận chuyển của các chất tan và phân tử nước. Tại sao lại có sự khác biệt đó? </br>b) Thế nào là hiện tượng thẩm thấu và hiện tượng thẩm tách?",
-                image: "/media/Grade10/thamthauthamtach.png",
+                image: "https://nhantri.top/media/Grade10/thamthauthamtach.png",
                 answer: "a. Di chuyển theo hai hướng ngược nhau. Nước đi từ nơi nhiều nước đến nới ít nước; Chất tan di chuyển từ nơi nhiều chất tan đến nơi có ít chất tan.</br>b. Hiện tượng thẩm tách là hiện tượng vận chuyển thụ động của các chất hòa tan từ nơi có nồng độ cao đến nơi có nồng độ thấp."
             },
             {
@@ -10503,7 +10503,7 @@ const questionBank = {
             },
             {
                 "question": "TB_KQCHVCVNL_L2_004. Hình ảnh minh họa ảnh hưởng của nhiệt độ đến tốc độ phản ứng enzyme. X là gì và có giá trị trung bình khoảng bao nhiêu đối với các enzyme ở động vật có vú? Hoạt độ enzyme ở vùng B diễn ra như thế nào? Giải thích.",
-                image: "/media/Grade10/sodopuenzyme.png",
+                image: "https://nhantri.top/media/Grade10/sodopuenzyme.png",
                 "answer": "X là giá trị nhiệt độ tối thích (thích hợp nhất, tối ưu) của phản ứng enzyme. Nó có tính đặc trưng enzyme – cơ chất. Khi enzyme bão hòa, nhiệt độ này là nhiệt độ mà tốc độ phản ứng enzyme là cao nhất. Đối với các enzyme của động vật có vú, X có giá trị trung bình là 37<sup>o</sup>C (một số trường hợp có thể lên đến 40<sup>o</sup>C). Nhận xét: Ở vùng B tốc độ phản ứng giảm dần khi nhiệt độ tăng lên vì khi nhiệt độ tăng vượt qua nhiệt độ tối ưu, cấu trúc của enzyme bị biến đổi, cơ chất giảm dần ái lực liên kết với enzyme (hoặc số lượng trung tâm hoạt động của enzyme giảm dần), do vậy tốc độ phản ứng giảm. Tốc độ phản ứng bằng 0 là do enzyme bị biến tính (mất hoạt tính hoàn toàn)."
             },
             {
@@ -10536,7 +10536,7 @@ const questionBank = {
         level4: [
             {
                 question: "TB_KQCHVCVNL_L4_001 [HSGTPHN2526 - 1.5 điểm]. Hình 1 ảnh (a) ở bên mô tả phản ứng của enzyme succinic dehydrogenase biến đổi chất succinate thành sản phẩm là fumarate. Tuy nhiên sản phẩm sẽ không được tạo ra nếu có mặt malonate (hình b). Cho biết tác dụng của malonate. Giải thích hiện tượng trên.",
-                image: "/media/Grade10/uccheenzyme.png",
+                image: "https://nhantri.top/media/Grade10/uccheenzyme.png",
                 answer: "Tác dụng của malonate: đây là chất ức chế cạnh tranh.</br>Giải thích:</br>- Malonate có cấu tạo và hình dạng khá giống với cơ chất(succinate).</br>- Khi có chất ức chế cạnh tranh(malonate), vùng trung tâm hoạt động của enzyme sẽ kết hợp với chất ức chế cạnh tranh mà không thể kết hợp được với cơ chất.Vì vậy mà enzyme succinic dehydrogenase sẽ không thể biến đổi succinate thành sản phẩm là fumarate."
             },
             {
@@ -10583,7 +10583,7 @@ const questionBank = {
             },
             {
                 question: "TB_THVPGCC_L4_002 [HSGTPHN2526 - 1.5 điểm]. Nghiên cứu về quá trình quang hợp của thực vật:</br>a.Chú thích các pha 1, pha 2; kí hiệu a, b, c, d; các chất A, B, C trong Hình 1.</br>b.Nếu tiến hành thí nghiệm môi trường không được chiếu sáng trong 1 giờ, sau đó tiếp tục không chiếu sáng và sục khí CO₂ đánh dấu phóng xạ C¹⁴ trong 25 phút thì glucose thu được tại thời điểm kết thúc sục khí có chứa C¹⁴ không? Giải thích.",
-                image: "/media/Grade10/dienquanghop.png",
+                image: "https://nhantri.top/media/Grade10/dienquanghop.png",
                 answer: "a. Pha 1: Pha sáng; Pha 2: Pha tối.</br>a: ATP; b: NADPH; c: ADP; d: NADP.</br>A: nước; B: oxygen; C: carbon dioxide.</br>b.Không có C<sup>14</sup> trong glucose, do trong môi trường không được chiếu sáng sẽ không tạo ra ATP và NADPH. Vì vậy, không tạo ra nguyên liệu cho pha tối, quá trình cố định CO<sub>2</sub> không diễn ra được nên không có C<sup>14</sup> trong phân tử glucose."
             },
             {
@@ -10716,12 +10716,12 @@ const questionBank = {
             },
             {
                 "question": "TB_THVPGCC_L4_035 [30-4-98]. Sơ đồ sau đây mô tả cấu trúc của bào quan A. Hãy cho biết bào quan này là gì? Chú thích và nói sơ lược của các cấu trúc: 1, 2, 3, 4, 5, 6.",
-                image: "/media/Grade10/luclapdien.png",
+                image: "https://nhantri.top/media/Grade10/luclapdien.png",
                 "answer": "Bào quan trên là lục lạp. Vị trí cấu tạo các thành phần cấu trúc:<br />1: màng trong; 2: màng ngoài, là màng kép lipoprotein bao bọc quanh lục lạp; 3: grana nằm rải rác trong khối cơ chất; 4: thylacoid là những túi dẹt chồng lên nhau tạo thành grana, màng bao túi dẹt là màng đơn chất nguyên sinh; 5: quangtasome nằm trên bề mặt của màng bao túi dẹt, bên trong chứa sắc tố và các enzyme; 6: chất nền (stroma)."
             },
             {
                 "question": "TB_THVPGCC_L4_036 [30-4-98]. Ở chú thích (5) xảy ra hiện tượng gì? Bao gồm những biến đổi cơ bản nào?",
-                image: "/media/Grade10/luclapdien.png",
+                image: "https://nhantri.top/media/Grade10/luclapdien.png",
                 "answer": "Vị trí số (5) là quantasome, nằm trên màng thylakoid của grana. Đây là trung tâm thực hiện pha sáng của quang hợp, tạo ra nguyên liệu cho pha tối (diễn ra ở stroma).<br />Các biến đổi cơ bản:<br />- Ánh sáng tác động vào diệp lục làm diệp lục bị kích động (mất electron).<br />- Quang phân li nước: O<sub>2</sub> ← 2 H<sub>2</sub>O → 4 H<sup>+</sup> + O<sub>2</sub> + electron (bù lại quantasome).<br />- ATP và NADPH<sub>2</sub> được tổng hợp và dùng vào pha tối, xảy ra ở chất nền stroma, CO<sub>2</sub> đi vào chu trình Calvin, tổng hợp các hợp chất hữu cơ."
             },
             {
@@ -10829,12 +10829,12 @@ const questionBank = {
         level4: [
             {
                 question: "TB_CKTBVNP_L4_001 [HSGTPHN2526 - 1 điểm]. Hình sau thể hiện sự thay đổi hàm lượng tương đối của DNA trong nhân tế bào ở miền sinh trưởng rễ hành qua các thời kì của chu kì tế bào. Giai đoạn nào (A, B, C và D) ở trong hình tương ứng với thời gian diễn ra các sự kiện sau: (1) NST dãn xoắn và nhân đôi; (2) tăng kích thước tế bào? Giải thích.",
-                image: "/media/Grade10/dnathaydoi.png",
+                image: "https://nhantri.top/media/Grade10/dnathaydoi.png",
                 answer: "Sự kiện (1): NST dãn xoắn và nhân đôi ở giai đoạn B vì giai đoạn này hàm lượng DNA tăng lên rất nhanh (từ 3 lên 6), tương ứng với pha S của kì trung gian.</br>Sự kiện(2): tăng kích thước tế bào ở giai đoạn A vì tương tứng với pha G1 của kì trung gian, tế bào tích lũy vật chất, năng lượng và lớn lên.Giai đoạn này có hàm lượng DNA ổn định và bằng một nửa so với giai đoạn C."
             },
             {
                 question: "TB_CKTBVNP_L4_002 [HSGTPHN2526 - 2 điểm]. Nuôi cấy một lượng tế bào phù hợp của dòng tế bào soma A và dòng tế bào soma B của động vật trên 2 đĩa nuôi cấy riêng rẽ. Số lượng tế bào khi bắt đầu nuôi cấy và sau 48 giờ nuôi cấy được thể hiện trong bảng. </br>a. Thời gian chu kì tế bào của tế bào soma A và tế bào soma B là bao nhiêu? Nêu cách tính.</br>b.Dòng tế bào soma B có thể là tế bào thần kinh của động vật trưởng thành không? Giải thích.",
-                image: "/media/Grade10/tebaonhanlen.png",
+                image: "https://nhantri.top/media/Grade10/tebaonhanlen.png",
                 answer: "a. - Số lượng tế bào soma A đã tăng lên: 77,6 : 9,7 = 8 (lần). Vậy số lần phân chia của dòng tế bào soma A là: 2<sup>k</sup> = 8 nên k = 3 (lần).</br>Thời gian chu kì tế bào của dòng tế bào soma A là: 48 : 3 = 16 (giờ).</br>- Số lượng tế bào soma B đã tăng lên: 123,2 : 7,7 = 16 (lần). Vậy số lần phân chia của dòng tế bào soma A là: 2<sup>k’</sup> = 16 nên k’ = 4 (lần).</br>Thời gian chu kì tế bào của dòng tế bào soma B là: 48 : 4 = 12 (giờ).</br>b. Không, vì tế bào thần kinh của động vật trưởng thành không phân chia. Chúng hoàn toàn nằm ở pha G0."
             },
             {
@@ -11384,7 +11384,7 @@ const questionBank = {
         level1: [
             {
                 question: "TB_STVSSOVSV_L1_001. Đồ thị mô tả tốc độ sinh trưởng của ba loài vi sinh vật, loài số mấy là loài ưa acid?",
-                image: "/media/Grade10/vsvuaacid.png",
+                image: "https://nhantri.top/media/Grade10/vsvuaacid.png",
                 answer: "1"
             },
             
@@ -11392,7 +11392,7 @@ const questionBank = {
         level2: [
             {
                 question: "TB_STVSSOVSV_L2_001. Quan sát hình ảnh và cho biết hình số mấy mô tả đúng đường cong sinh trưởng của quần thể vi khuẩn trong nuôi cấy liên tục?",
-                image: "/media/Grade10/dothicgdst.png",
+                image: "https://nhantri.top/media/Grade10/dothicgdst.png",
                 answer: "3"
             },
 
@@ -11412,12 +11412,12 @@ const questionBank = {
         level4: [
             {
                 "question": "TB_STVSSOVSV_L4_001. Nuôi cấy vi khuẩn E.coli trong môi trường với nguồn cung cấp carbon là glucose và sorbitol, theo dõi sự sinh trưởng và vẽ lại được đồ thị như sau. Giải thích quá trình sinh trưởng của quần thể vi khuẩn.",
-                image: "/media/Grade10/sinhtruongkep.png",
+                image: "https://nhantri.top/media/Grade10/sinhtruongkep.png",
                 "answer": "Đây là hiện tượng sinh trưởng kép xảy ra trong môi trường nuôi cấy có 2 loại cơ chất (2 loại chất cho carbon).<br />Đồ thị có 2 pha tiềm phát, 2 pha lũy thừa, kết thúc pha lũy thừa thứ nhất, tế bào lại mở đầu pha tiềm phát thứ 2 rồi tiếp đến pha lũy thừa thứ hai.<br />Khi sinh trưởng vi khuẩn dùng hóa nguồn carbon dễ phân giải trước (glucose).<br />Sau khi nguồn carbon thứ nhất đã cạn thì nguồn carbon thứ 2 (sorbitol) mới được cảm ứng để tổng hợp enzyme cần cho việc chuyển hóa nó."
             },
             {
                 "question": "TB_STVSSOVSV_L4_002. Trong môi trường tiêu chuẩn ở pH = 7.0, nhiệt độ 35°C và kị khí hoàn toàn, có hai mê nuôi cấy vi khuẩn trong đó một mẻ nuôi cấy có chứa hai hợp chất hữu cơ giàu năng lượng (môi trường A) và mẻ còn lại chứa một loại hợp chất hữu cơ đồng nhất (môi trường B), người ta nuôi cấy riêng hai loài vi khuẩn <em>Lactobacillus bulgaricus</em> và <em>Streptococcus votrovorus</em> (mật độ ban đầu là 3,2.10⁵ tế bào/mL) thành hai mẻ ở hai môi trường khác nhau. Đồ thị biểu diễn sự sinh trưởng và sự biến đổi nồng độ các chất trong môi trường nuôi cấy của hai loài vi khuẩn trên được biểu diễn ở hình 1 và hình 2.<br />a. Giải thích đường cong sinh trưởng của hai loài vi khuẩn và xác định mỗi loài vi khuẩn được nuôi cấy ở môi trường nào.<br />b. Dựa vào sản phẩm chuyển hoá, hãy xác định <em>Lactobacillus bulgaricus</em> và <em>Streptocuccus votrovorus</em> là vi khuẩn gì?",
-                image: "/media/Grade10/lacticdhdh.png",
+                image: "https://nhantri.top/media/Grade10/lacticdhdh.png",
                 "answer": "a. - <em>Lactobacillus bulgaricus</em>: Đường cong sinh trưởng kép gồm 2 pha lag và 2 pha log, xảy ra trong điều kiện môi trường có hơn hợp 2 loại hợp chất carbon khác nhau → môi trường A (chứa hai loại hợp chất hữu cơ giàu năng lượng) tương ứng với môi trường nuôi cấy <em>Lactobacillus bulgaricus</em>.<br />- <em>Streptocuccus votrovorus</em>: Đường cong sinh trưởng thêm, có thêm một đoạn cong nhỏ sau pha suy vong do ở giai đoạn này một số vi khuẩn sống sót và tiếp tục sinh trưởng nhờ các chất dinh dưỡng được giải phóng ra từ quá trình tự phân → tương ứng với môi trường B.<br />b. Dựa vào đồ thị:<br />- <em>Lactobacillus bulgaricus</em> trong suốt quá trình sinh trưởng chỉ tạo ra acid lactic (hàm lượng ethanol không thay đổi còn lượng acid lactic tăng mạnh) → vi khuẩn lên men lactic đồng hình.<br />- <em>Streptocuccus votrovorus</em> trong quá trình sinh trưởng ngoài tạo ra acid lactic còn tạo ra cả ethanol(hàm lượng acid lactic nhỏ hơn 50% so với lượng acid lactic mà <em>Lactobacillus bulgaricus</em> tạo ra) → vi khuẩn lên men lactic dị hình."
             },
             {
@@ -11733,17 +11733,17 @@ const questionBank = {
         level4: [
             {
                 "question": "TB_THVSV_L4_001. Có hai bình tam giác nuôi cấy vi sinh vật chứa dung dịch có đầy đủ các nguyên tố khoáng và CO<sub>2</sub>. Một bình chứa vi khuẩn lam (vi khuẩn quang tự dưỡng), một bình chứa vi khuẩn không lưu huỳnh màu lục (vi khuẩn quang dị dưỡng), cả hai bình được đậy nút bông. Tiến hành nuôi lắc trong tối 24 giờ (giai đoạn 1), sau đó chuyển ra nuôi lắc ngoài sáng 24 giờ (giai đoạn 2), chuyển sang nuôi tĩnh trong tối 24 giờ (giai đoạn 3). Kết quả mỗi giai đoạn như trong bảng. Hãy xác định loại vi khuẩn có trong bình A và bình B. Giải thích.",
-                image: "/media/Grade10/giaidoandinhduong.png",
+                image: "https://nhantri.top/media/Grade10/giaidoandinhduong.png",
                 "answer": "- Bình A: Vi khuẩn không chứa lưu huỳnh màu lục (quang dị dưỡng). Vì trong bình nuôi cấy không có chất hữu cơ → không sinh trưởng không tăng sinh khối → bình nuôi cấy trong.<br/>- Bình B: Vi khuẩn lam (quang tự dưỡng). Vì giai đoạn 1 nuôi trong tối không có ánh sáng nên không quang hợp → sinh khối không tăng → bình trong. Giai đoạn 2 nuôi ngoài sáng quang hợp được → sinh khối tăng → hơi đục. Giai đoạn 3 nuôi trong tối → không quang hợp → sinh khối không tăng thêm → hơi đục."
             },
             {
                 "question": "TB_THVSV_L4_002. Một số loài vi khuẩn có thể sử dụng etanol (CH₃-CH₂-OH) hoặc acetat (CH₃-COO⁻) làm nguồn carbon duy nhất trong quá trình sinh trưởng. Tốc độ hấp thu ban đầu hai loại chất này của tế bào vi khuẩn được trình bày trong bảng.<br/>a. Vẽ đồ thị biểu diễn mối quan hệ giữa tốc độ hấp thu ban đầu và nồng độ của hai chất trên.<br/>b. Dựa vào đồ thị đã vẽ, hãy cho biết:<br/>- Hai chất A và B vận chuyển qua màng tế bào vi khuẩn theo cách nào? Giải thích.<br/>- Hai chất A và B, chất nào là etanol và chất nào là acetat? Giải thích.",
-                image: "/media/Grade10/tocdohapthuvk.png",
+                image: "https://nhantri.top/media/Grade10/tocdohapthuvk.png",
                 "answer": "Sự hấp thu chất B qua đồ thị cho thấy tốc độ vận chuyển các chất vào trong tế bào lúc đầu tăng cùng với việc tăng nồng độ các chất. Nhưng đến một giai đoạn nhất định thì tốc độ phản ứng gần như không tăng ngay cả khi nồng độ chất tan tiếp tục tăng lên. Chất B đưọc vận chuyển qua kênh protein và việc tốc độ vận chuyển của chất B không tăng ở giai đoạn sau là hiện tượng bão hòa kênh.<br/>Sự hấp thu chất A qua đồ thị cho thấy tốc độ vận chuyển chất tan phụ thuộc tuyến tính vào nồng độ chất tan.Điều này chỉ ra rằng chất A được vận khuếch tán trực tiếp qua lớp lipid kép của màng tế bào  mà không cần phải qua kênh protein xuyên màng.<br/>Từ đồ thị cho thấy:<br/>Chất A là ethanol vì ethanol là chất phân tử nhỏ, không tích điện nên có thể khuyếch tán trực tiếp qua lớp lipid kép của màng tế bào dễ dàng hơn khuyếch tán vào lớp lipid.<br/>Chất B là acetat vì là chất tích điện nên sẽ khó khuyếch tán trực tiếp qua lớp lipid kép của màng tế bào vì lớp phospholipid kép có chứa các đuôi hydrocarbon kị nước (không phân cực)."
             },
             {
                 "question": "TB_THVSV_L4_003. Rau củ lên men lactic là thức ăn truyền thống ở nhiều nước châu Á. Vi sinh vật thường thấy trong dịch lên men gồm vi khuẩn lên men lactic, nấm men và nấm sợi.<br />Hình sau thể hiện số lượng tế bào sống (LogN/ ml) của ba nhóm vi sinh vật khác nhau và giá trị pH trong quá trình lên men lactic dưa cải. Oxygen hòa tan trong dịch lên men giảm theo thời gian và được sử dụng hết sau ngày thứ 22.<br />a. Hãy cho biết trong các loài 1, 2, 3, loài nào là vi khuẩn lactic, loài nào là nấm men và loài nào là nấm sợi ? Giải thích.<br />b. Giải thích nguyên nhân tăng số lượng của loài 2 ở giai đoạn từ ngày 10 đến ngày 22.<br />c. Bằng cách nào các nhà khoa học có thể xác định được số lượng các tế bào sống của mỗi loài trong dịch lên men mà không bị lẫn các tế bào chết?",
-                image: "/media/Grade10/rauculenmen.png",
+                image: "https://nhantri.top/media/Grade10/rauculenmen.png",
                 "answer": "a. Loài 1 là vi khuẩn lactic, vì trong điều kiện kị khí (sau ngày 22) số lượng tế bào của vi khuẩn này vẫn rất cao; Loài 2 là nấm men, vì trong điều kiện kị khí (sau ngày 22) loài này vẫn sinh trưởng được, mặc dù không bằng loài 1; Loài 3 là nấm sợi, vì loài này là loài hiếu khí, trong điều kiện kị khí, số lượng cả thể giảm nhanh.<br />b. Từ ngày 10 đến ngày 22, số lượng loài 2 tăng nhanh do:<br />- Vi khuẩn lactic hoạt động làm giảm pH, tạo thuận lợi cho sự phát triển của loài.<br />- Nấm sợi bị trở chế sinh trưởng, làm giảm mức cạnh tranh với loài.<br />c. Để xác định số lượng tế bào sống, ta có thể sử dụng phương pháp đếm khuẩn lạc (CFU)<br />Các tiến hành:<br />- Pha loãng dịch nuôi cấy đến mức cần thiết<br />- Cấy trải lên đĩa thạch và đếm số khuẩn lạc của mỗi loài."
             },
             {
@@ -12009,7 +12009,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB_VR_L3_001. Quan sát hình ảnh và cho biết virus lai nhiễm vào cây mang đặc điểm của virus chủng số mấy?",
-                image: "/media/Grade10/voloi.png",
+                image: "https://nhantri.top/media/Grade10/voloi.png",
                 answer: "1"
             },
             {
@@ -12034,7 +12034,7 @@ const questionBank = {
             },
             {
                 question: "TB_VR_L4_002. Hình dưới đây mô tả cấu trúc của virus SAR-CoV-2 thuộc nhóm Coronavirus với vật chất di truyền là ssRNA (+) nhưng lại được tái bản nhờ enzyme Replicase (RdRP) là một enzyme RNA polymerase dùng RNA làm mạch khuôn. Virus này có màng ngoài chứa gai protein (S), màng lipid (M) và vỏ E.<br/>a) Nguồn gốc và vai trò của gai S đối với chu trình sống của virus SAR-CoV-2?<br/>b) Bằng cách nào virus SAR-CoV-2 có thể tổng hợp mRNA của bản thân nó trong tế bào chủ ?<br/>Quá trình này có trùng với quá trình tự sao không?<br/>c) Dựa trên các thông tin đã mô tả ở trên giải thích tại sao tốc độ tạo ra chủng mới của virus SAR-CoV-2 lại rất nhanh ?<br/>d) Một nhóm nghiên cứu của Đức – Cure Vac sử dụng một cách tiếp cận khác để nghiên cứu và sản xuất vaccine COVID–19. Họ tiến hành tổng hợp nhân tạo mRNA mã hóa protein bề mặt của virus này rồi đóng gói trong một túi nano lipid gọi là micelle và sản xuất với số lượng lớn làm vaccine mà không cần nuôi cấy virus.Sản phẩm này có hoạt tính vaccine hay không? Giải thích.",
-                image: "/media/Grade10/vrcorona.png",
+                image: "https://nhantri.top/media/Grade10/vrcorona.png",
                 answer: "a. Gai S là một loại protein do gene của virus sử dụng các nguyên liệu của tế bào chủ tổng hợp mà thành. Chức năng sinh học của gai S là liên kết đặc hiệu với thụ thể trên màng tế bào chủ để tiến hành giai đoạn hấp phụ của virus.<br/>Virus tổng hợp mRNA của nó trong tế bào chủ bằng cách:<br/>- Vì genome của virus là ssRNA sợi dương nên có thể dùng luôn như một mRNA để tổng hợp protein enzyme replicase ngay sau khi chúng xâm nhập vào trong tế bào chủ.<br/>- RdRP dùng ssRNA (+) làm khuôn để tổng hợp ssRNA (-), sợi ssRNA (-) được dùng làm khuôn để tiến hành quá trình sao chép hàng loạt ssRNA(+) là vật chất di truyền của các hạt virus tiếp theo.<br/>- Ở ssRNA(+) thì quá trình phiên mã cũng chính là quá trình tự sao của vật chất di truyền.<br/>c.Tốc độ biến chủng của SAR-CoV-2 rất nhanh vì replicase có bản chất là RNA polymerase không có hoạt động sửa sai và do đó các sai sót xuất hiện trong tự sao nhiều, không được sửa chữa hình thành các đột biến.<br/>d.Sản phẩm này có hoạt tính vaccine vì khi micelle xâm nhập vào tế bào chủ, mRNA mang theo được dịch mã tạo ra protein gai virus.Tế bào nhận diện protein gai virus là protein lạ và kích thích đáp ứng miễn dịch."
             },
 
