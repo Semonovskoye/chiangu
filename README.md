@@ -1,5 +1,5 @@
 # chiangu - nh**7r1.top's evil twin
-http://chiangu.dpdns.org
+https://chiangu.dpdns.org
 
 <h2>Default command string (just copy and paste this into the console)</h2>
 const section1 = document.getElementById('videoSection');
