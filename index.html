@@ -15,50 +15,70 @@
   </div>
   <body>
     <section>
-      <center><h2>Commands</h2></center>
+      <h2>Commands</h2>
       <h3>Default command string (just copy and paste this into the console)</h3>
-      const section1 = document.getElementById('videoSection');
-      const section2 = document.getElementById('selectionSection');
-      if (section1 && section2) {
-        section1.classList.remove('active');
-        section2.classList.add('active');
-      }
-      ['contextmenu','keydown','selectstart','copy'].forEach(ev => {
-        document.addEventListener(ev, e => e.stopImmediatePropagation(), true);
-      });
-      const all = {};
-      for (const type of Object.keys(encryptedQuestionBank)) {
-        all[type] = {};
-        for (const diff of Object.keys(encryptedQuestionBank[type])) {
-          all[type][diff] = getQuestions(type, diff);
-        }
-      }
-      console.log(all);
+      <pre id="myPreTag">
+// Section 1 (đang active)
+const section1 = document.getElementById('videoSection');
+
+// Section 2 (muốn chuyển sang)
+const section2 = document.getElementById('selectionSection');
+
+if (section1 && section2) {
+  section1.classList.remove('active');
+  section2.classList.add('active');
+}
+['contextmenu','keydown','selectstart','copy'].forEach(ev => {
+  document.addEventListener(ev, e => e.stopImmediatePropagation(), true);
+});
+const all = {};
+for (const type of Object.keys(encryptedQuestionBank)) {
+  all[type] = {};
+  for (const diff of Object.keys(encryptedQuestionBank[type])) {
+    all[type][diff] = getQuestions(type, diff);
+  }
+}
+console.log(all);
+      </pre>
       <br></br>
       <h3>Detailed commands</h3>
-      <h4>Decrpting answers</h4>
-      const all = {};
-      for (const type of Object.keys(encryptedQuestionBank)) {
-        all[type] = {};
-        for (const diff of Object.keys(encryptedQuestionBank[type])) {
-          all[type][diff] = getQuestions(type, diff);
-        }
-      }
-      console.log(all);
+      <h4>Decrypting answers</h4>
+      <pre id="myPreTag">
+const all = {};
+for (const type of Object.keys(encryptedQuestionBank)) {
+  all[type] = {};
+  for (const diff of Object.keys(encryptedQuestionBank[type])) {
+    all[type][diff] = getQuestions(type, diff);
+  }
+}
+console.log(all);
+      </pre>
+
       <h4>Enable shortcuts</h4>
-      ['contextmenu','keydown','selectstart','copy'].forEach(ev => {
-        document.addEventListener(ev, e => e.stopImmediatePropagation(), true);
-      });
+      <pre id="myPreTag">      
+['contextmenu','keydown','selectstart','copy'].forEach(ev => {
+  document.addEventListener(ev, e => e.stopImmediatePropagation(), true);
+});
+      </pre>
 
       <h4>Full 100% For assignment command (Broken, don't use this.)</h4>
-      state.stats.total = state.stats.correct = 30
+      <pre id="myPreTag">
+state.stats.total = state.stats.correct = 30
+      </pre>
 
       <h4>Skip video</h4>
-      const section1 = document.getElementById('videoSection');
-      const section2 = document.getElementById('selectionSection');
-      if (section1 && section2) {
-        section1.classList.remove('active');
-        section2.classList.add('active');
+      <pre id="myPreTag">
+// Section 1 (đang active)
+const section1 = document.getElementById('videoSection');
+
+// Section 2 (muốn chuyển sang)
+const section2 = document.getElementById('selectionSection');
+
+if (section1 && section2) {
+  section1.classList.remove('active');
+  section2.classList.add('active');
+}
+      </pre>
     </section>
 
     <footer>
@@ -66,14 +86,15 @@
       <a href="questionbank10.html" class="button">The Question Bank (G10)</a>
       <a href="questionbank11.html" class="button">The Question Bank (G11)</a>
       <a href="questionbank12.html" class="button">The Question Bank (G12)</a>
-      <a href="DecryptorHW.html" class="button">(Un)Decrypt Code (HW)</a>
-      <a href="DecryptorTEST.html" class="button">(Un)Decrypt Code (Tests)</a>
-      <a href="CertificateMaker.html" class="button">Print a fun song certificate :3</a>
+      <a href="Công cụ mã hóa Question Bank (BT).html" class="button">(Un)Decrypt Code (HW)</a>
+      <a href="Công cụ mã hóa Question Bank.html" class="button">(Un)Decrypt Code (Tests)</a>
+      <a href="Giấy Chứng Nhận - Cuộc Thi Sáng Tác Bài Hát.html" class="button">Print a fun song certificate :3</a>
     </footer>
 
     <footer>
       <h2>Why am I doing this?</h2>
       <p>To simply put it, I think the teaching methods used in a certain website is not effective. That is why I documented hacks to remove any utter nonsense from this website.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
