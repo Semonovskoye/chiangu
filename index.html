@@ -54,19 +54,19 @@ for (const type of Object.keys(encryptedQuestionBank)) {
 console.log(all);
       </pre>
 
-      <h4>- Enable shortcuts</h4>
+      <h4>- Enable shortcuts:</h4>
       <pre id="myPreTag">      
 ['contextmenu','keydown','selectstart','copy'].forEach(ev => {
   document.addEventListener(ev, e => e.stopImmediatePropagation(), true);
 });
       </pre>
 
-      <h4>- Full 100% For assignment command (Broken, don't use this.)</h4>
+      <h4>- Full 100% For assignment command: (Broken, don't use this.)</h4>
       <pre id="myPreTag">
 state.stats.total = state.stats.correct = 30
       </pre>
 
-      <h4>- Skip video</h4>
+      <h4>- Skip video:</h4>
       <pre id="myPreTag">
 // Section 1 (đang active)
 const section1 = document.getElementById('videoSection');
