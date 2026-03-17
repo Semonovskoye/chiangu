@@ -1,4 +1,4 @@
-# chiangu.bottom - nh**7r1.top's evil twin
+# chiangu.dpdns.org - nh**7r1.top's evil twin
 https://semonovskoye.github.io/chiangu.bottom/
 
 <h2>Default command string (just copy and paste this into the console)</h2>
