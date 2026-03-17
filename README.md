@@ -1,4 +1,4 @@
-# chiangu - nh**7r1.top's evil twin
+# chiangu - nh**7r1's evil twin
 https://chiangu.dpdns.org
 
 <h2>Default command string (just copy and paste this into the console)</h2>
