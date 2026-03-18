@@ -111,9 +111,6 @@ footer {
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 4px;
-  position: sticky;
-  top: 8px;
-  float: right;
   transition: 0.2s ease;
 }
 
