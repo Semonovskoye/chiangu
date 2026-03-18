@@ -1,23 +1,172 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>chiangu</title>
-  <link rel="icon" type="image/x-icon" href="./images/mambo.png">
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./script.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>chiangu</title>
+<link rel="icon" type="image/x-icon" href="./images/mambo.png">
+<style>
+  /* style.css */
+@font-face {
+    font-family: Comfortaa-Regular;
+    src: url(./font/comfortaa/Comfortaa-Regular.ttf);
+}
+  
+@font-face {
+    font-family: Comfortaa-Bold;
+    src: url(./font/comfortaa/Comfortaa-Bold.ttf);
+}
 
-  <div class="header">
-    <head>
-      <img src="./images/mambo.png" height=100 width=100>
-      <h1>chiangu - nh**7r1's angelic twin :3</h1>
-    </head>
-  </div>
-  <body>
-    <section>
-      <center><h2>Các câu lệnh</h2></center>
-      <h3>Lệnh tổng hợp (Cứ Copy + Paste cái này vào console là ngon ;3)</h3>
+@font-face {
+    font-family: Comfortaa-Light;
+    src: url(./font/comfortaa/Comfortaa-Light.ttf);
+}
+
+@media (max-width: 600px) {
+  .copy-btn {
+    top: 6px;
+    right: 6px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+body {
+    background-image: url("./images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    font-family: Comfortaa-Bold;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+h3 {
+    font-family: Comfortaa-Bold;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Comfortaa-Bold;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section {
+    font-family: Comfortaa-Regular;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+footer {
+    font-family: Comfortaa-Light;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.images {
+    display: block;
+    width: 50%;
+}
+
+.button {
+    background-color: rgba(0, 187, 255, 1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.code-box {
+  position: relative;
+  background: rgba(255, 255, 255, 0.50);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+  color: black;
+}
+
+.code-box pre {
+  margin: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: pre;
+  padding-top: 0px;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  background: rgba(0, 187, 255, 1);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.copy-btn:hover {
+  background: rgb(0, 162, 220);
+}
+
+.copy-btn:active {
+  background: rgb(0, 130, 177);
+  transform: scale(0.96);
+}
+.button:hover {
+  background: rgb(0, 162, 220);
+}
+
+.button:active {
+  background: rgb(0, 130, 177);
+  transform: scale(0.95);
+}
+</style>
+<script src="./script.js"></script>
+
+<div class="header">
+  <head>
+    <img src="./images/mambo.png" height=100 width=100>
+    <h1>chiangu - nh**7r1's angelic twin :3</h1>
+  </head>
+</div>
+<body>
+  <section>
+    <center><h2>Các câu lệnh</h2></center>
+    <h3>Lệnh tổng hợp (Cứ Copy + Paste cái này vào console là ngon ;3)</h3>
 <div class="code-box">
 <button class="copy-btn" onclick="copyCode(this)">Copy</button>
 <pre><code>
