@@ -20,7 +20,7 @@
       <h3>Default command string (just copy and paste this into the console)</h3>
         <div class="code-container">
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-          <pre><code>
+<pre><code>
 // Section 1 (đang active)
 const section1 = document.getElementById('videoSection');
 
@@ -42,14 +42,14 @@ for (const type of Object.keys(encryptedQuestionBank)) {
   }
 }
 console.log(all);
-          </pre></code>
+</pre></code>
         </div>
       <br></br>
       <h3>Detailed commands</h3>
       <h4>- Decrypting answers:</h4>
         <div class="code-container">
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-          <pre><code>
+<pre><code>
 const all = {};
 for (const type of Object.keys(encryptedQuestionBank)) {
   all[type] = {};
@@ -58,31 +58,31 @@ for (const type of Object.keys(encryptedQuestionBank)) {
   }
 }
 console.log(all);
-          </pre></code>
+</pre></code>
         </div>
 
       <h4>- Enable shortcuts:</h4>
         <div class="code-container">     
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-          <pre><code>
+<pre><code>
 ['contextmenu','keydown','selectstart','copy'].forEach(ev => {
   document.addEventListener(ev, e => e.stopImmediatePropagation(), true);
 });
-          </pre></code>
+</pre></code>
         </div>
 
       <h4>- Full 100% For assignment command: (Broken, don't use this.)</h4>
         <div class="code-container"> 
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-          <pre><code>
+<pre><code>
 state.stats.total = state.stats.correct = 30
-          </pre></code>
+</pre></code>
         </div>
 
       <h4>- Skip video:</h4>
       <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-        <pre><code>
+<pre><code>
 // Section 1 (đang active)
 const section1 = document.getElementById('videoSection');
 
@@ -93,7 +93,7 @@ if (section1 && section2) {
   section1.classList.remove('active');
   section2.classList.add('active');
 }
-        </pre></code>
+</pre></code>
       </div>
 
     <footer>
