@@ -109,6 +109,14 @@ footer {
   overflow: auto;
 }
 
+.code-box pre {
+  margin: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: pre;
+  padding-top: 36px; /* space so text doesn't go under button */
+}
+
 .copy-btn {
   position: absolute;
   top: 8px;
