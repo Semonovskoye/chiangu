@@ -19,8 +19,8 @@
       <center><h2>Các câu lệnh</h2></center>
       <h3>Lệnh tổng hợp (Cứ Copy + Paste cái này vào console là ngon ;3)</h3>
 <div class="code-box">
-  <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-  <pre><code>
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>
 // Section 1
 const section1 = document.getElementById('videoSection');
 
@@ -42,16 +42,14 @@ for (const type of Object.keys(encryptedQuestionBank)) {
   }
 }
 console.log(all);
-  </code></pre>
+</code></pre>
 </div>
-      
-      <br></br>
       
       <h3>Các câu lệnh chi tiết</h3>
       <h4>- Giải mã hoá đáp án:</h4>
 <div class="code-box">
-  <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-  <pre><code>
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>
 const all = {};
 for (const type of Object.keys(encryptedQuestionBank)) {
   all[type] = {};
@@ -59,29 +57,29 @@ for (const type of Object.keys(encryptedQuestionBank)) {
     all[type][diff] = getQuestions(type, diff);
   }
 }
-  </code></pre>
+</code></pre>
 </div>
 
       <h4>- Cho phép sử dụng phím tắt (Như F12,...):</h4>
 <div class="code-box">
-  <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-  <pre><code>
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>
 ['contextmenu','keydown','selectstart','copy'].forEach(ev => {
   document.addEventListener(ev, e => e.stopImmediatePropagation(), true);
 });
-  </code></pre>
+</code></pre>
 </div>
 
       <h4>- Full điểm (Cái này không cho điểm chi tiết các phần đâu, đừng dùng.):</h4>
 <div class="code-box">
-  <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-  <pre><code>state.stats.total = state.stats.correct = 30</code></pre>
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>state.stats.total = state.stats.correct = 30</code></pre>
 </div>
 
       <h4>- Bỏ qua video:</h4>
 <div class="code-box">
-  <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-  <pre><code>
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>
 // Section 1 (đang active)
 const section1 = document.getElementById('videoSection');
 
@@ -92,7 +90,7 @@ if (section1 && section2) {
   section1.classList.remove('active');
   section2.classList.add('active');
 }
-  </code></pre>
+</code></pre>
 </div>
 
     <footer>
