@@ -41,6 +41,8 @@ body {
     padding: 20px;
     background-color: #f8f9fa;
     border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .question-type {
@@ -48,6 +50,7 @@ body {
     border: 1px solid #dee2e6;
     border-radius: 4px;
     background-color: white;
+    min-width: 0;
 }
 
 .question-type h3 {
@@ -58,6 +61,8 @@ body {
 .level-input {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
     margin-bottom: 10px;
 }
 
@@ -68,9 +73,11 @@ body {
 
 .level-input input {
     width: 60px;
+    max-width: 100%;
     padding: 5px;
     border: 1px solid #ced4da;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .total {
@@ -234,4 +241,47 @@ button:hover {
     border-radius: 4px;
     margin-top: 8px;
     background: white;
+}
+
+.parent {
+    display: flex;
+    gap: 20px;
+}
+
+.controls {
+    clear: both;
+}
+
+.button:hover {
+  background: rgb(0, 162, 220);
+}
+
+.button:active {
+  background: rgb(0, 130, 177);
+  transform: scale(0.95);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .controls {
+        grid-template-columns: 1fr;
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .question-type {
+        width: 100%;
+    }
+
+    .level-input {
+        align-items: flex-start;
+    }
+
+    .level-input input {
+        width: 55px;
+    }
+
+    .parent {
+        flex-direction: column;
+    }
 }
