@@ -22,30 +22,36 @@
         }
 
         .certificate-page {
-            width: 210mm;
-            height: 275mm;
+            width: min(100%, 210mm);
+            aspect-ratio: 210 / 275;
+            height: auto;
+            min-height: 275mm;
             margin: 0 auto;
             position: relative;
             background: white;
             box-shadow: 0 0 30px rgba(0,0,0,0.2);
+            overflow: hidden;
         }
 
         .button {
                background-color: rgba(0, 187, 255, 1);
                border: none;
                color: white;
-               padding: 15px 32px;
+               padding: 12px 24px;
                text-align: center;
                text-decoration: none;
                display: inline-block;
                font-size: 16px;
                margin: 4px 2px;
                cursor: pointer;
+               border-radius: 8px;
+               box-sizing: border-box;
         }
 
         .certificate {
             width: 100%;
             height: 100%;
+            min-height: 275mm;
             position: relative;
             font-family: 'Cormorant Garamond', serif;
             padding: 15mm;
@@ -265,8 +271,10 @@
             border-bottom: 2px solid #cbd5e0;
             padding-bottom: 8px;
             display: inline-block;
-            min-width: 350px;
+            min-width: min(350px, 100%);
+            max-width: 100%;
             text-align: center;
+            word-break: break-word;
         }
 
         .song-title {
@@ -274,11 +282,13 @@
             font-style: italic;
             color: #4a5568;
             font-weight: 500;
+            word-break: break-word;
         }
 
         .signatures {
             display: flex;
             justify-content: space-around;
+            gap: 12px;
             margin-top: -65mm;
         }
 
@@ -307,8 +317,16 @@
             }
 
             .certificate-page {
+                width: 210mm;
+                height: 275mm;
+                min-height: 275mm;
+                aspect-ratio: auto;
                 box-shadow: none;
                 page-break-after: always;
+            }
+
+            .certificate {
+                min-height: 275mm;
             }
         }
 
@@ -316,6 +334,84 @@
             body {
                 background: #e2e8f0;
                 padding: 20px 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 12px 0;
+            }
+
+            .button {
+                display: block;
+                width: calc(100% - 24px);
+                margin: 12px auto;
+            }
+
+            .no-print {
+                margin-left: 12px;
+                margin-right: 12px;
+                padding: 16px;
+            }
+
+            .certificate-page {
+                width: calc(100vw - 24px);
+                min-height: auto;
+            }
+
+            .certificate {
+                min-height: 0;
+            }
+
+            .certificate-content {
+                padding: 10mm 12mm;
+            }
+
+            .logo-container {
+                width: 48px;
+                height: 48px;
+                font-size: 8px;
+            }
+
+            .title {
+                font-size: 24px !important;
+                letter-spacing: 1px;
+            }
+
+            .prize-badge {
+                font-size: 16px;
+                padding: 8px 18px;
+            }
+
+            .student-name {
+                font-size: 22px !important;
+                min-width: 0;
+            }
+
+            .song-title {
+                font-size: 16px !important;
+            }
+
+            .corner {
+                width: 32px;
+                height: 32px;
+                font-size: 24px;
+            }
+
+            .music-note-side {
+                font-size: 14px;
+            }
+
+            .signatures {
+                flex-direction: column;
+                align-items: center;
+                gap: 18px;
+                margin-top: 10mm;
+            }
+
+            .signature-block {
+                width: 100%;
+                max-width: 220px;
             }
         }
     </style>
@@ -329,7 +425,7 @@
         <!-- Logo Upload Section -->
         <div class="mb-6 p-4 bg-blue-50 rounded-lg border-2 border-blue-200">
             <label class="block text-sm font-semibold text-gray-700 mb-2">🎨 Logo</label>
-            <div class="flex gap-3 items-center">
+            <div class="flex flex-col sm:flex-row gap-3 sm:items-center">
                 <input type="file" id="logoInput" accept="image/*" class="flex-1 px-4 py-2 border border-gray-300 rounded-lg text-sm">
                 <button onclick="removeLogo()" class="px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg text-sm font-medium transition-colors">
                     Xóa Logo
@@ -581,17 +677,17 @@
                 const isActive = index === currentIndex;
 
                 const item = document.createElement('div');
-                item.className = 'flex items-center justify-between p-4 rounded-lg border-2 transition-all ' +
+                item.className = 'flex flex-col md:flex-row md:items-center md:justify-between gap-3 p-4 rounded-lg border-2 transition-all ' +
                     (isActive ? 'bg-blue-50 border-blue-500 shadow-md' : 'bg-gray-50 border-gray-200 hover:border-gray-300');
                 item.innerHTML = `
-                            <div class="flex-1 flex items-center gap-3">
-                                <span class="text-2xl">${prizeEmoji[winner.prize]}</span>
-                                <div>
-                                    <div class="font-bold text-gray-900">${winner.name}</div>
-                                    <div class="text-sm text-gray-600 italic">"${winner.song}"</div>
+                            <div class="flex-1 flex items-start sm:items-center gap-3 min-w-0">
+                                <span class="text-2xl shrink-0">${prizeEmoji[winner.prize]}</span>
+                                <div class="min-w-0">
+                                    <div class="font-bold text-gray-900 break-words">${winner.name}</div>
+                                    <div class="text-sm text-gray-600 italic break-words">"${winner.song}"</div>
                                 </div>
                             </div>
-                            <div class="flex items-center gap-2">
+                            <div class="flex flex-wrap gap-2">
                                 <span class="px-3 py-1 rounded-full text-xs font-bold border ${prizeColor[winner.prize]}">
                                     ${prizeText[winner.prize]}
                                 </span>
