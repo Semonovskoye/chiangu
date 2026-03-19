@@ -21,16 +21,20 @@ body {
 }
 
 .button {
-            background-color: rgba(0, 187, 255, 1);
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
+    background-color: rgba(0, 187, 255, 1);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    font-weight: 600;
 }
 
 .controls {
@@ -253,12 +257,13 @@ button:hover {
 }
 
 .button:hover {
-  background: rgb(0, 162, 220);
+    background-color: rgba(0, 160, 220, 1);
+    transform: translateY(-1px);
 }
 
 .button:active {
-  background: rgb(0, 130, 177);
-  transform: scale(0.95);
+    transform: translateY(0);
+    background-color: rgba(0, 140, 200, 1);
 }
 
 /* Mobile */
@@ -283,5 +288,131 @@ button:hover {
 
     .parent {
         flex-direction: column;
+    }
+
+    .button {
+        display: block;
+        width: calc(100% - 24px);
+        margin: 12px auto;
+        text-align: center;
+    }
+}
+
+/* Responsive matrix tables */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin: 16px 0 24px;
+    background: white;
+    border-radius: 8px;
+}
+
+.matrix-table {
+    width: 100%;
+    min-width: 900px;
+    border-collapse: collapse;
+    text-align: center;
+    background: white;
+}
+
+.matrix-table th,
+.matrix-table td {
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.matrix-table th {
+    background-color: #f2f2f2;
+    white-space: nowrap;
+}
+
+.matrix-table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.matrix-table td:first-child,
+.matrix-table th:first-child {
+    min-width: 90px;
+}
+
+.matrix-table td:nth-child(2),
+.matrix-table th:nth-child(2) {
+    min-width: 160px;
+}
+
+.matrix-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.button:hover {
+    background-color: rgba(0, 160, 220, 1);
+    transform: translateY(-1px);
+}
+
+.button:active {
+    transform: translateY(0);
+    background-color: rgba(0, 140, 200, 1);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 12px;
+    }
+
+    .button {
+        display: block;
+        width: 100%;
+        margin: 0 0 14px 0;
+        text-align: center;
+    }
+
+    .controls {
+        grid-template-columns: 1fr;
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .question-type {
+        width: 100%;
+    }
+
+    .level-input {
+        align-items: flex-start;
+    }
+
+    .level-input input {
+        width: 55px;
+    }
+
+    .table-responsive {
+        border: 1px solid #dee2e6;
+        margin: 12px 0 20px;
+    }
+
+    .matrix-table {
+        min-width: 820px;
+        font-size: 13px;
+    }
+
+    .matrix-table th,
+    .matrix-table td {
+        padding: 6px 8px;
+    }
+
+    .matrix-table caption {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    button {
+        width: 100%;
+        margin: 6px 0;
     }
 }
