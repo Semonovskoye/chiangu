@@ -145,6 +145,11 @@ footer {
   transition: 0.2s ease;
 }
 
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
 .code-box {
   position: relative;
   background: rgba(255, 255, 255, 0.25);
@@ -176,6 +181,7 @@ footer {
   padding: 6px 10px;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.1s ease;
+  font-family: Comfortaa-Light;
 }
 
 .copy-btn:hover {
@@ -369,6 +375,7 @@ footer {
   padding: 8px 14px;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.1s ease;
+  font-family: Comfortaa-Light;
 }
 
 .display-more-btn:hover {
