@@ -590,3 +590,59 @@ footer {
     font-size: 13px;
   }
 }
+
+.grade-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 16px 0 22px;
+}
+
+.grade-tab {
+  background: rgba(0, 187, 255, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 22px;
+  cursor: pointer;
+  font-family: Comfortaa-Regular;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.grade-tab:hover {
+  background: rgb(0, 162, 220);
+}
+
+.grade-tab:active {
+  background: rgb(0, 130, 177);
+  transform: scale(0.96);
+}
+
+.grade-tab.active {
+  background: rgb(0, 130, 177);
+}
+
+.grade-content {
+  display: none;
+}
+
+.grade-content.active {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .grade-tabs {
+    gap: 8px;
+  }
+
+  .grade-tab {
+    flex: 1;
+    min-width: 80px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+}
