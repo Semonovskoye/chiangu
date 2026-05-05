@@ -36,6 +36,10 @@
     <button class="grade-tab" type="button" onclick="showGrade('g12', this)">
       G12
     </button>
+
+    <button class="grade-tab" type="button" onclick="showGrade('archival', this)">
+      Archival
+    </button>
   </div>
 
   <div class="grade-content active" data-grade="g10">
@@ -323,23 +327,8 @@ adjustDifficulty = function(type, isCorrect) {
 
       <div class="code-box multi-code-box collapsible">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-
-        <div class="code-tabs">
-          <button class="code-tab active" type="button" onclick="showCodeTab(this, 'unencrypted')">
-            Bài không bị mã hóa
-          </button>
-
-          <button class="code-tab" type="button" onclick="showCodeTab(this, 'encrypted')">
-            Bài bị mã hoá
-          </button>
-        </div>
-
-        <pre class="code-panel active" data-code-panel="unencrypted">
-          <code data-code-file="./unencrypted.txt">Loading...</code>
-        </pre>
-
-        <pre class="code-panel" data-code-panel="encrypted">
-          <code data-code-file="./encrypted.txt">Loading...</code>
+        <pre class="code-panel active">
+          <code data-code-file="./get100pdf_nowork.txt">Loading...</code>
         </pre>
       </div>
 
@@ -388,6 +377,89 @@ nothing here yet... (cứ thử dùng mấy lệnh của G10 và G11 đi.)
       </code></pre>
     </div>
   </div>
+
+  <div class="grade-content" data-grade="archival">
+    <!-- Put your archival content here -->
+    <h3>Lệnh cũ (các lệnh dưới đây cũ r nha)</h3>
+
+    <h4>- Full điểm - big thanks to <a href="https://github.com/kohanut7510" class="a">kohanut7510</a> and <a href="https://github.com/mcfonalds2057" class="a">mcfonalds2057</a> for this hack (lệnh OP nhất chiangu !! (°ㅁ°˶ )):</h4>
+     <div class="code-box multi-code-box collapsible">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <div class="code-tabs">
+          <button class="code-tab active" type="button" onclick="showCodeTab(this, 'unencrypted')">
+            Bài không bị mã hóa
+          </button>
+
+          <button class="code-tab" type="button" onclick="showCodeTab(this, 'encrypted')">
+            Bài bị mã hoá
+          </button>
+        </div>
+
+        <pre class="code-panel active" data-code-panel="unencrypted">
+          <code data-code-file="./unencrypted.txt">Loading...</code>
+        </pre>
+
+        <pre class="code-panel" data-code-panel="encrypted">
+          <code data-code-file="./encrypted.txt">Loading...</code>
+        </pre>
+      </div>
+
+    <h4>- Full 100% For assignment command - Full điểm (Lưu ý: Không cho điểm phần chi tiết)</h4>
+    <div class="code-box">
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      <pre><code>
+state.stats.total = state.stats.correct = 30
+      </code></pre>
+    </div>
+
+    <h4>- Skip video</h4>
+    <div class="code-box">
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      <pre><code>
+// Section 1 (đang active)
+const section1 = document.getElementById('videoSection');
+
+// Section 2 (muốn chuyển sang)
+const section2 = document.getElementById('selectionSection');
+
+if (section1 && section2) {
+  section1.classList.remove('active');
+  section2.classList.add('active');
+}
+      </code></pre>
+    </div>
+
+    <h4>- Lệnh tổng hợp cũ</h4>
+    <div class="code-box">
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      <pre><code>
+// Section 1 (đang active)
+const section1 = document.getElementById('videoSection');
+
+// Section 2 (muốn chuyển sang)
+const section2 = document.getElementById('selectionSection');
+
+
+if (section1 && section2) {
+  section1.classList.remove('active');
+  section2.classList.add('active');
+}
+['contextmenu','keydown','selectstart','copy'].forEach(ev => {
+  document.addEventListener(ev, e => e.stopImmediatePropagation(), true);
+});
+const all = {};
+for (const type of Object.keys(encryptedQuestionBank)) {
+  all[type] = {};
+  for (const diff of Object.keys(encryptedQuestionBank[type])) {
+    all[type][diff] = getQuestions(type, diff);
+  }
+}
+console.log(all);
+      </code></pre>
+    </div>
+  </div>
+
+  
 </section>
 
 <div>
