@@ -31,4 +31,4 @@ The selected theme is stored once under `chiangu-theme` and shared across pages.
 
 `nmnrt/bridge.js` no longer replaces Chiangu's favicon.
 
-NOTICE: Yes, this project DOES have AI assistance.
+NOTICE: Yes, this project DOES have AI assistance because I only know basic HTML and CSS coding. Thanks, ChatGPT. 
