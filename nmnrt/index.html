@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="NMNRT — ôn Sinh học theo chủ đề từ học liệu nhantri. Trắc nghiệm ngắn, giải thích gọn, thẻ nhớ và kiểm tra.">
+<meta name="color-scheme" content="light dark">
+<title>NMNRT · chiangu</title>
+<!-- Shared Chiangu artwork; explicit sizes for browser tabs and saved shortcuts. -->
+<link rel="icon" type="image/x-icon" href="assets/rice.ico?v=1.5" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" href="assets/rice-16.png?v=1.5" sizes="16x16">
+<link rel="icon" type="image/png" href="assets/rice-32.png?v=1.5" sizes="32x32">
+<link rel="icon" type="image/png" href="assets/rice-48.png?v=1.5" sizes="48x48">
+<link rel="apple-touch-icon" href="assets/rice-180.png?v=1.5" sizes="180x180">
+<link rel="stylesheet" href="../theme.css?v=1.9">
+<link rel="stylesheet" href="styles.css?v=1.9">
+<script src="../theme.js?v=1.9"></script>
+<script src="core.js" defer></script>
+<script src="data.js?v=1.1" defer></script>
+<script src="app.js?v=1.9" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Bỏ qua đến nội dung</a>
+<header class="topbar">
+ <a class="wordmark" href="../index.html">
+  <span class="brand-part">
+    <img class="brand-icon chiangu-icon"
+         src="../images/mambo.png"
+         alt="">
+    <span class="brand-label">chiangu</span>
+  </span>
+
+  <span class="slash">/</span>
+
+  <span class="brand-part">
+    <img class="brand-icon nmnrt-icon"
+         src="assets/rice.png"
+         alt="">
+    <strong class="brand-label">NMNRT</strong>
+  </span>
+</a>
+ <div class="top-actions"><span class="local-pill"><i aria-hidden="true"></i>Tiến độ trên máy này</span><label class="sr-only" for="theme">Giao diện</label><select id="theme" aria-label="Giao diện"><option value="system">◐ System</option><option value="light">☀ Bright</option><option value="dark">☾ Dark</option></select><a class="back-link" href="../index.html">Về chiangu ↗</a></div>
+</header>
+<div id="storageWarning" class="notice warning" hidden>Trình duyệt không cho lưu dữ liệu. Bạn vẫn ôn được; hãy xuất tiến độ trước khi đóng trang.</div>
+<div class="shell">
+<aside class="sidebar" aria-label="Điều hướng ôn tập">
+ <div class="side-brand"><span class="eyebrow">NO MOTHERFUCKING NONSENSE</span><h1>Revision tool<span>.</span></h1><p>Không học hộ. Giúp bạn tự học.</p></div>
+ <nav class="main-nav" aria-label="Các mục"><button class="nav-btn active" data-view="learn"><span aria-hidden="true">▤</span>Bài học</button><button class="nav-btn" data-view="weak"><span aria-hidden="true">↻</span>Cần ôn lại <b id="weakCount">0</b></button><button class="nav-btn" data-view="progress"><span aria-hidden="true">▥</span>Tiến độ</button><button class="nav-btn" data-view="sources"><span aria-hidden="true">⌘</span>Nguồn & dữ liệu</button></nav>
+ <div class="side-bottom"><span class="tiny-label">HỌC LIỆU SINH HỌC</span><p>Lớp 9 · 10 · 11 · 12</p><div class="side-rule"></div><small>Bản học liệu 24.09.2026<br>Không đăng nhập. Không máy chủ chấm bài.</small></div>
+</aside>
+<main id="main" tabindex="-1"><div id="app"><p class="loading">Đang mở học liệu…</p></div></main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="notesDialog"><div class="dialog-top"><strong id="dialogTitle">Ghi chú nguồn</strong><button class="icon-btn" id="closeNotes" aria-label="Đóng ghi chú">✕</button></div><div id="notesBody"></div></dialog>
+<input type="file" id="importProgress" accept="application/json,.json" hidden>
+<noscript><div class="notice warning">NMNRT cần JavaScript để mở ghi chú, tạo phiên ôn và lưu tiến độ.</div></noscript>
+</body></html>

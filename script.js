@@ -1,76 +1,80 @@
+"use strict";
+
+let vantaEffect = null;
+
+function fallbackCopy(text, callback) {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  document.body.appendChild(textarea);
+  textarea.select();
+
+  try {
+    document.execCommand("copy");
+    callback?.();
+  } finally {
+    textarea.remove();
+  }
+}
+
 function copyCode(button) {
   const codeBox = button.closest(".code-box");
+  if (!codeBox) return;
 
   const activeCode =
     codeBox.querySelector(".code-panel.active code") ||
+    codeBox.querySelector(".code-view.active code") ||
     codeBox.querySelector("code");
 
   if (!activeCode) return;
 
-  const code = activeCode.textContent.trim();
-
-  navigator.clipboard.writeText(code).then(() => {
-    const oldText = button.innerText;
-    button.innerText = "Copied!";
-
-    setTimeout(() => {
-      button.innerText = oldText;
+  const text = activeCode.textContent.trim();
+  const done = () => {
+    const oldText = button.textContent;
+    button.textContent = "Copied!";
+    window.setTimeout(() => {
+      button.textContent = oldText;
     }, 1500);
-  });
+  };
+
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+  } else {
+    fallbackCopy(text, done);
+  }
 }
 
 function showCodeTab(button, panelName) {
   const codeBox = button.closest(".code-box");
+  if (!codeBox) return;
 
-  codeBox.querySelectorAll(".code-tab").forEach(tab => {
-    tab.classList.remove("active");
-  });
-
-  codeBox.querySelectorAll(".code-panel").forEach(panel => {
-    panel.classList.remove("active");
-  });
+  codeBox.querySelectorAll(".code-tab").forEach(tab => tab.classList.remove("active"));
+  codeBox.querySelectorAll(".code-panel, .code-view").forEach(panel => panel.classList.remove("active"));
 
   button.classList.add("active");
-
-  const selectedPanel = codeBox.querySelector(
-    `.code-panel[data-code-panel="${panelName}"]`
-  );
-
-  if (selectedPanel) {
-    selectedPanel.classList.add("active");
-  }
+  codeBox
+    .querySelector(`[data-code-panel="${CSS.escape(panelName)}"]`)
+    ?.classList.add("active");
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-  const codeBlocks = document.querySelectorAll("code[data-code-file]");
+async function loadExternalCodeBlocks() {
+  const blocks = document.querySelectorAll("code[data-code-file]");
 
-  for (const codeBlock of codeBlocks) {
+  await Promise.all([...blocks].map(async codeBlock => {
     const file = codeBlock.dataset.codeFile;
+    if (!file) return;
 
     try {
       const response = await fetch(file);
-      const text = await response.text();
-
-      codeBlock.textContent = text.trim();
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      codeBlock.textContent = (await response.text()).trim();
     } catch (error) {
-      codeBlock.textContent = `Could not load ${file}`;
-      console.error(error);
+      codeBlock.textContent = `Could not load ${file}. Open Chiangu through a local/server URL instead of file://.`;
+      console.error(`Failed to load ${file}`, error);
     }
-  }
-});
-
-function setupDisplayMoreButtons() {
-  document.querySelectorAll(".code-box.collapsible").forEach(codeBox => {
-    const codeViews = codeBox.querySelectorAll(".code-view");
-
-    if (codeViews.length > 0) {
-      codeViews.forEach(codeView => {
-        addDisplayMoreButton(codeView, codeView);
-      });
-    } else {
-      addDisplayMoreButton(codeBox, codeBox);
-    }
-  });
+  }));
 }
 
 function addDisplayMoreButton(container, target) {
@@ -79,189 +83,115 @@ function addDisplayMoreButton(container, target) {
   const button = document.createElement("button");
   button.type = "button";
   button.className = "display-more-btn";
-  button.innerText = "Display more";
+  button.textContent = "Display more";
+  button.setAttribute("aria-expanded", "false");
 
   button.addEventListener("click", () => {
     const expanded = target.classList.toggle("expanded");
-    button.innerText = expanded ? "Display less" : "Display more";
+    button.textContent = expanded ? "Display less" : "Display more";
+    button.setAttribute("aria-expanded", String(expanded));
+    window.setTimeout(() => window.dispatchEvent(new Event("resize")), 50);
   });
 
   container.appendChild(button);
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-  const codeBlocks = document.querySelectorAll("code[data-code-file]");
+function setupDisplayMoreButtons() {
+  document.querySelectorAll(".code-box.collapsible").forEach(codeBox => {
+    const views = codeBox.querySelectorAll(".code-view");
 
-  for (const codeBlock of codeBlocks) {
-    const file = codeBlock.dataset.codeFile;
-
-    try {
-      const response = await fetch(file);
-      const text = await response.text();
-
-      codeBlock.textContent = text.trim();
-    } catch (error) {
-      codeBlock.textContent = `Could not load ${file}`;
-      console.error(error);
+    if (views.length) {
+      views.forEach(view => addDisplayMoreButton(view, view));
+    } else {
+      addDisplayMoreButton(codeBox, codeBox);
     }
-  }
-
-  setupDisplayMoreButtons();
-});
+  });
+}
 
 function toggleTutorial(button) {
   const card = button.closest(".tutorial-card");
-  const body = card.querySelector(".tutorial-body");
-
+  const body = card?.querySelector(".tutorial-body");
   if (!body) return;
 
-  const isOpening = !body.classList.contains("open");
+  const opening = !body.classList.contains("open");
+  body.classList.toggle("open", opening);
+  button.textContent = opening ? "Hide video tutorial" : "Display video tutorial";
+  button.setAttribute("aria-expanded", String(opening));
 
-  if (isOpening) {
-    body.classList.add("open");
-    button.innerText = "Hide video tutorial";
+  const iframe = card.querySelector("iframe[data-src]");
+  if (iframe && opening && !iframe.src) iframe.src = iframe.dataset.src;
 
-    const iframe = card.querySelector("iframe[data-src]");
-
-    if (iframe && !iframe.src) {
-      iframe.src = iframe.dataset.src;
-    }
-  } else {
-    body.classList.remove("open");
-    button.innerText = "Display video tutorial";
-
-    const iframe = card.querySelector("iframe");
+  if (!opening) {
     const video = card.querySelector("video");
-
-    if (iframe) {
-      iframe.src = "";
-    }
+    const loadedIframe = card.querySelector("iframe[data-src]");
 
     if (video) {
       video.pause();
       video.currentTime = 0;
     }
+    if (loadedIframe) loadedIframe.src = "";
   }
 
-  setTimeout(() => {
-    window.dispatchEvent(new Event("resize"));
-  }, 50);
+  window.setTimeout(() => window.dispatchEvent(new Event("resize")), 50);
 }
 
 function showGrade(grade, button) {
   const section = button.closest(".grade-section");
-
   if (!section) return;
 
-  section.querySelectorAll(".grade-tab").forEach(tab => {
-    tab.classList.remove("active");
-  });
-
-  section.querySelectorAll(".grade-content").forEach(content => {
-    content.classList.remove("active");
-  });
+  section.querySelectorAll(".grade-tab").forEach(tab => tab.classList.remove("active"));
+  section.querySelectorAll(".grade-content").forEach(content => content.classList.remove("active"));
 
   button.classList.add("active");
+  section.querySelector(`.grade-content[data-grade="${CSS.escape(grade)}"]`)?.classList.add("active");
 
-  const selectedContent = section.querySelector(
-    `.grade-content[data-grade="${grade}"]`
-  );
+  try {
+    localStorage.setItem("selectedGrade", grade);
+  } catch (_) {}
 
-  if (selectedContent) {
-    selectedContent.classList.add("active");
-  }
-
-  localStorage.setItem("selectedGrade", grade);
-
-  setTimeout(() => {
-    window.dispatchEvent(new Event("resize"));
-  }, 50);
+  window.setTimeout(() => window.dispatchEvent(new Event("resize")), 50);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const savedGrade = localStorage.getItem("selectedGrade");
-
+function restoreGrade() {
+  let savedGrade = null;
+  try {
+    savedGrade = localStorage.getItem("selectedGrade");
+  } catch (_) {}
   if (!savedGrade) return;
 
-  const button = document.querySelector(
-    `.grade-tab[onclick*="${savedGrade}"]`
+  const button = [...document.querySelectorAll(".grade-tab")].find(tab =>
+    tab.getAttribute("onclick")?.includes(`'${savedGrade}'`) ||
+    tab.getAttribute("onclick")?.includes(`\"${savedGrade}\"`)
   );
 
-  if (button) {
-    showGrade(savedGrade, button);
-  }
-});
-
-const THEME_STORAGE_KEY = "chiangu-theme-mode";
-
-function getSystemTheme() {
-  return window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light";
+  if (button) showGrade(savedGrade, button);
 }
 
-function applyTheme(mode) {
-  const selectedMode = mode || "system";
-  const resolvedTheme = selectedMode === "system" ? getSystemTheme() : selectedMode;
+function setupVantaBackground() {
+  const element = document.getElementById("vanta-bg");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  document.documentElement.dataset.theme = resolvedTheme;
-  document.documentElement.dataset.themeMode = selectedMode;
+  if (!element || reduceMotion || !window.VANTA?.WAVES) return;
 
-  localStorage.setItem(THEME_STORAGE_KEY, selectedMode);
-
-  document.querySelectorAll('input[name="theme-mode"]').forEach(input => {
-    input.checked = input.value === selectedMode;
-  });
-
-  setTimeout(() => {
-    window.dispatchEvent(new Event("resize"));
-  }, 50);
-}
-
-function setupThemeSettings() {
-  const toggle = document.getElementById("settings-toggle");
-  const panel = document.getElementById("settings-panel");
-  const savedMode = localStorage.getItem(THEME_STORAGE_KEY) || "system";
-
-  applyTheme(savedMode);
-
-  if (toggle && panel) {
-    toggle.addEventListener("click", event => {
-      event.stopPropagation();
-      panel.hidden = !panel.hidden;
-    });
-
-    document.addEventListener("click", event => {
-      if (!event.target.closest(".settings-widget")) {
-        panel.hidden = true;
-      }
-    });
-
-    document.addEventListener("keydown", event => {
-      if (event.key === "Escape") {
-        panel.hidden = true;
-      }
-    });
-  }
-
-  document.querySelectorAll('input[name="theme-mode"]').forEach(input => {
-    input.addEventListener("change", () => {
-      applyTheme(input.value);
-    });
-  });
-
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
-    const currentMode = localStorage.getItem(THEME_STORAGE_KEY) || "system";
-
-    if (currentMode === "system") {
-      applyTheme("system");
-    }
+  vantaEffect?.destroy?.();
+  vantaEffect = window.VANTA.WAVES({
+    el: element,
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200,
+    minWidth: 200,
+    scale: 1,
+    scaleMobile: 1,
+    color: 0x2b80ff
   });
 }
+
+window.addEventListener("resize", () => vantaEffect?.resize?.());
+window.addEventListener("beforeunload", () => vantaEffect?.destroy?.());
 
 document.addEventListener("DOMContentLoaded", async () => {
-  setupThemeSettings();
-
+  restoreGrade();
   await loadExternalCodeBlocks();
   setupDisplayMoreButtons();
   setupVantaBackground();

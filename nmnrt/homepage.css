@@ -1,0 +1,439 @@
+/* Chiangu v1.6 — original cyan, full-width header link, local Comfortaa.
+   Keep the root stylesheet: this file complements it, not replaces it. */
+/* Local Comfortaa files already used by Chiangu's main stylesheet.
+   These URLs are relative to nmnrt/; keep the existing font/ folder in place. */
+@font-face {
+  font-family: "Chiangu Comfortaa";
+  src: url("../font/comfortaa/Comfortaa-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chiangu Comfortaa";
+  src: url("../font/comfortaa/Comfortaa-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chiangu Comfortaa";
+  src: url("../font/comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --chiangu-cyan: rgba(0, 187, 255, 1);
+  --chiangu-cyan-hover: rgb(0, 162, 220);
+  --chiangu-cyan-active: rgb(0, 130, 177);
+  --chiangu-on-cyan: #ffffff;
+  --chiangu-font: "Chiangu Comfortaa", "Comfortaa-Regular", system-ui, sans-serif;
+  --chiangu-mono: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+
+/* Normal prose is regular; headings and control labels are bold.
+   Do not overwrite the original backgrounds, themes, mascot or Vanta canvas. */
+body {
+  font-family: var(--chiangu-font);
+  font-weight: 400;
+  line-height: 1.65;
+}
+.header,
+section,
+.buttons,
+footer,
+.contributors-box {
+  font-family: var(--chiangu-font);
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--chiangu-font);
+  font-weight: 700;
+  line-height: 1.45;
+}
+button, input, select, textarea, .button, .text-link {
+  font-family: var(--chiangu-font);
+}
+button, .button {
+  font-weight: 700;
+}
+pre, code, kbd, samp {
+  font-family: var(--chiangu-mono);
+  font-weight: 400;
+}
+.header {
+  box-sizing: border-box;
+  padding: 20px;
+}
+.header h1 {
+  margin: 12px 0;
+  font-size: clamp(1.5rem, 2.6vw, 2.25rem);
+  line-height: 1.4;
+}
+.header > p {
+  margin: 8px 0 12px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Existing navigation / command controls use the same flat brand colour.
+   Keep active tab states distinct and retain the original JS behavior. */
+.button, .copy-btn, .code-tab, .display-more-btn, .tutorial-toggle {
+  background: var(--chiangu-cyan);
+  color: var(--chiangu-on-cyan);
+  line-height: 1.5;
+}
+.button:hover, .copy-btn:hover, .code-tab:hover,
+.display-more-btn:hover, .tutorial-toggle:hover {
+  background: var(--chiangu-cyan-hover);
+  color: var(--chiangu-on-cyan);
+}
+.button:active, .copy-btn:active, .code-tab:active,
+.display-more-btn:active, .tutorial-toggle:active,
+.code-tab.active {
+  background: var(--chiangu-cyan-active);
+  color: #ffffff;
+}
+
+/* Full width INSIDE the header: no 360px cap, 100vw overflow, or side margins. */
+.nmnrt-entry,
+.header > .nmnrt-entry {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 0 0 auto;
+  gap: 5px;
+  box-sizing: border-box;
+  width: 100% !important;
+  min-width: 0;
+  max-width: none;
+  margin: 20px 0 0 !important;
+  padding: 20px 24px !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  background: var(--chiangu-cyan) !important;
+  color: var(--chiangu-on-cyan) !important;
+  font-family: var(--chiangu-font);
+  text-align: center !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  transform: none;
+  transition: background-color 150ms ease, transform 150ms ease;
+}
+.nmnrt-entry-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding-inline: 1.5em;
+  font-family: var(--chiangu-font);
+  font-size: clamp(20px, 2vw, 24px);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .05em;
+}
+.nmnrt-entry-title > [aria-hidden="true"] {
+  position: absolute;
+  inset-inline-end: 0;
+  font-family: system-ui, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1;
+}
+.nmnrt-entry-desc {
+  font-family: var(--chiangu-font);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.nmnrt-entry-small {
+  font-family: var(--chiangu-font);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.65;
+}
+.nmnrt-entry:hover,
+.header > .nmnrt-entry:hover {
+  background: var(--chiangu-cyan-hover) !important;
+}
+.nmnrt-entry:active,
+.header > .nmnrt-entry:active {
+  background: var(--chiangu-cyan-active) !important;
+  color: #ffffff !important;
+  transform: translateY(1px);
+}
+.nmnrt-entry:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+
+/* Restore the ORIGINAL section border, never the removed nested frame. */
+.nmnrt-command-host {
+  border: 1px solid #000 !important;
+  box-shadow: none !important;
+}
+#nmnrt-command-archive {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  border: 0 !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  outline: 0;
+  background: transparent !important;
+  overflow: visible;
+  box-sizing: border-box;
+}
+#nmnrt-command-archive > .nmnrt-archive-content {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  overflow-wrap: break-word;
+}
+.nmnrt-archive-anchor {
+  display: block;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+.nmnrt-archive-notice {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 22px;
+  padding: 16px 20px;
+  border: 0 !important;
+  border-radius: 16px;
+  box-shadow: none;
+  background: #fff6dc;
+  color: #684c10;
+  font-family: var(--chiangu-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.75;
+  text-align: left;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+.nmnrt-archive-notice strong {
+  font-weight: 700;
+}
+html[data-theme="dark"] .nmnrt-archive-notice,
+body.dark .nmnrt-archive-notice { background: #372d19; color: #f3d796; }
+html[data-theme="light"] .nmnrt-archive-notice,
+html[data-theme="bright"] .nmnrt-archive-notice,
+body.light .nmnrt-archive-notice { background: #fff6dc; color: #684c10; }
+
+/* Individual code previews still expand. Inactive tabs stay hidden. */
+#nmnrt-command-archive .code-box.collapsible > pre,
+#nmnrt-command-archive .code-box.collapsible :is(.code-view, .code-panel) > pre {
+  max-height: 260px;
+  max-width: 100%;
+  overflow: auto;
+}
+#nmnrt-command-archive .code-box.collapsible.expanded > pre,
+#nmnrt-command-archive .code-box.collapsible :is(.code-view, .code-panel).expanded > pre {
+  max-height: none;
+}
+#nmnrt-command-archive .nmnrt-display-more-fallback {
+  display: block;
+  margin: 10px auto 0;
+  padding: 9px 15px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--chiangu-cyan);
+  color: var(--chiangu-on-cyan);
+  font-family: var(--chiangu-font);
+  font-size: 13px;
+  font-weight: 700;
+}
+#nmnrt-command-archive .nmnrt-display-more-fallback:hover {
+  background: var(--chiangu-cyan-hover);
+}
+@media (max-width: 600px) {
+  .header { padding: 16px; }
+  .header > p { font-size: 14px; }
+  .header > .nmnrt-entry {
+    margin: 16px 0 0 !important;
+    padding: 18px 14px !important;
+  }
+  .nmnrt-entry-desc { font-size: 13px; }
+  .nmnrt-entry-small { font-size: 11px; }
+  .nmnrt-archive-notice {
+    padding: 15px 16px;
+    margin-bottom: 18px;
+    font-size: 13px;
+  }
+  #nmnrt-command-archive .code-box.collapsible > pre,
+  #nmnrt-command-archive .code-box.collapsible :is(.code-view, .code-panel) > pre {
+    max-height: 220px;
+  }
+  #nmnrt-command-archive .code-box.collapsible.expanded > pre,
+  #nmnrt-command-archive .code-box.collapsible :is(.code-view, .code-panel).expanded > pre {
+    max-height: 70vh;
+  }
+  #nmnrt-command-archive .nmnrt-display-more-fallback {
+    width: 100%;
+    max-width: 230px;
+    padding: 10px 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nmnrt-entry { transition: none; }
+}
+/* Homepage introduction — isolated from the header and archive */
+section.chiangu-intro {
+  font-family: var(
+    --chiangu-font,
+    "Comfortaa-Regular", system-ui, sans-serif
+  );
+  font-weight: 400;
+}
+
+/* Keep paragraphs readable without narrowing the outer section */
+.chiangu-intro-inner {
+  max-width: 74ch;
+  margin-inline: auto;
+}
+
+.chiangu-intro h2 {
+  margin: 0 0 12px;
+  color: inherit;
+  text-align: left;
+  font-size: clamp(1.25rem, 2.4vw, 1.8rem);
+  line-height: 1.4;
+}
+
+.chiangu-intro p {
+  margin: 0 0 16px;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+/* Solid brand cyan, WHITE text */
+.chiangu-intro-details > summary {
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 10px;
+  background: rgba(0, 187, 255, 1);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.5;
+  list-style-position: inside;
+  cursor: pointer;
+}
+
+.chiangu-intro-details > summary:hover {
+  background: rgb(0, 162, 220);
+}
+
+.chiangu-intro-details > summary:focus-visible {
+  outline: 2px solid rgba(0, 187, 255, 1);
+  outline-offset: 4px;
+}
+
+.chiangu-intro-body {
+  margin-top: 20px;
+}
+
+.chiangu-intro-body > p:last-child {
+  margin-bottom: 0;
+}
+
+/* Match the introduction's preview to the centered homepage layout */
+section.chiangu-intro {
+  padding: 24px 20px;
+}
+
+/* Let the preview use the section's available width */
+.chiangu-intro-inner {
+  max-width: none;
+  margin: 0;
+}
+
+/* Center only the heading and introductory sentence */
+.chiangu-intro h2,
+.chiangu-intro-inner > p {
+  text-align: center;
+}
+
+.chiangu-intro-inner > p {
+  max-width: 90ch;
+  margin-inline: auto;
+}
+
+/* Center the existing cyan button */
+.chiangu-intro-details > summary {
+  margin-inline: auto;
+}
+
+/* Keep the long introduction comfortable to read when opened */
+.chiangu-intro-body {
+  max-width: 74ch;
+  margin: 24px auto 0;
+}
+
+.chiangu-intro-body p {
+  text-align: left;
+}
+
+/* Chiangu header mascot */
+.header > img {
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: contain;
+
+  display: block;
+  margin: 0 auto -10px;
+}
+
+/* Pull the title closer to the mascot */
+.header > h1 {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .header > img {
+    width: 115px !important;
+    height: 115px !important;
+    margin-bottom: -8px;
+  }
+}
+
+/* =========================================================
+   FORCE CHIANGU STRUCTURAL BORDERS TO BLACK
+   ========================================================= */
+
+/* Major page containers */
+.header,
+section,
+.buttons,
+footer,
+.contributors-box {
+  border: 1px solid #000000 !important;
+}
+
+/* Smaller framed elements */
+.tutorial-card,
+.code-box,
+h3 {
+  border-color: #000000 !important;
+}

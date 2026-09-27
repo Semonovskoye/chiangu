@@ -44,12 +44,24 @@
             renderMath(document.body);
         });
     </script>
+  <link rel="stylesheet" href="./theme.css?v=1.9">
+  <script src="./theme.js?v=1.9"></script>
 </head>
-<body>
+<body class="chiangu-utility-page">
     
 
     <!-- Nội dung trang chính -->
-    <a href="index.html" class="button">← Quay lại</a>
+    <nav class="chiangu-page-toolbar" aria-label="Điều hướng trang">
+  <a class="chiangu-back-button" href="./index.html">← Quay lại</a>
+  <label class="chiangu-theme-field">
+    <span>Giao diện</span>
+    <select class="chiangu-theme-select" data-theme-select aria-label="Giao diện">
+      <option value="system">◐ System</option>
+      <option value="light">☀ Bright</option>
+      <option value="dark">☾ Dark</option>
+    </select>
+  </label>
+</nav>
     <div id="mainContent">
         <div class="container">
 

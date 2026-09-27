@@ -1,0 +1,193 @@
+/* Shared Chiangu theme + utility-page chrome.
+   Page-specific layouts stay in their own stylesheets. */
+
+@font-face {
+  font-family: Comfortaa-Regular;
+  src: url("./font/comfortaa/Comfortaa-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Comfortaa-Bold;
+  src: url("./font/comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --chiangu-cyan: rgba(0, 187, 255, 1);
+  --chiangu-cyan-hover: rgb(0, 162, 220);
+  --chiangu-cyan-active: rgb(0, 130, 177);
+  --chiangu-border: #000000;
+  --chiangu-light-bg: #e5e7eb;
+  --chiangu-dark-bg: #0b151c;
+  --chiangu-dark-panel: #17252d;
+  --chiangu-dark-panel-2: #1d2e38;
+  --chiangu-dark-text: #eef7fb;
+  --chiangu-dark-muted: #afc3cd;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+/* ---------- Shared toolbar for root utility pages ---------- */
+.chiangu-page-toolbar {
+  box-sizing: border-box;
+  width: min(100%, 1200px);
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: Comfortaa-Regular, system-ui, sans-serif;
+}
+
+.chiangu-back-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 1px solid var(--chiangu-border);
+  border-radius: 10px;
+  background: var(--chiangu-cyan);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-family: Comfortaa-Bold, Comfortaa-Regular, system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background .18s ease, transform .1s ease;
+}
+
+.chiangu-back-button:hover {
+  background: var(--chiangu-cyan-hover);
+}
+
+.chiangu-back-button:active {
+  background: var(--chiangu-cyan-active);
+  transform: scale(.97);
+}
+
+.chiangu-back-button:focus-visible,
+.chiangu-theme-select:focus-visible {
+  outline: 3px solid rgba(0, 187, 255, .35);
+  outline-offset: 3px;
+}
+
+.chiangu-theme-field {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.chiangu-theme-select {
+  min-height: 40px;
+  padding: 7px 30px 7px 10px;
+  border: 1px solid var(--chiangu-border);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, .94);
+  color: #101820;
+  font-family: Comfortaa-Regular, system-ui, sans-serif;
+  font-size: 13px;
+}
+
+/* ---------- Conservative dark styling for utility pages ---------- */
+html[data-theme="dark"] body.chiangu-utility-page {
+  background-color: var(--chiangu-dark-bg) !important;
+  color: var(--chiangu-dark-text);
+}
+
+html[data-theme="dark"] body.chiangu-utility-page .container,
+html[data-theme="dark"] body.chiangu-utility-page .no-print,
+html[data-theme="dark"] body.chiangu-utility-page .section,
+html[data-theme="dark"] body.chiangu-utility-page .controls,
+html[data-theme="dark"] body.chiangu-utility-page .question,
+html[data-theme="dark"] body.chiangu-utility-page .question-item,
+html[data-theme="dark"] body.chiangu-utility-page .result,
+html[data-theme="dark"] body.chiangu-utility-page .output,
+html[data-theme="dark"] body.chiangu-utility-page .card {
+  background-color: var(--chiangu-dark-panel) !important;
+  color: var(--chiangu-dark-text) !important;
+  border-color: var(--chiangu-border) !important;
+}
+
+html[data-theme="dark"] body.chiangu-utility-page h1,
+html[data-theme="dark"] body.chiangu-utility-page h2,
+html[data-theme="dark"] body.chiangu-utility-page h3,
+html[data-theme="dark"] body.chiangu-utility-page h4,
+html[data-theme="dark"] body.chiangu-utility-page label,
+html[data-theme="dark"] body.chiangu-utility-page p,
+html[data-theme="dark"] body.chiangu-utility-page li,
+html[data-theme="dark"] body.chiangu-utility-page td,
+html[data-theme="dark"] body.chiangu-utility-page caption {
+  color: var(--chiangu-dark-text) !important;
+}
+
+html[data-theme="dark"] body.chiangu-utility-page input,
+html[data-theme="dark"] body.chiangu-utility-page textarea,
+html[data-theme="dark"] body.chiangu-utility-page select {
+  background-color: var(--chiangu-dark-panel-2) !important;
+  color: var(--chiangu-dark-text) !important;
+  border-color: #000000 !important;
+}
+
+html[data-theme="dark"] body.chiangu-utility-page table,
+html[data-theme="dark"] body.chiangu-utility-page th,
+html[data-theme="dark"] body.chiangu-utility-page td {
+  border-color: #000000 !important;
+}
+
+html[data-theme="dark"] body.chiangu-utility-page th {
+  background-color: var(--chiangu-dark-panel-2) !important;
+  color: var(--chiangu-dark-text) !important;
+}
+
+html[data-theme="dark"] .chiangu-theme-select {
+  background: var(--chiangu-dark-panel-2);
+  color: var(--chiangu-dark-text);
+}
+
+/* The printable certificate should remain a white document in dark mode. */
+html[data-theme="dark"] body.chiangu-utility-page .certificate-page,
+html[data-theme="dark"] body.chiangu-utility-page .certificate {
+  background: #ffffff !important;
+  color: #111827 !important;
+}
+
+@media (max-width: 600px) {
+  .chiangu-page-toolbar {
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .chiangu-back-button {
+    padding: 10px 13px;
+  }
+
+  .chiangu-theme-field > span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+@media print {
+  .chiangu-page-toolbar {
+    display: none !important;
+  }
+}
