@@ -30,3 +30,5 @@ The selected theme is stored once under `chiangu-theme` and shared across pages.
 - NMNRT favicon / identity: `nmnrt/assets/rice.*`
 
 `nmnrt/bridge.js` no longer replaces Chiangu's favicon.
+
+NOTICE: Yes, this project DOES have AI assistance.
