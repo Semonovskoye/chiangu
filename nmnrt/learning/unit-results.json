@@ -1,0 +1,115 @@
+{
+  "groups": [
+    {
+      "name": "Bank objects and bankId byte-for-byte unchanged from 2.2",
+      "passed": true
+    },
+    {
+      "name": "Core quiz implementation untouched",
+      "passed": true
+    },
+    {
+      "name": "Every one of 732 questions has exactly one explicitly authored teaching point",
+      "passed": true
+    },
+    {
+      "name": "Teaching text is complete and bounded, no generated blank markers",
+      "passed": true
+    },
+    {
+      "name": "Each teaching point is in exactly one primary book",
+      "passed": true
+    },
+    {
+      "name": "All question, lesson-section, reference mappings resolve",
+      "passed": true
+    },
+    {
+      "name": "Grade 9 stays enabled but deduplicates repeated titles into one explicit shared-notes group",
+      "passed": true
+    },
+    {
+      "name": "Grade 10–12 keep all source lesson titles in order, including empty headings",
+      "passed": true
+    },
+    {
+      "name": "Unfilled sections do not acquire invented learning points",
+      "passed": true
+    },
+    {
+      "name": "Advanced toggle excludes only marked HSG points and exposes them when requested",
+      "passed": true
+    },
+    {
+      "name": "Grade scoping and unaccented search",
+      "passed": true
+    },
+    {
+      "name": "Read / unread filters use reading marks only",
+      "passed": true
+    },
+    {
+      "name": "Reading backups round-trip without mutating quiz records",
+      "passed": true
+    },
+    {
+      "name": "Reject mismatched/corrupt/malicious reading backups",
+      "passed": true
+    },
+    {
+      "name": "Merge supports unmark tombstones and preserves newer records",
+      "passed": true
+    },
+    {
+      "name": "Every MCQ choice checks correctly under all 24 orders",
+      "passed": true
+    },
+    {
+      "name": "Existing modes still generate and validate serialized sessions",
+      "passed": true
+    }
+  ],
+  "scoringCases": 70272,
+  "coverage": [
+    {
+      "grade": 9,
+      "sourceLessonTitles": 35,
+      "learningGroups": 1,
+      "sourceOnlyGroups": 0,
+      "sectionsWithLearning": 5,
+      "points": 12,
+      "advancedPoints": 0
+    },
+    {
+      "grade": 10,
+      "sourceLessonTitles": 35,
+      "learningGroups": 23,
+      "sourceOnlyGroups": 12,
+      "sectionsWithLearning": 67,
+      "points": 181,
+      "advancedPoints": 56
+    },
+    {
+      "grade": 11,
+      "sourceLessonTitles": 45,
+      "learningGroups": 33,
+      "sourceOnlyGroups": 12,
+      "sectionsWithLearning": 168,
+      "points": 295,
+      "advancedPoints": 53
+    },
+    {
+      "grade": 12,
+      "sourceLessonTitles": 37,
+      "learningGroups": 33,
+      "sourceOnlyGroups": 4,
+      "sectionsWithLearning": 146,
+      "points": 244,
+      "advancedPoints": 16
+    }
+  ],
+  "bankSHA256": "0ec035c0bbd8e64215fe5f244c03d47fa2a5b2b71b57aa9c64f9ff9ccacd0a7f",
+  "cardSHA256": "2b3d3e9f188715ed7752f0b6cd5edbfb26edde1b9d70f003348801ef1a2014ca",
+  "learningSHA256": "35c8d1be287f9041bfb71e0deb5a4066ca84019a57409497e2fe70be8ee86571",
+  "groupsPassed": 17
+}

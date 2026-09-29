@@ -1,4 +1,4 @@
-/* NMNRT 2.2 — explicit questions, concise explanations and stable choice IDs.
+/* NMNRT 2.3 — learning tab added; quiz bank remains 2.2 — explicit questions, concise explanations and stable choice IDs.
    This file does not create or modify homepage controls, branding or themes. */
 (function () {
 'use strict';
@@ -30,7 +30,7 @@ history=history.filter(h=>h&&Number.isFinite(h.at)&&Number.isInteger(h.total)&&h
 const rawPrefs=load('prefs',rawLoad('nmnrt.prefs',{}));
 const prefs=rawPrefs&&typeof rawPrefs==='object'?rawPrefs:{};
 const preferredMode=prefs.mode==='cloze'?'short':prefs.mode;
-const state={view:'learn',grade:[9,10,11,12].includes(prefs.grade)?prefs.grade:11,
+const state={view:location.hash==='#study'?'study':'learn',grade:[9,10,11,12].includes(prefs.grade)?prefs.grade:11,
  mode:['mcq','short','recall','exam','notes'].includes(preferredMode)?preferredMode:'mcq',count:[1,3,5,10,20,30,50].includes(prefs.count)?prefs.count:10,
  minutes:[0,5,10,15,30,45].includes(prefs.minutes)?prefs.minutes:0,order:'mixed',extra:!!prefs.extra,
  search:'',expanded:new Set(),selected:new Set(),active:false,result:null};
@@ -41,6 +41,26 @@ try{session=C.validateSession(load('session',null),cardMap,D.bankId);}catch(_){s
 function savePrefs(){store('prefs',{grade:state.grade,mode:state.mode,count:state.count,minutes:state.minutes,extra:state.extra,selected:[...state.selected]});}
 function saveSession(){store('session',session);}
 function updateRecord(id,rating){records[id]=C.rate(records[id],rating);store('records',records);updateNav();}
+// Learning is an isolated module: no theme, bank, score or quiz-storage changes.
+let learning=null;
+try {
+ learning=window.NMNRTLearning.create({bank:D,data:window.NMNRT_LEARNING_DATA,container:app,
+  toast,resumeHTML,isActive:()=>state.view==='study'&&!state.active&&!state.result,
+  onSource:(id,whole)=>openSource(id,whole),
+  onPractice:(ids,_origin,limit=ids.length)=>{
+   const chosen=limit<ids.length?C.select(ids.map(id=>cardMap.get(id)).filter(Boolean),records,limit,'mixed').map(c=>c.id):ids;
+   if(!begin(chosen,'mcq'))return false;
+   state.view='learn';updateNav();return true;
+  }});
+} catch(error){console.error('Learning tab:',error);}
+function renderLearning(){
+ if(learning)return learning.mount();
+ app.innerHTML='<section class="panel panel-pad"><h2>Học nhanh chưa tải được.</h2><p>Cập nhật learning-data.js, learning-core.js, learning.js và learning.css cùng index.html. Các chế độ ôn cũ vẫn dùng được.</p><button class="secondary" data-view="learn">Về ôn tập</button></section>';
+}
+function openLearningCard(id){
+ if(!learning?.hasCard(id))return toast('Chưa có ý học này.');
+ captureAnswer();state.view='study';state.active=false;state.result=null;learning.openCard(id);render();pageTop();
+}
 function sourceURL(u){try{const url=new URL(u,'https://nhantri.top/');return ['http:','https:'].includes(url.protocol)?url.href:'';}catch(_){return '';}}
 function rich(t){return String(t??'').split(/(\[[^\]]+\]\([^)]+\))/g).map(p=>{const m=p.match(/^\[([^\]]+)\]\(([^)]+)\)$/);if(!m)return esc(p);const u=sourceURL(m[2]);return u?`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(m[1])} ↗</a>`:esc(m[1]);}).join('');}
 function gradeData(){return D.grades.find(g=>g.grade===state.grade);}
@@ -51,13 +71,13 @@ function modePool(pool,mode){return mode==='short'?pool.filter(c=>c.shortAnswer)
 function lazyPool(){const selected=selectedSections();return selected.length?scopedCards():D.cards.filter(c=>c.grade===state.grade&&allowed(c));}
 function title(id){return lessonMap.get(id)?.title||'Bài học';}
 function cardRef(c){return c.sourceRefs?.find(r=>state.selected.has(r.section))||c;}
-function updateNav(){ $('#weakCount').textContent=D.cards.filter(c=>records[c.id]?.rating<2).length;document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.view===state.view));}
+function updateNav(){ $('#weakCount').textContent=D.cards.filter(c=>records[c.id]?.rating<2).length;document.querySelectorAll('.nav-btn').forEach(b=>{const active=b.dataset.view===state.view;b.classList.toggle('active',active);if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});}
 function pageTop(){window.scrollTo({top:0,behavior:'instant'});}
 function navigate(view){captureAnswer();state.view=view;state.active=false;state.result=null;state.search='';render();pageTop();}
 function header(eye,t,sub){return `<div class="page-head"><div><span class="eyebrow">${esc(eye)}</span><h2>${esc(t)}</h2><p>${esc(sub)}</p></div><span class="snapshot">29.09.2026 · v${esc(D.release)}</span></div>`;}
 function statsHTML(){const all=Object.values(records);return `<div class="stats"><div class="stat"><span>Đã thử</span><strong>${all.length}</strong><small>câu mới khác nhau</small></div><div class="stat"><span>Cần ôn lại</span><strong>${all.filter(r=>r.rating<2).length}</strong><small>sai, bỏ qua hoặc chưa chắc</small></div><div class="stat"><span>Đến lịch</span><strong>${all.filter(r=>r.dueAt<=Date.now()).length}</strong><small>gợi ý ôn, không phải hạn bắt buộc</small></div></div>`;}
 function resumeHTML(){return session&&!state.active?`<div class="resume"><p><b>Phiên chưa xong · ${esc(labelMode[session.mode])}</b><br>${session.ids.length} câu · câu ${session.index+1}${session.deadline?' · thời gian vẫn chạy':''}</p><div><button class="primary" data-action="resume">Tiếp tục</button> <button class="secondary" data-action="discard">Bỏ phiên</button></div></div>`:'';}
-function render(){updateNav();if(state.result)return renderResult();if(state.active&&session)return renderSession();if(state.view==='weak')return renderWeak();if(state.view==='progress')return renderProgress();if(state.view==='sources')return renderSources();renderLearn();}
+function render(){updateNav();if(state.result)return renderResult();if(state.active&&session)return renderSession();if(state.view==='study')return renderLearning();if(state.view==='weak')return renderWeak();if(state.view==='progress')return renderProgress();if(state.view==='sources')return renderSources();renderLearn();}
 function renderLearn(){
  app.innerHTML=header('CÂU HỎI ĐÃ VIẾT LẠI','Một câu rõ ràng. Một ý cần nhớ.','Chọn đáp án, đọc lí do ngắn, rồi đi tiếp. Không còn cắt ngẫu nhiên một từ trong đoạn văn.')+
  resumeHTML()+`<details class="audit-update"><summary>${D.cards.length} câu · thêm ${D.audit.questionbankConsultation.addedQuestions} câu từ questionbank</summary><p>${esc(D.audit.progressNote)} <button class="text-btn" data-view="sources">Xem sổ kiểm tra và giới hạn</button></p></details>`+statsHTML()+
@@ -85,7 +105,7 @@ function renderSetup(){
 function begin(ids,mode){
  if(!ids.length){toast('Không có câu phù hợp trong phần này.');return;}
  if(session&&!confirm('Thay phiên chưa xong bằng phiên mới? Những câu đã hoàn thành vẫn giữ tiến độ.'))return;
- session=C.makeSession(ids,cardMap,mode,D.bankId,state.minutes);state.active=true;state.result=null;saveSession();renderSession();pageTop();
+ session=C.makeSession(ids,cardMap,mode,D.bankId,state.minutes);state.active=true;state.result=null;saveSession();renderSession();pageTop();return true;
 }
 function start(){
  if(state.mode==='notes'){renderNotesView();return;}
@@ -110,7 +130,7 @@ function feedbackHTML(c,s){
  if(!r&&!revealed)return '';
  const message=s.mode==='recall'&&!r?'Đối chiếu rồi tự đánh giá':r?.self?(r.correct?'✓ Bạn tự đánh giá: nhớ được':'↻ Bạn tự đánh giá: cần ôn'):r?.skipped?'— Chưa biết / bỏ qua':r?.correct?'✓ Đúng':'✗ Chưa đúng';
  const cls=r?.skipped?'skipped':r?.correct?'correct':r?'incorrect':'';
- return `<div class="feedback mcq-feedback"><h3 class="${cls}">${message}</h3>${r&&!r.self&&!r.skipped?`<p class="your-answer">Bạn ${s.mode==='short'?'viết':'chọn'}: <b>${esc(r.answer)}</b></p>`:''}${explanationHTML(c)}${s.mode==='short'?'<p class="input-hint">Máy chỉ so khớp các biến thể đã liệt kê; câu diễn đạt tương đương khác có thể chưa được nhận. Dùng thẻ nhớ để tự đối chiếu câu văn.</p>':''}${c.basis!=='source-rewrite'?`<details class="audit-disclosure"><summary>${esc(basisName[c.basis])} · chi tiết</summary><p>${esc(c.editorialNote)}</p></details>`:''}<div class="mcq-feedback-foot"><button class="text-btn" data-action="source-section" data-id="${cardRef(c).section}">Ghi chú & nguồn đối chiếu ↗</button>${r?`<button class="primary" data-action="next">${s.index===s.ids.length-1?'Kết quả':'Câu tiếp'} →</button>`:''}</div>${s.mode==='recall'&&!r?`<div class="rating-buttons" role="group" aria-label="Tự đánh giá"><button class="rating" data-rating="0">Chưa nhớ<small>gợi ý ôn sau 10 phút</small></button><button class="rating" data-rating="1">Chưa chắc<small>sau 1 ngày</small></button><button class="rating" data-rating="2">Nhớ được<small>sau ít nhất 3 ngày</small></button><button class="rating" data-rating="3">Rất chắc<small>sau ít nhất 7 ngày</small></button></div>`:''}</div>`;
+ return `<div class="feedback mcq-feedback"><h3 class="${cls}">${message}</h3>${r&&!r.self&&!r.skipped?`<p class="your-answer">Bạn ${s.mode==='short'?'viết':'chọn'}: <b>${esc(r.answer)}</b></p>`:''}${explanationHTML(c)}${learning?`<button class="text-btn learning-return" data-action="learn-card" data-id="${c.id}">Học lại ý này →</button>`:''}${s.mode==='short'?'<p class="input-hint">Máy chỉ so khớp các biến thể đã liệt kê; câu diễn đạt tương đương khác có thể chưa được nhận. Dùng thẻ nhớ để tự đối chiếu câu văn.</p>':''}${c.basis!=='source-rewrite'?`<details class="audit-disclosure"><summary>${esc(basisName[c.basis])} · chi tiết</summary><p>${esc(c.editorialNote)}</p></details>`:''}<div class="mcq-feedback-foot"><button class="text-btn" data-action="source-section" data-id="${cardRef(c).section}">Ghi chú & nguồn đối chiếu ↗</button>${r?`<button class="primary" data-action="next">${s.index===s.ids.length-1?'Kết quả':'Câu tiếp'} →</button>`:''}</div>${s.mode==='recall'&&!r?`<div class="rating-buttons" role="group" aria-label="Tự đánh giá"><button class="rating" data-rating="0">Chưa nhớ<small>gợi ý ôn sau 10 phút</small></button><button class="rating" data-rating="1">Chưa chắc<small>sau 1 ngày</small></button><button class="rating" data-rating="2">Nhớ được<small>sau ít nhất 3 ngày</small></button><button class="rating" data-rating="3">Rất chắc<small>sau ít nhất 7 ngày</small></button></div>`:''}</div>`;
 }
 function renderSession(){
  if(!session)return navigate('learn');
@@ -168,7 +188,7 @@ function updateTimer(){
 function examJump(i){if(session?.mode!=='exam'||expireExam()||i<0||i>=session.ids.length)return;session.index=i;saveSession();renderSession();$('#currentQuestion')?.focus({preventScroll:true});}
 function renderResult(){
  const r=state.result,isSelf=r.mode==='recall';
- app.innerHTML=`<div class="study-wrap">${header('XONG PHIÊN NÀY',isSelf?'Đã tự đối chiếu.':'Xem lại đúng chỗ cần ôn.',isSelf?'Đây là tự đánh giá, không phải điểm chấm tự động.':'Bạn có thể dừng ở đây, hoặc thử lại câu sai/bỏ qua.')}<section class="panel result-hero"><strong class="result-score">${r.correct} / ${r.total}</strong><h3>${isSelf?'thẻ bạn tự đánh giá nhớ được':'câu đúng'}</h3><p>${isSelf?`${r.total-r.correct} thẻ còn chưa chắc.`:`${r.wrong} câu sai · ${r.skipped} câu bỏ qua.`}</p><div class="actions-row">${r.correct<r.total?'<button class="primary" data-action="retry-result">Ôn lại phần chưa nhớ ↻</button>':''}<button class="secondary" data-view="learn">Về chọn bài</button><button class="secondary" data-action="export-progress">Xuất tiến độ</button></div></section><h3 class="section-heading">Đối chiếu từng câu</h3><div class="review-list">${r.results.map((x,i)=>{
+ app.innerHTML=`<div class="study-wrap">${header('XONG PHIÊN NÀY',isSelf?'Đã tự đối chiếu.':'Xem lại đúng chỗ cần ôn.',isSelf?'Đây là tự đánh giá, không phải điểm chấm tự động.':'Bạn có thể dừng ở đây, hoặc thử lại câu sai/bỏ qua.')}<section class="panel result-hero"><strong class="result-score">${r.correct} / ${r.total}</strong><h3>${isSelf?'thẻ bạn tự đánh giá nhớ được':'câu đúng'}</h3><p>${isSelf?`${r.total-r.correct} thẻ còn chưa chắc.`:`${r.wrong} câu sai · ${r.skipped} câu bỏ qua.`}</p><div class="actions-row">${r.correct<r.total?'<button class="primary" data-action="retry-result">Ôn lại phần chưa nhớ ↻</button>':''}<button class="secondary" data-view="learn">Về chọn bài</button><button class="secondary" data-view="study">Về Học nhanh</button><button class="secondary" data-action="export-progress">Xuất tiến độ</button></div></section><h3 class="section-heading">Đối chiếu từng câu</h3><div class="review-list">${r.results.map((x,i)=>{
  const c=cardMap.get(x.id),word=x.self?(x.correct?'Tự đánh giá: nhớ':'Tự đánh giá: cần ôn'):x.skipped?'Bỏ qua':x.correct?'Đúng':'Sai';
  return `<details class="panel review-item mcq-review"><summary><span class="tag ${x.skipped?'warn':x.correct?'good':'bad'}">${i+1} · ${word}</span><span>${esc(c.prompt)}</span></summary><p class="your-answer">${x.self?'Bạn ghi nháp':x.skipped?'Bạn chưa chọn đáp án':'Bạn trả lời'}${x.skipped?'':': '+esc(x.answer||'(không ghi)')}</p>${explanationHTML(c)}<button class="text-btn" data-action="source-section" data-id="${cardRef(c).section}">Ghi chú & đối chiếu ↗</button></details>`;
  }).join('')}</div></div>`;
@@ -217,7 +237,7 @@ function renderNotesView(){
 function download(name,text,type='application/json'){const url=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);}
 function exportProgress(){download('nmnrt-v21-progress.json',JSON.stringify({format:'nmnrt-progress',version:2,bankId:D.bankId,exportedAt:new Date().toISOString(),records},null,2));}
 function exportLegacy(){
- const items={};try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k.startsWith('nmnrt.')&&!k.startsWith(PREFIX))items[k]=localStorage.getItem(k);}}catch(_){toast('Không đọc được vùng lưu cũ.');return;}
+ const items={};try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k.startsWith('nmnrt.')&&!k.startsWith(PREFIX)&&!k.startsWith('nmnrt.reading.'))items[k]=localStorage.getItem(k);}}catch(_){toast('Không đọc được vùng lưu cũ.');return;}
  download('nmnrt-legacy-backup.json',JSON.stringify({format:'nmnrt-legacy-backup',note:'Dữ liệu nguyên trạng; không nhập như tiến độ 2.1.',items},null,2));
 }
 $('#closeNotes').addEventListener('click',()=>$('#notesDialog').close());
@@ -254,7 +274,7 @@ document.addEventListener('click',e=>{
  case 'start':start();break;
  case 'lazy-start':startLazy(Number(b.dataset.count)||3,b.dataset.order||'mixed');break;
  case 'pause':navigate('learn');break;
- case 'resume':state.active=true;state.result=null;renderSession();pageTop();break;
+ case 'resume':state.view='learn';state.active=true;state.result=null;updateNav();renderSession();pageTop();break;
  case 'discard':if(confirm('Bỏ phiên này? Tiến độ của câu đã hoàn thành vẫn được giữ.')){session=null;saveSession();render();}break;
  case 'skip':skip();break;
  case 'check-short':checkShort();break;
@@ -266,6 +286,7 @@ document.addEventListener('click',e=>{
  case 'clear-answer':if(session?.mode==='exam'&&!expireExam()){delete session.answers[session.ids[session.index]];saveSession();renderSession();}break;
  case 'source-section':openSource(id);break;
  case 'source-lesson':openSource(id,true);break;
+ case 'learn-card':openLearningCard(id);break;
  case 'one-card':begin([id],'mcq');break;
  case 'weak-session':begin(C.select(D.cards,records,20,'weak').map(c=>c.id),'mcq');break;
  case 'due-session':begin(C.select(D.cards,records,20,'due').map(c=>c.id),'mcq');break;

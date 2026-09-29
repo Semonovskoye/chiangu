@@ -1,0 +1,287 @@
+{
+  "passed": 70,
+  "checks": [
+    {
+      "name": "Five navigation destinations; one theme selector; no duplicate gear",
+      "passed": true
+    },
+    {
+      "name": "Original revision remains initial view",
+      "passed": true
+    },
+    {
+      "name": "Học nhanh opens independently",
+      "passed": true
+    },
+    {
+      "name": "Grade9 shows one shared-notes group, not 35 fake genetics lessons",
+      "passed": true
+    },
+    {
+      "name": "Grade10 source-only chapters visibly distinguished",
+      "passed": true
+    },
+    {
+      "name": "Source-only chapter opens existing source dialog",
+      "passed": true
+    },
+    {
+      "name": "Unaccented search locates stomata teaching content",
+      "passed": true
+    },
+    {
+      "name": "Search input retains focus after results update",
+      "passed": true
+    },
+    {
+      "name": "Reader shows authored statement immediately, not multiple-choice options",
+      "passed": true
+    },
+    {
+      "name": "Explanation hidden until requested",
+      "passed": true
+    },
+    {
+      "name": "Explanation and references accessible",
+      "passed": true
+    },
+    {
+      "name": "Original reviewed question is explicit provenance, not the teaching prompt",
+      "passed": true
+    },
+    {
+      "name": "Reader source button opens reviewed and original notes",
+      "passed": true
+    },
+    {
+      "name": "Reading stores its own marked record",
+      "passed": true
+    },
+    {
+      "name": "Reading does not create or change quiz score records",
+      "passed": true
+    },
+    {
+      "name": "Mark-next moves to the next authored point",
+      "passed": true
+    },
+    {
+      "name": "Previous returns to same teaching point",
+      "passed": true
+    },
+    {
+      "name": "Whole-lesson view groups several teaching statements",
+      "passed": true
+    },
+    {
+      "name": "Whole-lesson marking is explicit and stays separate from quiz scores",
+      "passed": true
+    },
+    {
+      "name": "Switching back to one-idea view works",
+      "passed": true
+    },
+    {
+      "name": "Practice opens exactly one real MCQ with revision tab active",
+      "passed": true
+    },
+    {
+      "name": "Practice uses current point ID without changing the bank",
+      "passed": true
+    },
+    {
+      "name": "Correct practice answer is graded correctly",
+      "passed": true
+    },
+    {
+      "name": "Only answering the quiz creates a scored attempt",
+      "passed": true
+    },
+    {
+      "name": "Feedback links back to the matching teaching idea",
+      "passed": true
+    },
+    {
+      "name": "Cancelling replacement preserves unfinished quiz and stays in learning",
+      "passed": true
+    },
+    {
+      "name": "Section mini-quiz is at most three questions from the exact current section",
+      "passed": true
+    },
+    {
+      "name": "Read filter returns marked learning points",
+      "passed": true
+    },
+    {
+      "name": "No-result search is recoverable",
+      "passed": true
+    },
+    {
+      "name": "Clear search restores catalog",
+      "passed": true
+    },
+    {
+      "name": "HSG toggle exposes all 295 grade11 learning points",
+      "passed": true
+    },
+    {
+      "name": "Exported reading backup is separate format",
+      "passed": true
+    },
+    {
+      "name": "Reset removes reading marks only",
+      "passed": true
+    },
+    {
+      "name": "Reading import merges newer marks",
+      "passed": true
+    },
+    {
+      "name": "One-idea shortcut has a one-item reading scope",
+      "passed": true
+    },
+    {
+      "name": "One-idea shortcut lets user stop after one",
+      "passed": true
+    },
+    {
+      "name": "Serialized reading state restores marks and resume button",
+      "passed": true
+    },
+    {
+      "name": "Resume opens saved point",
+      "passed": true
+    },
+    {
+      "name": "Existing Light mode styles teaching surface and text together",
+      "passed": true
+    },
+    {
+      "name": "Structural learning border is black",
+      "passed": true
+    },
+    {
+      "name": "Existing Dark mode works",
+      "passed": true
+    },
+    {
+      "name": "System mode follows emulated OS changes",
+      "passed": true
+    },
+    {
+      "name": "Library has no horizontal overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "Reader has no horizontal overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "Whole-lesson view has no horizontal overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "Library has no horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "Reader has no horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "Whole-lesson view has no horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "Library has no horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "Reader has no horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "Whole-lesson view has no horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "Original procrastinator shortcut still opens one MCQ",
+      "passed": true
+    },
+    {
+      "name": "Skipped feedback is separate",
+      "passed": true
+    },
+    {
+      "name": "Original result screen and new learning return both appear",
+      "passed": true
+    },
+    {
+      "name": "Short-answer revision is still available",
+      "passed": true
+    },
+    {
+      "name": "Recall still uses self-assessment",
+      "passed": true
+    },
+    {
+      "name": "Exam does not show teaching answers before submission",
+      "passed": true
+    },
+    {
+      "name": "Exam submission still works",
+      "passed": true
+    },
+    {
+      "name": "Existing source/edited-note view remains available",
+      "passed": true
+    },
+    {
+      "name": "Blocked storage does not prevent reading",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser errors in offline harness",
+      "passed": true
+    },
+    {
+      "name": "Corrupt reading storage is disclosed without changing quiz storage",
+      "passed": true
+    },
+    {
+      "name": "Reading ArrowRight moves without marking",
+      "passed": true
+    },
+    {
+      "name": "Reading ArrowLeft returns to previous point",
+      "passed": true
+    },
+    {
+      "name": "Secondary control switches background and text together",
+      "passed": true
+    },
+    {
+      "name": "Whole-lesson mini-quiz samples three IDs only from that lesson",
+      "passed": true
+    },
+    {
+      "name": "Missing learning data does not stop original revision",
+      "passed": true
+    },
+    {
+      "name": "Missing asset error explains recovery",
+      "passed": true
+    },
+    {
+      "name": "Revision still usable after learning load error",
+      "passed": true
+    },
+    {
+      "name": "Extra checks have no uncaught errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "harness": "Offline Chromium set_content, actual product JS/CSS. Test-only inlined assets and mocked localStorage. Simulated restoration, not live reload or deployment."
+}
