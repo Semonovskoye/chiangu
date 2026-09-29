@@ -1,5 +1,325 @@
 {
-  "checked": 33,
-  "missing": [],
-  "scope": "Known installed nmnrt/index.html and audit/index.html references; filesystem only."
+  "staticReferencesChecked": 47,
+  "missingReferences": [],
+  "references": [
+    {
+      "file": "nmnrt/index.html",
+      "reference": "assets/rice.ico?v=1.5",
+      "resolved": "nmnrt/assets/rice.ico",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "assets/rice-16.png?v=1.5",
+      "resolved": "nmnrt/assets/rice-16.png",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "assets/rice-32.png?v=1.5",
+      "resolved": "nmnrt/assets/rice-32.png",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "assets/rice-48.png?v=1.5",
+      "resolved": "nmnrt/assets/rice-48.png",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "assets/rice-180.png?v=1.5",
+      "resolved": "nmnrt/assets/rice-180.png",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "../theme.css?v=2.0",
+      "resolved": "theme.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "styles.css?v=1.9",
+      "resolved": "nmnrt/styles.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "audit.css?v=2.2",
+      "resolved": "nmnrt/audit.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "../theme.js?v=2.0",
+      "resolved": "theme.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "core.js?v=2.2",
+      "resolved": "nmnrt/core.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "data.js?v=2.4",
+      "resolved": "nmnrt/data.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "learning.css?v=2.3",
+      "resolved": "nmnrt/learning.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "hs2.css?v=2.4",
+      "resolved": "nmnrt/hs2.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "learning-core.js?v=2.3",
+      "resolved": "nmnrt/learning-core.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "learning-data.js?v=2.4",
+      "resolved": "nmnrt/learning-data.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "learning.js?v=2.4",
+      "resolved": "nmnrt/learning.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "app.js?v=2.4",
+      "resolved": "nmnrt/app.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "../index.html",
+      "resolved": "index.html",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "../images/mambo.png",
+      "resolved": "images/mambo.png",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "assets/rice.png",
+      "resolved": "nmnrt/assets/rice.png",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "../index.html",
+      "resolved": "index.html",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/index.html",
+      "reference": "hs2/index.html",
+      "resolved": "nmnrt/hs2/index.html",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "../assets/rice-32.png",
+      "resolved": "nmnrt/assets/rice-32.png",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "review.css?v=2.4",
+      "resolved": "nmnrt/hs2/review.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "../../theme.js?v=2.0",
+      "resolved": "theme.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "review-data.js?v=2.4",
+      "resolved": "nmnrt/hs2/review-data.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "review.js?v=2.4",
+      "resolved": "nmnrt/hs2/review.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "../index.html",
+      "resolved": "nmnrt/index.html",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "../index.html?hs2=all&count=10",
+      "resolved": "nmnrt/index.html",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "REVIEW.md",
+      "resolved": "nmnrt/hs2/REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/index.html",
+      "reference": "review-data.json",
+      "resolved": "nmnrt/hs2/review-data.json",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/review.css",
+      "reference": "../../font/comfortaa/Comfortaa-Regular.ttf",
+      "resolved": "font/comfortaa/Comfortaa-Regular.ttf",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/hs2/review.css",
+      "reference": "../../font/comfortaa/Comfortaa-Bold.ttf",
+      "resolved": "font/comfortaa/Comfortaa-Bold.ttf",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "../assets/rice-32.png",
+      "resolved": "nmnrt/assets/rice-32.png",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "../../theme.css?v=2.0",
+      "resolved": "theme.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "../styles.css?v=1.9",
+      "resolved": "nmnrt/styles.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "../audit.css?v=2.2",
+      "resolved": "nmnrt/audit.css",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "../../theme.js?v=2.0",
+      "resolved": "theme.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "../data.js?v=2.4",
+      "resolved": "nmnrt/data.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "viewer.js?v=2.4",
+      "resolved": "nmnrt/audit/viewer.js",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "../index.html",
+      "resolved": "nmnrt/index.html",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "questions.json",
+      "resolved": "nmnrt/audit/questions.json",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "old-to-new.json",
+      "resolved": "nmnrt/audit/old-to-new.json",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "review.json",
+      "resolved": "nmnrt/audit/review.json",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "questionbank-consultation.json",
+      "resolved": "nmnrt/audit/questionbank-consultation.json",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "QUESTIONBANK_REVIEW.md",
+      "resolved": "nmnrt/audit/QUESTIONBANK_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "nmnrt/audit/index.html",
+      "reference": "../hs2/index.html",
+      "resolved": "nmnrt/hs2/index.html",
+      "exists": true
+    }
+  ],
+  "syntaxChecked": [
+    "nmnrt/learning-data.js",
+    "nmnrt/data.js",
+    "nmnrt/core.js",
+    "nmnrt/learning-core.js",
+    "nmnrt/app.js",
+    "nmnrt/learning.js",
+    "nmnrt/hs2/review.js",
+    "nmnrt/hs2/review-data.js",
+    "nmnrt/audit/viewer.js"
+  ],
+  "unchangedCoreFiles": [
+    "core.js",
+    "audit.css",
+    "learning-core.js",
+    "learning.css"
+  ],
+  "fontFilesDistributed": 0,
+  "scope": "Filesystem/JS syntax checks on merged local site; not a live deployment test.",
+  "originalBankChecks": [
+    {
+      "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh10.js",
+      "sha256": "a2e6081bb3bedbfc63677ef1c490517d30e95096e74575acefdabc6c2906e000",
+      "unchanged": true
+    },
+    {
+      "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh11.js",
+      "sha256": "5711f2233fa6d92501607fcc14ac4dfd8e1bfd073e7b21dcee08620000a5e738",
+      "unchanged": true
+    },
+    {
+      "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh12.js",
+      "sha256": "4ed785e14099e01c71cdb51cb868eaf9cc3ec8d189923a1dfc1470b6f1500dec",
+      "unchanged": true
+    }
+  ],
+  "originalDocxUnchanged": true
 }

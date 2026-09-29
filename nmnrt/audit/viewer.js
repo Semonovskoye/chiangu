@@ -3,7 +3,7 @@
 const D=window.NMNRT_DATA,$=s=>document.querySelector(s),esc=t=>String(t??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=t=>String(t).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').toLowerCase();
 const refs=new Map(D.references.map(r=>[r.id,r])), lessons=new Map(D.grades.flatMap(g=>g.lessons.map(l=>[l.id,l])));
-const names={'source-rewrite':'Viết lại theo đề mục',corrected:'Đề mục đã đính chính',adapted:'Ví dụ viết mới có đối chiếu','bank-adapted':'Biên tập từ questionbank'};
+const names={'source-rewrite':'Viết lại theo đề mục',corrected:'Đề mục đã đính chính',adapted:'Ví dụ viết mới có đối chiếu','bank-adapted':'Biên tập từ questionbank','document-adapted':'Biên tập từ đề cương HS2'};
 // Original bank text is displayed as inert text, never executed or injected as HTML.
 function bankText(value){
  const stripped=String(value??'').replace(/<br\s*\/?>/gi,'\n').replace(/<sup>(.*?)<\/sup>/gi,'^$1').replace(/<sub>(.*?)<\/sub>/gi,'_$1').replace(/<[^>]*>/g,'');
@@ -16,10 +16,10 @@ function bankOriginHTML(c){
 
 let page=0,ledger=null;const size=30;
 function render(){const q=norm($('#auditSearch').value),g=$('#auditGrade').value,b=$('#auditBasis').value;
- const cs=D.cards.filter(c=>(g==='all'||String(c.grade)===g)&&(b==='all'||c.basis===b)&&(!q||norm(c.id+' '+c.prompt+' '+c.answer.join(' ')+' '+c.explanation+' '+(c.sourceBank?.uid||'')+' '+lessons.get(c.lesson).title).includes(q)));
+ const cs=D.cards.filter(c=>(g==='all'||String(c.grade)===g)&&(b==='all'||c.basis===b)&&(!q||norm(c.id+' '+c.prompt+' '+c.answer.join(' ')+' '+c.explanation+' '+(c.sourceBank?.uid||'')+' '+(c.sourceDocument?.code||'')+' '+' '+lessons.get(c.lesson).title).includes(q)));
  page=Math.max(0,Math.min(page,Math.ceil(cs.length/size)-1));
  $('#auditCount').textContent=cs.length+' câu khớp bộ lọc.';
- $('#auditItems').innerHTML=cs.slice(page*size,(page+1)*size).map(c=>`<article class="panel audit-card" id="${c.id}"><small>Lớp ${c.grade} · ${esc(lessons.get(c.lesson).title)} · ${names[c.basis]}</small><h3>${esc(c.prompt)}</h3><ol type="A">${c.choices.map(o=>`<li class="${o.id===c.correctChoice?'audit-correct':''}">${esc(o.text)}${o.id===c.correctChoice?' ✓':''}</li>`).join('')}</ol><p class="mcq-explain"><strong>Vì sao:</strong> ${esc(c.explanation)}</p><details><summary>Đính chính / nguồn / ID</summary><p>${esc(c.editorialNote)}</p>${bankOriginHTML(c)}<p><code>${c.id}</code></p><p>Biến thể trả lời ngắn: ${c.accepted.map(esc).join(' · ')}</p><ul class="reference-list">${c.referenceIds.map(id=>{const r=refs.get(id);return `<li><a href="${esc(new URL(r.url,new URL('../index.html',document.baseURI)).href)}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a></li>`;}).join('')}</ul></details></article>`).join('');
+ $('#auditItems').innerHTML=cs.slice(page*size,(page+1)*size).map(c=>`<article class="panel audit-card" id="${c.id}"><small>Lớp ${c.grade} · ${esc(lessons.get(c.lesson).title)} · ${names[c.basis]}</small><h3>${esc(c.prompt)}</h3><ol type="A">${c.choices.map(o=>`<li class="${o.id===c.correctChoice?'audit-correct':''}">${esc(o.text)}${o.id===c.correctChoice?' ✓':''}</li>`).join('')}</ol><p class="mcq-explain"><strong>Vì sao:</strong> ${esc(c.explanation)}</p><details><summary>Đính chính / nguồn / ID</summary><p>${esc(c.editorialNote)}</p>${bankOriginHTML(c)}${c.sourceDocument?`<p><a href="../hs2/index.html?q=${c.sourceDocument.number}" target="_blank" rel="noopener">Đề cương HS2 · câu ${c.sourceDocument.number} ↗</a></p>`:''}<p><code>${c.id}</code></p><p>Biến thể trả lời ngắn: ${c.accepted.map(esc).join(' · ')}</p><ul class="reference-list">${c.referenceIds.map(id=>{const r=refs.get(id);return `<li><a href="${esc(new URL(r.url,new URL('../index.html',document.baseURI)).href)}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a></li>`;}).join('')}</ul></details></article>`).join('');
  $('#auditPage').textContent=(page+1)+' / '+Math.max(1,Math.ceil(cs.length/size));$('#auditPrev').disabled=page===0;$('#auditNext').disabled=(page+1)*size>=cs.length;
 }
 ['#auditSearch','#auditGrade','#auditBasis'].forEach(id=>$(id).addEventListener(id==='#auditSearch'?'input':'change',()=>{page=0;render();}));

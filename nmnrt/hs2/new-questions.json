@@ -1,0 +1,3860 @@
+[
+  {
+    "id": "hs24-g11-q001-metabolism-stops",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l1",
+    "section": "g11-l1-hs24",
+    "prompt": "Nếu mọi quá trình trao đổi chất và chuyển hóa năng lượng của cơ thể ngừng hẳn, không phục hồi, điều gì xảy ra?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Cơ thể không thể duy trì sự sống"
+      },
+      {
+        "id": "o3",
+        "text": "Cơ thể sinh sản nhanh hơn"
+      },
+      {
+        "id": "o2",
+        "text": "Cơ thể tiếp tục sinh trưởng"
+      },
+      {
+        "id": "o4",
+        "text": "Cơ thể vẫn sống mà không cần năng lượng"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Cơ thể không thể duy trì sự sống"
+    ],
+    "answer": [
+      "Cơ thể không thể duy trì sự sống"
+    ],
+    "explanation": "Các hoạt động duy trì sự sống cần vật chất và năng lượng. Ngừng hẳn không giống trạng thái ngủ hay giảm chuyển hóa.",
+    "referenceIds": [
+      "hs24-metabolism"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Thêm “ngừng hẳn, không phục hồi” để không nhầm với ngủ, ngủ đông hay giảm chuyển hóa. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l1",
+        "section": "g11-l1-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 1,
+      "relatedNumbers": [
+        1
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-KQCHVCNL-L1-003",
+      "originalQuestion": "Mọi cơ thể sống đều không ngừng trao đổi chất và chuyển hóa năng lượng với môi trường, khi quá trình này dừng lại thì\nA. Sinh vật sẽ sinh trưởng.\nB. Sinh vật sẽ phát triển.\nC. Sinh vật sẽ chết.\nD. Sinh vật sẽ vận động và sinh sản.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcKQTDCCHNL:level1:2"
+      ],
+      "reviewURL": "hs2/index.html?q=1#q1"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q004-coupled-processes",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l1",
+    "section": "g11-l1-hs24",
+    "prompt": "Quan hệ giữa trao đổi chất và chuyển hóa năng lượng được mô tả đúng như thế nào?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Chỉ thực vật mới có cả hai quá trình"
+      },
+      {
+        "id": "o3",
+        "text": "Chỉ liên quan khi cơ thể sinh sản"
+      },
+      {
+        "id": "o1",
+        "text": "Gắn liền: biến đổi chất đi kèm biến đổi năng lượng"
+      },
+      {
+        "id": "o2",
+        "text": "Hoàn toàn độc lập với nhau"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Gắn liền: biến đổi chất đi kèm biến đổi năng lượng"
+    ],
+    "answer": [
+      "Gắn liền: biến đổi chất đi kèm biến đổi năng lượng"
+    ],
+    "explanation": "Tổng hợp, phân giải và vận chuyển chất gắn với thu nhận, chuyển đổi hoặc sử dụng năng lượng.",
+    "referenceIds": [
+      "hs24-metabolism"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l1",
+        "section": "g11-l1-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 4,
+      "relatedNumbers": [
+        4,
+        7
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-KQCHVCNL-L1-007",
+      "originalQuestion": "Quá trình trao đổi chất và chuyển hóa năng lượng luôn có sự ………….. mật thiết với nhau.\nA. Gắn bó.\nB. Độc lập.\nC. Tách rời.\nD. Liên kết một phần.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcKQTDCCHNL:level1:6"
+      ],
+      "reviewURL": "hs2/index.html?q=4#q4"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q006-sunlight",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l1",
+    "section": "g11-l1-hs24",
+    "prompt": "Nguồn năng lượng ban đầu chủ yếu cho phần lớn hệ sinh thái trên Trái Đất là gì?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Ánh sáng Mặt Trời"
+      },
+      {
+        "id": "o4",
+        "text": "Năng lượng từ phân bón khoáng"
+      },
+      {
+        "id": "o3",
+        "text": "Nhiệt do mọi động vật sinh ra"
+      },
+      {
+        "id": "o2",
+        "text": "ATP được đưa từ ngoài Trái Đất vào"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Ánh sáng Mặt Trời"
+    ],
+    "answer": [
+      "Ánh sáng Mặt Trời"
+    ],
+    "explanation": "Sinh vật quang tự dưỡng chuyển quang năng thành hóa năng. Vẫn có hệ sinh thái dựa vào hóa tự dưỡng.",
+    "referenceIds": [
+      "hs24-photosynthesis"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Giữ ý nguồn chủ yếu, không khẳng định tất cả hệ sinh thái đều phụ thuộc trực tiếp vào ánh sáng. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l1",
+        "section": "g11-l1-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 6,
+      "relatedNumbers": [
+        6
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-KQCHVCNL-L1-012",
+      "originalQuestion": "Nguồn năng lượng chủ yếu cung cấp cho sinh giới là?\nA. ATP.\nB. Nhiệt năng.\nC. Động năng.\nD. Quang năng.",
+      "originalAnswer": "D",
+      "reviewedAnswer": "D",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcKQTDCCHNL:level1:11"
+      ],
+      "reviewURL": "hs2/index.html?q=6#q6"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q011-heterotroph-roles",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l1",
+    "section": "g11-l1-hs24",
+    "prompt": "Trong phân nhóm theo vai trò sinh thái, sinh vật dị dưỡng gồm hai nhóm chính nào?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Sinh vật sản xuất và hóa tự dưỡng"
+      },
+      {
+        "id": "o1",
+        "text": "Sinh vật tiêu thụ và sinh vật phân giải"
+      },
+      {
+        "id": "o2",
+        "text": "Sinh vật quang tự dưỡng và hóa tự dưỡng"
+      },
+      {
+        "id": "o4",
+        "text": "Sinh vật sản xuất và quang tự dưỡng"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Sinh vật tiêu thụ và sinh vật phân giải"
+    ],
+    "answer": [
+      "Sinh vật tiêu thụ và sinh vật phân giải"
+    ],
+    "explanation": "Cả sinh vật tiêu thụ và phân giải đều sử dụng nguồn chất hữu cơ có sẵn.",
+    "referenceIds": [
+      "hs24-ecology"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l1",
+        "section": "g11-l1-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 11,
+      "relatedNumbers": [
+        11
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-KQCHVCNL-L2-004",
+      "originalQuestion": "Sinh vật dị dưỡng thường được phân thành\nA. Sinh vật tiêu thụ và sinh vật phân giải.\nB. Sinh vật hóa tổng hợp và sinh vật quang tổng hợp.\nC. Thực vật và động vật.\nD. Sinh vật ăn thực vật và sinh vật ăn động vật.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcKQTDCCHNL:level2:3"
+      ],
+      "reviewURL": "hs2/index.html?q=11#q11"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q012-open-system",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l1",
+    "section": "g11-l1-hs24",
+    "prompt": "Vì sao cơ thể sống được xem là một hệ mở?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Giữ nguyên toàn bộ vật chất suốt đời"
+      },
+      {
+        "id": "o3",
+        "text": "Chỉ nhận năng lượng, không nhận chất"
+      },
+      {
+        "id": "o2",
+        "text": "Không có ranh giới với môi trường"
+      },
+      {
+        "id": "o1",
+        "text": "Trao đổi vật chất và năng lượng với môi trường"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Trao đổi vật chất và năng lượng với môi trường"
+    ],
+    "answer": [
+      "Trao đổi vật chất và năng lượng với môi trường"
+    ],
+    "explanation": "Hệ mở có các dòng vật chất và năng lượng đi qua ranh giới; màng tế bào vẫn giúp điều tiết các dòng này.",
+    "referenceIds": [
+      "hs24-metabolism"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l1",
+        "section": "g11-l1-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 12,
+      "relatedNumbers": [
+        12
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-KQCHVCNL-L2-003",
+      "originalQuestion": "Tất cả các cơ thể sống đều là hệ thống mở, luôn diễn ra … quá trình trao đổi chất và năng lượng với môi trường.\nA. Sau.\nB. Trước.\nC. Đồng thời.\nD. Chậm hơn.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcKQTDCCHNL:level2:2"
+      ],
+      "reviewURL": "hs2/index.html?q=12#q12"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q015-transport-to-cells",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l1",
+    "section": "g11-l1-hs24",
+    "prompt": "Ở thực vật có mạch và động vật có hệ tuần hoàn, chất dinh dưỡng được đưa đến tế bào chủ yếu nhờ hệ nào tương ứng?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "Hệ mạch và hệ tiêu hóa"
+      },
+      {
+        "id": "o3",
+        "text": "Hệ hô hấp và hệ tuần hoàn"
+      },
+      {
+        "id": "o1",
+        "text": "Hệ mạch và hệ tuần hoàn"
+      },
+      {
+        "id": "o4",
+        "text": "Hệ tuần hoàn và hệ hô hấp"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Hệ mạch và hệ tuần hoàn"
+    ],
+    "answer": [
+      "Hệ mạch và hệ tuần hoàn"
+    ],
+    "explanation": "Hệ mạch dẫn chất trong cây; hệ tuần hoàn phân phối chất ở các động vật có hệ này.",
+    "referenceIds": [
+      "hs24-transport"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Bổ sung phạm vi: thực vật có mạch và động vật có hệ tuần hoàn. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l1",
+        "section": "g11-l1-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 15,
+      "relatedNumbers": [
+        15
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-KQCHVCNL-L2-001",
+      "originalQuestion": "Điền vào chỗ trống: Các chất dinh dưỡng đã thu nhận được vận chuyển đến từng … thông qua hệ mạch ở thực vật và … ở động vật.\nA. Ti thể - hệ tuần hoàn.\nB. Tế bào chất – hệ tuần hoàn.\nC. Tế bào – ti thể.\nD. Tế bào – hệ tuần hoàn.",
+      "originalAnswer": "D",
+      "reviewedAnswer": "D",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcKQTDCCHNL:level2:0"
+      ],
+      "reviewURL": "hs2/index.html?q=15#q15"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q020-calcium-macro",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Trong Ca, Cl, Fe và Mo, nguyên tố nào thuộc nhóm dinh dưỡng đa lượng của thực vật?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Mo"
+      },
+      {
+        "id": "o2",
+        "text": "Cl"
+      },
+      {
+        "id": "o1",
+        "text": "Ca"
+      },
+      {
+        "id": "o3",
+        "text": "Fe"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Ca"
+    ],
+    "answer": [
+      "Ca"
+    ],
+    "explanation": "Calcium được cây cần với lượng tương đối lớn; chlorine, iron và molybdenum thuộc nhóm vi lượng.",
+    "referenceIds": [
+      "hs24-minerals"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 20,
+      "relatedNumbers": [
+        20
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L1-028",
+      "originalQuestion": "Nguyên tố nào sau đây là nguyên tố đa lượng?\nA. Ca.\nB. Cl.\nC. Fe.\nD. Mo.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level1:27"
+      ],
+      "reviewURL": "hs2/index.html?q=20#q20"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q021-earth-water",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Nước bao phủ xấp xỉ bao nhiêu phần trăm diện tích bề mặt Trái Đất?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Khoảng 71%"
+      },
+      {
+        "id": "o2",
+        "text": "Khoảng 30%"
+      },
+      {
+        "id": "o3",
+        "text": "Khoảng 50%"
+      },
+      {
+        "id": "o4",
+        "text": "Khoảng 90%"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Khoảng 71%"
+    ],
+    "answer": [
+      "Khoảng 71%"
+    ],
+    "explanation": "USGS nêu khoảng 71%. Trong đề gốc làm tròn đến hàng chục, phương án 70% là phù hợp.",
+    "referenceIds": [
+      "hs24-earth"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Dùng số xấp xỉ 71% theo USGS; phương án C=70% của tài liệu là cách làm tròn. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 21,
+      "relatedNumbers": [
+        21
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L1-011",
+      "originalQuestion": "Nước trên Trái Đất chiếm khoảng\nA. 30% diện tích bề mặt.\nB. 50% diện tích bề mặt.\nC. 70% diện tích bề mặt.\nD. 90% diện tích bề mặt.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C (70% làm tròn)",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level1:10"
+      ],
+      "reviewURL": "hs2/index.html?q=21#q21"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q022-xylem-cells",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Hai loại tế bào dẫn nước đặc trưng của mạch gỗ ở thực vật có mạch là gì?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Tế bào bảo vệ và lông hút"
+      },
+      {
+        "id": "o4",
+        "text": "Tế bào mô giậu và mô xốp"
+      },
+      {
+        "id": "o1",
+        "text": "Quản bào và phần tử mạch ống"
+      },
+      {
+        "id": "o2",
+        "text": "Ống rây và tế bào kèm"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Quản bào và phần tử mạch ống"
+    ],
+    "answer": [
+      "Quản bào và phần tử mạch ống"
+    ],
+    "explanation": "Quản bào và phần tử mạch ống tạo đường dẫn của mạch gỗ; ống rây thuộc mạch rây.",
+    "referenceIds": [
+      "hs24-stems"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 22,
+      "relatedNumbers": [
+        22
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L1-019",
+      "originalQuestion": "Tế bào mạch gỗ của cây gồm\nA. quản bào và tế bào nội bì.\nB. quản bào và tế bào lông hút.\nC. quản bào và mạch ống.\nD. quản bào và tế bào biểu bì.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level1:18"
+      ],
+      "reviewURL": "hs2/index.html?q=22#q22"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q024-mature-xylem",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Khi trưởng thành và hoạt động dẫn nước, quản bào và phần tử mạch ống có đặc điểm nào?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Là các ống rây được tế bào kèm hỗ trợ"
+      },
+      {
+        "id": "o4",
+        "text": "Có vách ngăn kín ngăn hoàn toàn dòng nước"
+      },
+      {
+        "id": "o1",
+        "text": "Đã chết, còn thành tế bào tạo đường dẫn"
+      },
+      {
+        "id": "o2",
+        "text": "Còn sống, giữ nguyên nhân và chất nguyên sinh"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Đã chết, còn thành tế bào tạo đường dẫn"
+    ],
+    "answer": [
+      "Đã chết, còn thành tế bào tạo đường dẫn"
+    ],
+    "explanation": "Các phần tử dẫn trưởng thành mất chất nguyên sinh. Mạch gỗ xét toàn mô vẫn có tế bào nhu mô sống.",
+    "referenceIds": [
+      "hs24-stems"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Thu hẹp từ toàn bộ “mạch gỗ” trong câu gốc sang hai loại phần tử dẫn để tránh khẳng định sai về nhu mô gỗ. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 24,
+      "relatedNumbers": [
+        24
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L1-020",
+      "originalQuestion": "Khác với mạch rây, mạch gỗ có cấu tạo\nA. gồm các tế bào chết.\nB. gồm các tế bào sống nối thông với nhau.\nC. gồm các tế bào sống và các tế bào chết.\nD. gồm nhiều lớp tế bào có vách dày.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A nếu nói về các phần tử dẫn trưởng thành",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level1:19"
+      ],
+      "reviewURL": "hs2/index.html?q=24#q24"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q025-essential-element",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Một nguyên tố thiếu làm cây không hoàn thành chu trình sống và không thể thay thế bằng nguyên tố khác được gọi là gì?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Nguyên tố chỉ cần khi cây ra hoa"
+      },
+      {
+        "id": "o4",
+        "text": "Nguyên tố không tham gia chuyển hóa"
+      },
+      {
+        "id": "o1",
+        "text": "Nguyên tố dinh dưỡng thiết yếu"
+      },
+      {
+        "id": "o2",
+        "text": "Nguyên tố luôn cần với lượng lớn"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Nguyên tố dinh dưỡng thiết yếu"
+    ],
+    "answer": [
+      "Nguyên tố dinh dưỡng thiết yếu"
+    ],
+    "explanation": "Tính thiết yếu liên quan đến vai trò không thể thay thế trong đời sống cây, không đồng nghĩa với đa lượng.",
+    "referenceIds": [
+      "hs24-minerals"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 25,
+      "relatedNumbers": [
+        25
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L1-039",
+      "originalQuestion": "Tham gia trực tiếp vào quá trình trao đổi chất, thiếu nó cây sẽ chết và nó không thể thay thế bởi bất kì nguyên tố nào khác. Đó là những mô tả về nguyên tố\nA. vi lượng.\nB. đa lượng.\nC. phát sinh hữu cơ.\nD. dinh dưỡng thiết yếu.",
+      "originalAnswer": "D",
+      "reviewedAnswer": "D",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level1:38"
+      ],
+      "reviewURL": "hs2/index.html?q=25#q25"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q026-water-states",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Ở những điều kiện thích hợp trên Trái Đất, nước tồn tại ở những trạng thái vật lí nào?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Chỉ lỏng và khí"
+      },
+      {
+        "id": "o1",
+        "text": "Rắn, lỏng và khí"
+      },
+      {
+        "id": "o4",
+        "text": "Chỉ có thể lỏng"
+      },
+      {
+        "id": "o2",
+        "text": "Chỉ rắn và lỏng"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Rắn, lỏng và khí"
+    ],
+    "answer": [
+      "Rắn, lỏng và khí"
+    ],
+    "explanation": "Băng là thể rắn, nước là thể lỏng và hơi nước là thể khí; trạng thái phụ thuộc nhiệt độ và áp suất.",
+    "referenceIds": [
+      "hs24-water"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 26,
+      "relatedNumbers": [
+        26
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L1-010",
+      "originalQuestion": "Nước tồn tại ở những trạng thái nào?\nA. Thể rắn và thể lỏng.\nB. Thể rắn và thể khí.\nC. Thể lỏng và thể khí.\nD. Thể rắn, thể lỏng và thể khí.",
+      "originalAnswer": "D",
+      "reviewedAnswer": "D",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level1:9"
+      ],
+      "reviewURL": "hs2/index.html?q=26#q26"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q029-nitrogenase-oxygen",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Vì sao nitrogenase của vi sinh vật cố định N₂ cần được bảo vệ khỏi oxygen?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Oxygen thay ATP trong phản ứng"
+      },
+      {
+        "id": "o2",
+        "text": "Oxygen luôn là cơ chất trực tiếp tạo NH₄⁺"
+      },
+      {
+        "id": "o4",
+        "text": "Oxygen làm N₂ trở thành chất hữu cơ ngay"
+      },
+      {
+        "id": "o1",
+        "text": "Oxygen có thể làm bất hoạt enzyme này"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Oxygen có thể làm bất hoạt enzyme này"
+    ],
+    "answer": [
+      "Oxygen có thể làm bất hoạt enzyme này"
+    ],
+    "explanation": "Nitrogenase nhạy với oxygen. Vi sinh vật có thể dùng cơ chế bảo vệ enzyme ngay cả khi sống trong môi trường có oxygen.",
+    "referenceIds": [
+      "hs24-nitrogen",
+      "hs24-nitrogenase"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Không biến câu gốc thành nhận định mọi vi sinh vật cố định nitrogen chỉ sống kị khí. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 29,
+      "relatedNumbers": [
+        29
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L2-031",
+      "originalQuestion": "Điều kiện nào sau đây giúp quá trình cố định nitrogen khí quyển xảy ra là sai?\nA. Môi trường giàu oxygen.\nB. Sự có mật độ của enzyme nitrogenase.\nC. Có nguồn năng lượng ATP.\nD. Có các lực khử mạnh.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level2:30"
+      ],
+      "reviewURL": "hs2/index.html?q=29#q29"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q031-evaporative-cooling",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Thoát hơi nước giúp làm mát lá chủ yếu nhờ cơ chế nào?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Nước ngăn mọi phản ứng chuyển hóa"
+      },
+      {
+        "id": "o2",
+        "text": "Nước ngừng hòa tan ion trong lá"
+      },
+      {
+        "id": "o1",
+        "text": "Nước bay hơi hấp thụ nhiệt từ lá"
+      },
+      {
+        "id": "o3",
+        "text": "Lá tạo thêm nhiệt khi nước bay hơi"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Nước bay hơi hấp thụ nhiệt từ lá"
+    ],
+    "answer": [
+      "Nước bay hơi hấp thụ nhiệt từ lá"
+    ],
+    "explanation": "Chuyển nước lỏng thành hơi cần nhiệt. Đây là cơ chế làm mát do bay hơi, không phải do tính dung môi.",
+    "referenceIds": [
+      "hs24-water"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu 31 gốc không có phương án “không đúng” rõ ràng. Viết câu thay thế chỉ kiểm tra cơ chế làm mát, không dùng khóa B gốc. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 31,
+      "relatedNumbers": [
+        31,
+        93,
+        97,
+        116
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L2-012",
+      "originalQuestion": "Điều nào sau đây không đúng với vai trò của dạng nước tự do?\nA. Tham gia vào quá trình trao đổi chất.\nB. Làm giảm độ nhớt của chất nguyên sinh.\nC. Giúp cho quá trình trao đổi chất diễn ra bình thường trong cơ thể.\nD. Làm dung môi giúp giảm nhiệt độ khi thoát hơi nước.",
+      "originalAnswer": "B",
+      "reviewedAnswer": "Cần sửa câu hỏi; không thể giữ khóa B như một kết luận chắc chắn",
+      "reviewStatus": "ambiguous",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level2:11"
+      ],
+      "reviewURL": "hs2/index.html?q=31#q31"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q033-passive-ions",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Ion khoáng đi thụ động qua một kênh màng phù hợp theo hướng nào?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Xuôi gradient điện hóa của ion"
+      },
+      {
+        "id": "o2",
+        "text": "Luôn từ nồng độ thấp đến cao"
+      },
+      {
+        "id": "o3",
+        "text": "Ngược gradient điện hóa mà không cần năng lượng"
+      },
+      {
+        "id": "o4",
+        "text": "Luôn từ tế bào rễ ra đất"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Xuôi gradient điện hóa của ion"
+    ],
+    "answer": [
+      "Xuôi gradient điện hóa của ion"
+    ],
+    "explanation": "Vận chuyển ion phụ thuộc cả chênh lệch nồng độ lẫn điện thế màng; kênh thụ động không bơm ion ngược gradient.",
+    "referenceIds": [
+      "hs24-membrane"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Diễn đạt đầy đủ hơn đáp án “chênh lệch nồng độ ion” trong câu gốc. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 33,
+      "relatedNumbers": [
+        33
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L2-011",
+      "originalQuestion": "Sự hấp thụ ion khoáng thụ động của tế bào rễ cây phụ thuộc vào\nA. hoạt động trao đổi chất.\nB. chênh lệch nồng độ ion.\nC. cung cấp năng lượng.\nD. kích thước của rễ.",
+      "originalAnswer": "B",
+      "reviewedAnswer": "B là cách nói giản lược",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level2:10"
+      ],
+      "reviewURL": "hs2/index.html?q=33#q33"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q034-micronutrients",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Vì sao một số nguyên tố vi lượng vẫn rất quan trọng dù cây cần ít?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Chúng chiếm phần lớn sinh khối tươi"
+      },
+      {
+        "id": "o1",
+        "text": "Chúng là thành phần hoặc yếu tố hỗ trợ hoạt động enzyme"
+      },
+      {
+        "id": "o2",
+        "text": "Chúng thay thế tất cả nguyên tố đa lượng"
+      },
+      {
+        "id": "o4",
+        "text": "Chúng chỉ tồn tại trong hạt khô"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Chúng là thành phần hoặc yếu tố hỗ trợ hoạt động enzyme"
+    ],
+    "answer": [
+      "Chúng là thành phần hoặc yếu tố hỗ trợ hoạt động enzyme"
+    ],
+    "explanation": "Nhu cầu lượng nhỏ không làm mất vai trò thiết yếu; thiếu một yếu tố của enzyme có thể cản trở chuyển hóa.",
+    "referenceIds": [
+      "hs24-minerals"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 34,
+      "relatedNumbers": [
+        34
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L2-040",
+      "originalQuestion": "Các nguyên tố vi lượng cần cho cây với một lượng nhỏ, nhưng có vai trò rất quan trọng vì\nA. chúng hoạt hóa các enzyme.\nB. chúng được tích lũy trong hạt.\nC. chúng cần cho một số pha sinh trưởng.\nD. chúng có trong cấu trúc của tất cả các bào quan.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level2:39"
+      ],
+      "reviewURL": "hs2/index.html?q=34#q34"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q037-xerophyte-sunken-stomata",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Khí khổng nằm sâu trong các hốc của lá có thể giúp cây chịu hạn bằng cách nào?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Làm chênh lệch hơi nước ra ngoài lớn hơn"
+      },
+      {
+        "id": "o1",
+        "text": "Giữ lớp không khí ẩm hơn gần lỗ khí, giảm mất nước"
+      },
+      {
+        "id": "o3",
+        "text": "Làm không khí sát lỗ khí khô hơn bên ngoài"
+      },
+      {
+        "id": "o2",
+        "text": "Làm tăng lưu thông không khí khô sát lỗ khí"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Giữ lớp không khí ẩm hơn gần lỗ khí, giảm mất nước"
+    ],
+    "answer": [
+      "Giữ lớp không khí ẩm hơn gần lỗ khí, giảm mất nước"
+    ],
+    "explanation": "Hốc khí khổng có thể hạn chế lưu thông không khí khô sát lỗ khí, giảm gradient và tốc độ mất hơi nước.",
+    "referenceIds": [
+      "hs24-transport"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Thay câu phủ định dễ khái quát quá mức bằng một cơ chế thích nghi cụ thể trong các phương án gốc. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 37,
+      "relatedNumbers": [
+        37
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L3-004",
+      "originalQuestion": "Phản ứng nào sau đây không phải là phản ứng của thực vật để chống chịu với điều kiện bất lợi gây ra trạng thái mất cân bằng nước?\nA. Lá biến thành gai.\nB. Lá có lớp lông phủ trên bề mặt.\nC. Khí khổng nằm sâu dưới biểu bì lá.\nD. Tăng số lượng khí khổng trên bề mặt lá.",
+      "originalAnswer": "D",
+      "reviewedAnswer": "D trong cách so sánh thông thường của đề",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level3:3"
+      ],
+      "reviewURL": "hs2/index.html?q=37#q37"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q038-cold-mulch",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Trong đợt rét, phủ rơm quanh gốc có tác dụng nào đối với bộ rễ?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "Bảo đảm đất có nhiệt độ cao nhất có thể"
+      },
+      {
+        "id": "o1",
+        "text": "Giảm mất nhiệt của đất, hạn chế tác hại của lạnh"
+      },
+      {
+        "id": "o3",
+        "text": "Làm rễ ngừng hô hấp hoàn toàn"
+      },
+      {
+        "id": "o4",
+        "text": "Thay thế nhu cầu nước và khoáng của rễ"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Giảm mất nhiệt của đất, hạn chế tác hại của lạnh"
+    ],
+    "answer": [
+      "Giảm mất nhiệt của đất, hạn chế tác hại của lạnh"
+    ],
+    "explanation": "Lớp phủ cách nhiệt giúp giảm dao động nhiệt đất. Hiệu quả còn phụ thuộc độ dày lớp phủ và điều kiện thực tế.",
+    "referenceIds": [
+      "hs24-mulch"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Nêu rõ đợt rét; phủ rơm cũng có thể giữ ẩm và giảm nóng nên không suy tác dụng chỉ từ ảnh. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 38,
+      "relatedNumbers": [
+        38
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L3-003",
+      "originalQuestion": "Trong sản xuất, người ta thường ủ ấm gốc cây bằng rơm rạ. Mục đích của việc làm này là gì?\nA. Để hạn chế ảnh hưởng của nhiệt độ cao đến khả năng hút nước và chất khoáng của hệ rễ.\nB. Để hạn chế ảnh hưởng của nhiệt độ thấp đến khả năng hút nước và chất khoáng của hệ rễ.\nC. Để hạn chế ảnh hưởng của lượng nước đến khả năng hút chất khoáng của hệ rễ.\nD. Để hạn chế ảnh hưởng của lượng chất khoáng đến khả năng hút nước của hệ rễ.",
+      "originalAnswer": "B",
+      "reviewedAnswer": "B khi mục đích là ủ ấm trong rét",
+      "reviewStatus": "clarified",
+      "originalImages": [
+        "image7.png"
+      ],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level3:2"
+      ],
+      "reviewURL": "hs2/index.html?q=38#q38"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q041-two-tracers",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Nếu ngọn và rễ đều là nơi nhận đường, chất chỉ thị đỏ đi theo mạch rây có thể tới đâu?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Cả ngọn và rễ"
+      },
+      {
+        "id": "o4",
+        "text": "Không thể ra khỏi nơi tiêm"
+      },
+      {
+        "id": "o3",
+        "text": "Chỉ tới rễ trong mọi trường hợp"
+      },
+      {
+        "id": "o2",
+        "text": "Chỉ tới ngọn trong mọi trường hợp"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Cả ngọn và rễ"
+    ],
+    "answer": [
+      "Cả ngọn và rễ"
+    ],
+    "explanation": "Mạch rây dẫn từ nguồn đến nơi nhận. Các ống rây khác nhau có thể chuyển chất lên hoặc xuống tùy nguồn–đích.",
+    "referenceIds": [
+      "hs24-transport"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Gộp ý trùng câu 41/46; nêu rõ quan hệ nguồn–đích và chất chỉ thị thực sự đi theo dịch mạch rây. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 41,
+      "relatedNumbers": [
+        41,
+        46
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L3-009",
+      "originalQuestion": "Trong một thí nghiệm chứng minh dòng mạch gỗ và dòng mạch rây, người ta tiêm vào mạch rây thuộc phần giữa thân của một cây đang phát triển mạnh một dung dịch màu đỏ. Đồng thời, một dung dịch màu vàng được tiêm vào mạch gỗ của thân ở cùng độ cao. Hiện tượng nào dưới đây có xu hướng xảy ra sau khoảng thời gian một ngày?\nA. Ngọn cây chỉ có thuốc nhuộm đỏ còn chóp rễ chỉ có thuốc nhuộm vàng.\nB. Ngọn cây chỉ có thuốc nhuộm vàng còn chóp rễ chỉ có thuốc nhuộm đỏ.\nC. Ngọn cây có cả thuốc nhuộm đỏ và vàng còn chóp rễ chỉ có thuốc nhuộm đỏ.\nD. Ngọn cây chỉ có thuốc nhuộm đỏ còn chóp rễ có cả thuốc nhuộm đỏ và vàng.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C theo giả thiết vận chuyển trong đề",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level3:8"
+      ],
+      "reviewURL": "hs2/index.html?q=41#q41"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q042-calcium-wall",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Vai trò nào của calcium (Ca) ở thực vật phù hợp nhất?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Góp phần ổn định thành, màng tế bào và truyền tín hiệu"
+      },
+      {
+        "id": "o4",
+        "text": "Là nguồn carbon của chu trình Calvin"
+      },
+      {
+        "id": "o2",
+        "text": "Là nguyên tử trung tâm của diệp lục"
+      },
+      {
+        "id": "o3",
+        "text": "Là nguyên tố có trong mọi nhóm phosphate"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Góp phần ổn định thành, màng tế bào và truyền tín hiệu"
+    ],
+    "answer": [
+      "Góp phần ổn định thành, màng tế bào và truyền tín hiệu"
+    ],
+    "explanation": "Ca tham gia cấu trúc và điều hòa tín hiệu; Mg mới là nguyên tử trung tâm của diệp lục.",
+    "referenceIds": [
+      "hs24-minerals"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Giữ ý vai trò Ca, thay danh sách enzyme quá cụ thể bằng các chức năng đã đối chiếu. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 42,
+      "relatedNumbers": [
+        42
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L3-012",
+      "originalQuestion": "Phát biểu nào sau đây là đúng về vai trò của Calcium (CA. đối với thực vật?\nA. Thành phần của thành tế bào, hoạt hóa enzyme thủy phân ATP và phospholipid.\nB. Thành phần của diệp lục, tham gia hoạt hóa enzyme liên quan đến sự vận chuyển gốc phosphate.\nC. Thành phần của nucleic acid, phospholipid, ATP và một số coenzyme.\nD. Thành phần của cytochrome, hoạt hóa enzyme của quá trình tổng hợp diệp lục.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A là phương án phù hợp",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level3:11"
+      ],
+      "reviewURL": "hs2/index.html?q=42#q42"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q045-hypertonic-definition",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Hai dung dịch có cùng áp suất cơ học. Dịch tế bào có nhiều chất tan hơn dịch đất thì thế nước do chất tan thế nào?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Không phụ thuộc chất tan"
+      },
+      {
+        "id": "o1",
+        "text": "Thấp hơn dịch đất"
+      },
+      {
+        "id": "o3",
+        "text": "Luôn bằng dịch đất"
+      },
+      {
+        "id": "o2",
+        "text": "Cao hơn dịch đất"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Thấp hơn dịch đất"
+    ],
+    "answer": [
+      "Thấp hơn dịch đất"
+    ],
+    "explanation": "Tăng chất tan làm thế chất tan âm hơn. Khi các thành phần khác tương đương, thế nước của dịch tế bào thấp hơn.",
+    "referenceIds": [
+      "hs24-transport"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu 45 có các lựa chọn A/C chồng lấn. Câu mới kiểm tra quan hệ xác định khi giữ áp suất cơ học tương đương. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 45,
+      "relatedNumbers": [
+        45
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-TĐNVK-L3-005",
+      "originalQuestion": "Dịch tế bào lông hút của rễ ưu trương hơn so với dung dịch đất do\nA. quá trình thoát hơi nước ở lá và nồng độ chất tan trong lông hút cao.\nB. quá trình thoát hơi nước ở lá và nồng độ chất tan trong lông hút thấp.\nC. nồng độ chất tan trong lông hút cao hơn nồng độ chất tan trong dung dịch đất.\nD. nồng độ chất tan trong dung dịch đất cao hơn nồng độ chất tan trong lông hút.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A/C chồng lấn; cần sửa để chỉ có một đáp án",
+      "reviewStatus": "ambiguous",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcTDNVK:level3:4"
+      ],
+      "reviewURL": "hs2/index.html?q=45#q45"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q048-palisade",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Ở lá hai mặt điển hình, mô giậu ngay dưới biểu bì trên thường có đặc điểm nào?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Tế bào xếp khá sát nhau, chứa nhiều lục lạp"
+      },
+      {
+        "id": "o2",
+        "text": "Tế bào xếp thưa, tạo nhiều khoảng khí hơn mô xốp"
+      },
+      {
+        "id": "o3",
+        "text": "Tế bào xếp sát nhưng không có lục lạp"
+      },
+      {
+        "id": "o4",
+        "text": "Chỉ gồm phần tử mạch ống đã mất chất nguyên sinh"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Tế bào xếp khá sát nhau, chứa nhiều lục lạp"
+    ],
+    "answer": [
+      "Tế bào xếp khá sát nhau, chứa nhiều lục lạp"
+    ],
+    "explanation": "Mô giậu thuận lợi thu nhận ánh sáng để quang hợp. Không phải mọi kiểu lá đều có cấu trúc hai mặt như vậy.",
+    "referenceIds": [
+      "hs24-leaves"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Gộp câu 48/50, thêm phạm vi lá hai mặt để tránh áp dụng cho mọi loài. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 48,
+      "relatedNumbers": [
+        48,
+        50
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-QHOTV-L1-004",
+      "originalQuestion": "Mô giậu có đặc điểm\nA. bao gồm các tế bào xếp dãn cách nhau, không chứa lục lạp.\nB. bao gồm các tế bào xếp sát nhau, chứa nhiều lục lạp.\nC. bao gồm các tế bào xếp sát nhau, chứa ít lục lạp.\nD. bao gồm các tế bào xếp dãn cách nhau, chứa nhiều lục lạp.",
+      "originalAnswer": "B",
+      "reviewedAnswer": "B",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcQHOTV:level1:3"
+      ],
+      "reviewURL": "hs2/index.html?q=48#q48"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q052-c4-examples",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Nhóm nào gồm các cây điển hình có con đường cố định CO₂ ban đầu kiểu C₄?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Lúa, dứa, ngô"
+      },
+      {
+        "id": "o1",
+        "text": "Ngô, mía, cao lương"
+      },
+      {
+        "id": "o3",
+        "text": "Dứa, xương rồng, thanh long"
+      },
+      {
+        "id": "o2",
+        "text": "Lúa, khoai tây, đậu"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Ngô, mía, cao lương"
+    ],
+    "answer": [
+      "Ngô, mía, cao lương"
+    ],
+    "explanation": "Ngô, mía và cao lương là các cây C₄ thường gặp. Lúa thuộc C₃; dứa và nhiều xương rồng thuộc CAM.",
+    "referenceIds": [
+      "hs24-c4",
+      "hs24-c4-crop",
+      "hs24-cam-pineapple"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Đổi rau dền thành cao lương để dùng bộ ví dụ cũng xuất hiện ở câu 130; không đổi mục tiêu phân loại. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 52,
+      "relatedNumbers": [
+        52
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-QHOTV-L1-013",
+      "originalQuestion": "Nhóm thực vật C₄ bao gồm các cây\nA. xương rồng, thanh long, dừa.\nB. mía, ngô, rau dền.\nC. cam, bưởi, nhãn.\nD. xương rồng, mía, cam.",
+      "originalAnswer": "B",
+      "reviewedAnswer": "B",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcQHOTV:level1:12"
+      ],
+      "reviewURL": "hs2/index.html?q=52#q52"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q053-cam-examples",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Nhóm cây nào thường được dùng làm ví dụ cho kiểu quang hợp CAM?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Dứa, xương rồng, thanh long"
+      },
+      {
+        "id": "o4",
+        "text": "Lúa, ngô, khoai tây"
+      },
+      {
+        "id": "o3",
+        "text": "Ngô, mía, cao lương"
+      },
+      {
+        "id": "o2",
+        "text": "Lúa, khoai tây, đậu"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Dứa, xương rồng, thanh long"
+    ],
+    "answer": [
+      "Dứa, xương rồng, thanh long"
+    ],
+    "explanation": "Các cây CAM điển hình thu nhận CO₂ chủ yếu ban đêm, giúp hạn chế mất nước. Không phải tất cả đều sống ở sa mạc.",
+    "referenceIds": [
+      "hs24-c4",
+      "hs24-c4-crop",
+      "hs24-cam-pineapple"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Gộp mục tiêu phân loại của câu 47/53; không coi toàn bộ CAM chỉ sống ở sa mạc. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 53,
+      "relatedNumbers": [
+        47,
+        53
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-QHOTV-L1-014",
+      "originalQuestion": "Những cây thuộc nhóm thực vật CAM là\nA. lúa, khoai, sắn, đậu.\nB. ngô, mía, cỏ lồng vực, cỏ gấu.\nC. dứa, xương rồng, thuốc bỏng.\nD. lúa, ngô, khoai, sắn, dứa, xương rồng, thuốc bỏng.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcQHOTV:level1:13"
+      ],
+      "reviewURL": "hs2/index.html?q=53#q53"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q056-chlorophyll-group",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Ở thực vật xanh, hai sắc tố thuộc nhóm chlorophyll phổ biến là gì?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "Chlorophyll a và carotene"
+      },
+      {
+        "id": "o4",
+        "text": "Carotene và xanthophyll"
+      },
+      {
+        "id": "o1",
+        "text": "Chlorophyll a và chlorophyll b"
+      },
+      {
+        "id": "o3",
+        "text": "Chlorophyll b và xanthophyll"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Chlorophyll a và chlorophyll b"
+    ],
+    "answer": [
+      "Chlorophyll a và chlorophyll b"
+    ],
+    "explanation": "Diệp lục gồm các chlorophyll; carotene và xanthophyll thuộc carotenoid. Riêng trung tâm phản ứng có chlorophyll a.",
+    "referenceIds": [
+      "hs24-light"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Bỏ cách gọi “nhóm sắc tố chính” dễ lẫn với sắc tố trung tâm phản ứng. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 56,
+      "relatedNumbers": [
+        56
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-QHOTV-L1-007",
+      "originalQuestion": "Sắc tố nào sau đây thuộc nhóm sắc tố chính?\nA. Chlorophyll và carotenoid.\nB. Chlorophyll a và phicobilin.\nC. Chlorophyll a và xanthophyll.\nD. Chlorophyll a và chlorophyll b.",
+      "originalAnswer": "D",
+      "reviewedAnswer": "D khi hỏi nhóm chlorophyll",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcQHOTV:level1:6"
+      ],
+      "reviewURL": "hs2/index.html?q=56#q56"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q059-pondweed-four-tubes",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Rong ở 4 ống: 1 sáng+NaHCO₃; 2 sáng+nước; 3 tối+NaHCO₃; 4 tối+nước. Khi CO₂ là yếu tố giới hạn ở ống 2, ống nào quang hợp mạnh nhất?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "Ống 2"
+      },
+      {
+        "id": "o1",
+        "text": "Ống 1"
+      },
+      {
+        "id": "o3",
+        "text": "Ống 3"
+      },
+      {
+        "id": "o4",
+        "text": "Ống 4"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Ống 1"
+    ],
+    "answer": [
+      "Ống 1"
+    ],
+    "explanation": "Ống 1 có ánh sáng và được bổ sung nguồn carbon vô cơ. Giữ lượng rong, nhiệt độ và các điều kiện khác tương đương.",
+    "referenceIds": [
+      "hs24-light",
+      "hs24-calvin"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Đưa thông tin hình vào đề chữ và nói rõ CO₂ giới hạn; không bỏ hình rồi hỏi số ống thiếu bối cảnh. Mã in trùng câu 49, ID dùng số câu. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 59,
+      "relatedNumbers": [
+        59,
+        102
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-QHOTV-L2-001",
+      "originalQuestion": "Một thí nghiệm sử dụng rong đuôi chồn được bố trí như hình dưới đây. Ống 1 và ống 2 có chiếu sáng; ống 3 và ống 4 đặt trong tối; các điều kiện thí nghiệm khác là như nhau. Ở ống nghiệm nào bọt khí oxygen được tạo ra nhiều nhất?\nA. 1.\nB. 2.\nC. 3.\nD. 4.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A (ống 1) theo bố trí hình",
+      "reviewStatus": "clarified",
+      "originalImages": [
+        "image3.png"
+      ],
+      "legacySourceIds": [
+        "qb11:mcQHOTV:level2:0"
+      ],
+      "reviewURL": "hs2/index.html?q=59#q59"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q066-dark-pga",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Ngay sau khi tắt sáng, vì sao 3-PGA (APG) có thể tích lũy tạm thời trong chu trình Calvin?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Lục lạp bắt đầu sản xuất thêm NADPH nhờ bóng tối"
+      },
+      {
+        "id": "o2",
+        "text": "Ánh sáng trực tiếp biến 3-PGA thành CO₂"
+      },
+      {
+        "id": "o3",
+        "text": "RuBisCO ngay lập tức tạo glucose từ nước"
+      },
+      {
+        "id": "o1",
+        "text": "Thiếu ATP và NADPH làm chậm bước khử 3-PGA"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Thiếu ATP và NADPH làm chậm bước khử 3-PGA"
+    ],
+    "answer": [
+      "Thiếu ATP và NADPH làm chậm bước khử 3-PGA"
+    ],
+    "explanation": "Bước khử 3-PGA cần ATP và NADPH từ pha sáng. Nhận định là biến đổi ban đầu, không nói 3-PGA tăng mãi trong tối.",
+    "referenceIds": [
+      "hs24-calvin"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Nêu rõ giai đoạn ngay sau tắt sáng, tránh khẳng định tăng liên tục. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 66,
+      "relatedNumbers": [
+        66
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-QHOTV-L2-011",
+      "originalQuestion": "Cây đang được chiếu sáng để quang hợp đến khi tắt ánh sáng, nồng độ chất nào sẽ tăng trong chu trình Calvin?\nA. C₆H₁₂O₆.\nB. AlPG.\nC. APG.\nD. RiDP.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C trong giai đoạn ngay sau tắt sáng",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcQHOTV:level2:10"
+      ],
+      "reviewURL": "hs2/index.html?q=66#q66"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q067-photorespiration",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Trao đổi khí đặc trưng của hô hấp sáng là gì?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Tiêu thụ CO₂ và giải phóng O₂ khi sáng"
+      },
+      {
+        "id": "o1",
+        "text": "Tiêu thụ O₂ và giải phóng CO₂ khi có ánh sáng"
+      },
+      {
+        "id": "o2",
+        "text": "Tiêu thụ CO₂ và giải phóng O₂ trong tối"
+      },
+      {
+        "id": "o4",
+        "text": "Chỉ tạo ATP, không có trao đổi khí"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Tiêu thụ O₂ và giải phóng CO₂ khi có ánh sáng"
+    ],
+    "answer": [
+      "Tiêu thụ O₂ và giải phóng CO₂ khi có ánh sáng"
+    ],
+    "explanation": "Hô hấp sáng gắn với hoạt tính oxygenase của RuBisCO. C₄ giảm quá trình này nhờ tập trung CO₂, không triệt tiêu tuyệt đối.",
+    "referenceIds": [
+      "hs24-photoresp"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Gộp câu 67/73; làm rõ câu 105d không thể dùng từ “chỉ” cho C₃. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 67,
+      "relatedNumbers": [
+        67,
+        73,
+        105
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-QHOTV-L3-003",
+      "originalQuestion": "Quá trình hô hấp sáng là quá trình\nA. hấp thụ O₂ và giải phóng CO₂ ngoài sáng.\nB. hấp thụ CO₂ và giải phóng O₂ trong bóng tối.\nC. hấp thụ CO₂ và giải phóng O₂ ngoài sáng.\nD. hấp thụ O₂ và giải phóng CO₂ trong bóng tối.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "A",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcQHOTV:level3:2"
+      ],
+      "reviewURL": "hs2/index.html?q=67#q67"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q070-photosynthesis-equation",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Phương trình tổng quát thường dùng cho quang hợp giải phóng oxygen, khi có ánh sáng, là phương trình nào?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O"
+      },
+      {
+        "id": "o3",
+        "text": "6O₂ + 6H₂O → C₆H₁₂O₆ + 6CO₂"
+      },
+      {
+        "id": "o1",
+        "text": "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O"
+      },
+      {
+        "id": "o4",
+        "text": "6CO₂ → C₆H₁₂O₆ + 6O₂"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O"
+    ],
+    "answer": [
+      "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O"
+    ],
+    "explanation": "Phương trình biểu diễn tổng quát tạo carbohydrate. CO₂ cung cấp carbon; O₂ giải phóng bắt nguồn từ nước.",
+    "referenceIds": [
+      "hs24-photosynthesis"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 70,
+      "relatedNumbers": [
+        70
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-QHOTV-L3-002",
+      "originalQuestion": "Ở thực vật, phương trình tổng quát của quá trình quang hợp được viết như thế nào?\nA. C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + Q.\nB. 6 CO₂ + 12 H₂O → C₆H₁₂O₆ + 6 O₂ + 6 H₂O.\nC. C₆H₁₂O₆ + 6 CO₂ → 6 O₂ + 6 H₂O + Q.\nD. 6 O₂ + 6 H₂O + Q → C₆H₁₂O₆ + 6 CO₂.",
+      "originalAnswer": "B",
+      "reviewedAnswer": "B",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcQHOTV:level3:1"
+      ],
+      "reviewURL": "hs2/index.html?q=70#q70"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q071-respiration-order",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Theo mô hình chia hô hấp hiếu khí thành ba giai đoạn lớn, thứ tự nào đúng?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Đường phân → chuỗi truyền electron → Krebs"
+      },
+      {
+        "id": "o1",
+        "text": "Đường phân → chu trình Krebs → chuỗi truyền electron"
+      },
+      {
+        "id": "o2",
+        "text": "Krebs → đường phân → chuỗi truyền electron"
+      },
+      {
+        "id": "o4",
+        "text": "Chuỗi truyền electron → Krebs → đường phân"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Đường phân → chu trình Krebs → chuỗi truyền electron"
+    ],
+    "answer": [
+      "Đường phân → chu trình Krebs → chuỗi truyền electron"
+    ],
+    "explanation": "Sau đường phân, pyruvate được oxi hóa thành acetyl-CoA trước khi vào Krebs; electron sau đó cấp cho chuỗi hô hấp.",
+    "referenceIds": [
+      "hs24-glycolysis",
+      "hs24-krebs",
+      "hs24-oxidation"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Gộp câu 71/78; giải thích thêm bước nối tạo acetyl-CoA vốn bị lược khỏi ba giai đoạn của đề. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 71,
+      "relatedNumbers": [
+        71,
+        78,
+        108
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-HHOTV-L1-005",
+      "originalQuestion": "Các giai đoạn của hô hấp tế bào diễn ra theo trật tự nào?\nA. Chu trình Krebs → Đường phân → Chuối truyền electron hô hấp.\nB. Đường phân → Chuỗi truyền electron hô hấp → Chu trình Krebs.\nC. Đường phân → Chu trình Krebs → Chuỗi truyền electron hô hấp.\nD. Chuỗi truyền electron hô hấp → Chu trình Krebs → Đường phân.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcHHOTV:level1:4"
+      ],
+      "reviewURL": "hs2/index.html?q=71#q71"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q072-krebs-co2",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Hai phân tử acetyl-CoA hoàn thành hai lượt chu trình Krebs sẽ giải phóng bao nhiêu CO₂ trong riêng chu trình này?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "6 CO₂"
+      },
+      {
+        "id": "o2",
+        "text": "2 CO₂"
+      },
+      {
+        "id": "o1",
+        "text": "4 CO₂"
+      },
+      {
+        "id": "o3",
+        "text": "3 CO₂"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "4 CO₂"
+    ],
+    "answer": [
+      "4 CO₂"
+    ],
+    "explanation": "Mỗi lượt giải phóng 2 CO₂, nên 2 × 2 = 4. Không cộng thêm CO₂ từ bước tạo acetyl-CoA.",
+    "referenceIds": [
+      "hs24-krebs"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 72,
+      "relatedNumbers": [
+        72
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-HHOTV-L1-001",
+      "originalQuestion": "Có bao nhiêu phản tử CO₂ được tạo thành khi hai acetyl CoA tham gia vào chu trình Krebs?\nA. 2.\nB. 3.\nC. 4.\nD. 6.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcHHOTV:level1:0"
+      ],
+      "reviewURL": "hs2/index.html?q=72#q72"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q074-ethanol-fermentation",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Sản phẩm hữu cơ đặc trưng của lên men rượu từ pyruvate là gì?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Acetic acid"
+      },
+      {
+        "id": "o2",
+        "text": "Lactate"
+      },
+      {
+        "id": "o1",
+        "text": "Ethanol"
+      },
+      {
+        "id": "o4",
+        "text": "Nucleic acid"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Ethanol"
+    ],
+    "answer": [
+      "Ethanol"
+    ],
+    "explanation": "Lên men rượu tạo ethanol và CO₂, đồng thời tái tạo NAD⁺ để đường phân tiếp tục.",
+    "referenceIds": [
+      "hs24-fermentation"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 74,
+      "relatedNumbers": [
+        74,
+        86
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-HHOTV-L1-003",
+      "originalQuestion": "Sản phẩm của quá trình lên men rượu là\nA. Lactic acid.\nB. Acetic acid.\nC. Ethanol.\nD. Nucleic acid.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcHHOTV:level1:2"
+      ],
+      "reviewURL": "hs2/index.html?q=74#q74"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q079-shared-glycolysis",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Giai đoạn nào có trước cả lên men lactate và hô hấp hiếu khí khi tế bào sử dụng glucose?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Đường phân"
+      },
+      {
+        "id": "o3",
+        "text": "Chuỗi truyền electron dùng O₂"
+      },
+      {
+        "id": "o2",
+        "text": "Chu trình Krebs"
+      },
+      {
+        "id": "o4",
+        "text": "Oxi hóa acetyl-CoA trong Krebs"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Đường phân"
+    ],
+    "answer": [
+      "Đường phân"
+    ],
+    "explanation": "Đường phân chuyển glucose thành pyruvate. Sau đó pyruvate có các hướng chuyển hóa khác nhau tùy điều kiện.",
+    "referenceIds": [
+      "hs24-glycolysis",
+      "hs24-fermentation"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Gộp câu 79/81; nêu glucose và lên men lactate để làm rõ phạm vi. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 79,
+      "relatedNumbers": [
+        79,
+        81
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-HHOTV-L2-004",
+      "originalQuestion": "Giai đoạn nào chung cho quá trình lên men và hô hấp hiếu khí?\nA. Chu trình Krebs.\nB. Chuỗi chuyền điện tử electron.\nC. Đường phân.\nD. Tổng hợp acetyl – CoA.",
+      "originalAnswer": "C",
+      "reviewedAnswer": "C",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcHHOTV:level2:3",
+        "qb11:mcHHOTV:level2:1"
+      ],
+      "reviewURL": "hs2/index.html?q=79#q79"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q080-active-tissue",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Trong cùng điều kiện phù hợp, mô thực vật nào thường có cường độ hô hấp cao hơn do hoạt động sinh trưởng mạnh?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Mô phân sinh đang phân chia"
+      },
+      {
+        "id": "o3",
+        "text": "Phần tử mạch ống trưởng thành đã chết"
+      },
+      {
+        "id": "o2",
+        "text": "Lớp bần đã chết"
+      },
+      {
+        "id": "o4",
+        "text": "Mô chết trong lõi thân rỗng"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Mô phân sinh đang phân chia"
+    ],
+    "answer": [
+      "Mô phân sinh đang phân chia"
+    ],
+    "explanation": "Tế bào đang phân chia và sinh trưởng cần nhiều ATP. Không thể xếp rễ luôn cao nhất trong mọi cây, mọi giai đoạn.",
+    "referenceIds": [
+      "hs24-respiration"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu 80 gốc không đủ bối cảnh để xếp hạng rễ/thân/lá/quả. Câu thay thế nêu mô hoạt động so với mô đã chết. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 80,
+      "relatedNumbers": [
+        80,
+        105
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-HHOTV-L2-003",
+      "originalQuestion": "Nơi diễn ra sự hô hấp mạnh nhất ở thực vật là\nA. Rễ.\nB. Thân.\nC. Lá.\nD. Quả.",
+      "originalAnswer": "A",
+      "reviewedAnswer": "Cần nêu loài, mô và giai đoạn; không có cơ sở chọn rễ luôn cao nhất",
+      "reviewStatus": "needs-context",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcHHOTV:level2:2"
+      ],
+      "reviewURL": "hs2/index.html?q=80#q80"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q082-etc-location",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Ở tế bào thực vật nhân thực, chuỗi truyền electron của hô hấp ti thể nằm chủ yếu ở đâu?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "Màng ngoài ti thể"
+      },
+      {
+        "id": "o3",
+        "text": "Màng thylakoid của lục lạp"
+      },
+      {
+        "id": "o4",
+        "text": "Dịch tế bào chất"
+      },
+      {
+        "id": "o1",
+        "text": "Màng trong ti thể"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Màng trong ti thể"
+    ],
+    "answer": [
+      "Màng trong ti thể"
+    ],
+    "explanation": "Các phức hệ hô hấp trên màng trong tạo gradient proton; ATP synthase sử dụng gradient để tổng hợp ATP.",
+    "referenceIds": [
+      "hs24-oxidation"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 82,
+      "relatedNumbers": [
+        82
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-HHOTV-L2-001",
+      "originalQuestion": "Trong quá trình hô hấp ở thực vật, chuỗi chuyển electron xảy ra ở đâu?\nA. Màng ngoài của ti thể.\nB. Màng trong của ti thể.\nC. Tế bào chất.\nD. Màng sinh chất.",
+      "originalAnswer": "B",
+      "reviewedAnswer": "B",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcHHOTV:level2:0"
+      ],
+      "reviewURL": "hs2/index.html?q=82#q82"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q085-atp-explicit-total",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Theo mô hình 10 NADH × 2,5 ATP; 2 FADH₂ × 1,5 ATP; thêm 4 ATP mức cơ chất, tổng thu được là bao nhiêu?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "32 ATP"
+      },
+      {
+        "id": "o2",
+        "text": "28 ATP"
+      },
+      {
+        "id": "o4",
+        "text": "38 ATP"
+      },
+      {
+        "id": "o3",
+        "text": "34 ATP"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "32 ATP"
+    ],
+    "answer": [
+      "32 ATP"
+    ],
+    "explanation": "10 × 2,5 + 2 × 1,5 + 4 = 32. Đây là mô hình tính đã nêu; hiệu suất thực và shuttle có thể làm số ATP khác đi.",
+    "referenceIds": [
+      "hs24-atpyield",
+      "hs24-oxidation"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu 85 gốc chọn 36–38 theo mô hình cũ. Câu mới công khai hệ số 2,5/1,5; giữ khóa cũ riêng trong sổ đối chiếu. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 85,
+      "relatedNumbers": [
+        85
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-HHOTV-L3-002",
+      "originalQuestion": "Có bao nhiêu phân tử ATP được hình thành từ 1 phân tử glucozo bị phân giải trong quá trình hô hấp hiếu khí?\nA. 2 phân tử.\nB. 14 phân tử.\nC. 26 phân tử.\nD. 36 - 38 phân tử.",
+      "originalAnswer": "D",
+      "reviewedAnswer": "D theo quy ước cũ; không có đáp án hiện đại phù hợp trong bốn lựa chọn",
+      "reviewStatus": "convention",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcHHOTV:level3:1"
+      ],
+      "reviewURL": "hs2/index.html?q=85#q85"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q088-atp-explicit-oxidative",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Với 10 NADH và 2 FADH₂, quy đổi lần lượt 2,5 và 1,5 ATP, riêng phosphoryl hóa oxi hóa tạo bao nhiêu ATP lí thuyết?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "34 ATP"
+      },
+      {
+        "id": "o3",
+        "text": "32 ATP"
+      },
+      {
+        "id": "o1",
+        "text": "28 ATP"
+      },
+      {
+        "id": "o2",
+        "text": "4 ATP"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "28 ATP"
+    ],
+    "answer": [
+      "28 ATP"
+    ],
+    "explanation": "10 × 2,5 + 2 × 1,5 = 28. Không cộng 4 ATP mức cơ chất vì câu chỉ hỏi phosphoryl hóa oxi hóa.",
+    "referenceIds": [
+      "hs24-atpyield"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Khóa 34 ATP gốc tương ứng quy đổi cũ 3/2; câu mới nêu hệ số và không đồng nhất chuỗi electron với tổng ATP. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 88,
+      "relatedNumbers": [
+        88
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-HHOTV-L3-003",
+      "originalQuestion": "Chuỗi truyền electron tạo ra\nA. 32 ATP.\nB. 34 ATP.\nC. 36 ATP.\nD. 38 ATP.",
+      "originalAnswer": "B",
+      "reviewedAnswer": "B theo quy đổi cũ; đề còn thiếu đơn vị cơ chất và quy ước",
+      "reviewStatus": "convention",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:mcHHOTV:level3:2"
+      ],
+      "reviewURL": "hs2/index.html?q=88#q88"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q090-specialised-organs",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l1",
+    "section": "g11-l1-hs24",
+    "prompt": "Nhận định nào đúng về việc sinh vật thu nhận chất từ môi trường?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "Mọi sinh vật đều phải có hệ tiêu hóa"
+      },
+      {
+        "id": "o1",
+        "text": "Đơn bào có thể trao đổi qua màng, không cần cơ quan riêng"
+      },
+      {
+        "id": "o3",
+        "text": "Mọi sinh vật đều phải có hệ tuần hoàn"
+      },
+      {
+        "id": "o4",
+        "text": "Chỉ động vật có thể thu nhận chất"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Đơn bào có thể trao đổi qua màng, không cần cơ quan riêng"
+    ],
+    "answer": [
+      "Đơn bào có thể trao đổi qua màng, không cần cơ quan riêng"
+    ],
+    "explanation": "Cơ quan chuyên hóa có ở các cơ thể thích hợp; sinh vật đơn bào vẫn trao đổi chất dù không có cơ quan.",
+    "referenceIds": [
+      "hs24-metabolism"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Làm rõ phạm vi câu 90a; Đ chỉ phù hợp khi nói về cơ thể có những cơ quan này. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l1",
+        "section": "g11-l1-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 90,
+      "relatedNumbers": [
+        90
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "MB-KQTDCCHNL-L2-001",
+      "originalQuestion": "Lựa chọn các phương án đúng hay sai, khi nói về các dấu hiệu đặc trưng của quá trình trao đổi chất và chuyển hóa năng lượng ở sinh vật:\nCác chất dinh dưỡng và năng lượng từ môi trường sẽ được thu nhận nhờ các cơ quan chuyên biệt.\nChất dinh dưỡng qua hấp thụ sẽ được sử dụng hoàn toàn trực tiếp.\nTế bào không sử dụng các nguyên liệu nhận được để tổng hợp chất hữu cơ tham gia kiến tạo cơ thể và dự trữ năng lượng.\nCác chất không được tế bào sử dụng sẽ được tái hấp thu.",
+      "originalAnswer": "a. Đ, b. S, c. S, d. S",
+      "reviewedAnswer": "a: cần giới hạn phạm vi; b: S; c: S; d: S",
+      "reviewStatus": "ambiguous",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:tfKQTDCCHNL:level2:0"
+      ],
+      "reviewURL": "hs2/index.html?q=90#q90"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q100-potassium-stomata",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Ion nào thường tích lũy với lượng lớn trong tế bào bảo vệ, góp phần hút nước và mở khí khổng?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Mg²⁺"
+      },
+      {
+        "id": "o4",
+        "text": "Cu²⁺"
+      },
+      {
+        "id": "o1",
+        "text": "K⁺"
+      },
+      {
+        "id": "o2",
+        "text": "Fe²⁺"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "K⁺"
+    ],
+    "answer": [
+      "K⁺"
+    ],
+    "explanation": "Biến đổi lượng K⁺ và các chất tan khác ảnh hưởng thế nước, sức trương và độ mở khí khổng.",
+    "referenceIds": [
+      "hs24-transport"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Tách ý dễ nhầm ở câu 100b; vẫn thừa nhận nhiều ion và chất tan phối hợp. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 100,
+      "relatedNumbers": [
+        100
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "DB-TĐNVMK-L2-004",
+      "originalQuestion": "Các phát biểu sau về vai trò của nitrogen đối với thực vật là đúng hay sai?\nTham gia cấu tạo nên các phân tử protein.\nHoạt hóa enzyme và đóng mở khí khổng.\nTham gia cấu tạo nên nucleic acid.\nTham gia cấu tạo nên các phân tử diệp lục.",
+      "originalAnswer": "a. Đ, b. S, c. Đ, d. Đ",
+      "reviewedAnswer": "a: Đ; b: S theo vai trò đặc trưng được hỏi; c: Đ; d: Đ",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:tfTDNVK:level2:3"
+      ],
+      "reviewURL": "hs2/index.html?q=100#q100"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q102-co2-controlled-test",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Ba bình rong giống nhau: 1 sáng+có NaHCO₃; 2 sáng+không NaHCO₃; 3 tối+có NaHCO₃. Cặp nào so sánh tác động bổ sung NaHCO₃?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Chỉ đo bình 3"
+      },
+      {
+        "id": "o1",
+        "text": "Bình 1 và 2"
+      },
+      {
+        "id": "o3",
+        "text": "Bình 2 và 3"
+      },
+      {
+        "id": "o2",
+        "text": "Bình 1 và 3"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Bình 1 và 2"
+    ],
+    "answer": [
+      "Bình 1 và 2"
+    ],
+    "explanation": "Giữa 1 và 2 chỉ thay yếu tố bổ sung NaHCO₃. Trong mô hình đề, NaHCO₃ được dùng làm nguồn cung cấp carbon vô cơ.",
+    "referenceIds": [
+      "hs24-photosynthesis"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Giữ bố trí câu 102; câu mới hỏi tác động bổ sung NaHCO₃ thay vì khẳng định đã cô lập tuyệt đối CO₂ bất chấp pH. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 102,
+      "relatedNumbers": [
+        102
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "DB-QHOTV-L1-001",
+      "originalQuestion": "Một bạn học sinh tiến hành thí nghiệm đặt cây rong đuôi chó trong các bình thủy tinh kín đựng nước cất đun sôi để nguội, sao cho cây ngập hoàn toàn trong nước và bổ sung một số điều kiện thí nghiệm khác như mô tả dưới đây:\n- Chiếu sáng với cường độ tối ưu và không đổi: Bình 1 - có; Bình 2 - có; Bình 3 - không.\nBổ sung NaHCO₃ (nguồn cung cấp CO₂): Bình 1 - có; Bình 2 - không; Bình 3 - có.\nCác bình được giữ ở nhiệt độ 25°C. Nồng độ O₂ và nồng độ NaHCO₃ trong mỗi bình được đo liên tục trong 2 giờ, lần sau cách lần trước 5 phút. Mỗi phát biểu dưới đây là Đúng hay Sai?\nKhi cây rong thí nghiệm tiến hành quang hợp, nồng độ O₂ trong bình thí nghiệm sẽ thay đổi theo thời gian.\nĐể đánh giá ảnh hưởng của CO₂ đến quang hợp của cây rong, cần so sánh nồng độ O₂ trong bình 1 với nồng độ O₂ trong bình 2.\nTheo thời gian, nồng độ O₂ trong bình 2 không đổi còn nồng độ NaHCO₃ trong bình 3 giảm dần.\nNếu tăng nhiệt độ ở các bình lên 30°C thì nồng độ O₂ trong các bình sẽ tăng lên.",
+      "originalAnswer": "a. Đ, b. Đ, c. S, d. S",
+      "reviewedAnswer": "a: Đ theo mô hình thí nghiệm; b: Đ có điều kiện kiểm soát; c: S; d: S",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=102#q102"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q106-limewater-naoh",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l7",
+    "section": "g11-l7-hs24",
+    "prompt": "Thay nước vôi trong bằng NaOH loãng rồi sục lượng CO₂ vừa đủ: có còn dấu hiệu vẩn đục CaCO₃ như cũ không?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Không; dung dịch NaOH không cung cấp Ca²⁺"
+      },
+      {
+        "id": "o4",
+        "text": "Không; NaOH hoàn toàn không phản ứng với CO₂"
+      },
+      {
+        "id": "o3",
+        "text": "Có; NaOH và Ca(OH)₂ là cùng chất"
+      },
+      {
+        "id": "o2",
+        "text": "Có; CO₂ tự biến thành calcium"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Không; dung dịch NaOH không cung cấp Ca²⁺"
+    ],
+    "answer": [
+      "Không; dung dịch NaOH không cung cấp Ca²⁺"
+    ],
+    "explanation": "NaOH có thể hấp thụ CO₂ nhưng không tạo kết tủa CaCO₃ như nước vôi. Công thức đúng là NaOH, không phải Na(OH)₂.",
+    "referenceIds": [
+      "hs24-limewater"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Sửa công thức Na(OH)₂ thành NaOH và làm rõ “kết quả” là dấu hiệu vẩn đục trong thí nghiệm. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l7",
+        "section": "g11-l7-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 106,
+      "relatedNumbers": [
+        106
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "DB-HHOTV-L1-001",
+      "originalQuestion": "Để tìm hiểu về quá trình hô hấp ở thực vật, một bạn học sinh đã bố trí thí nghiệm như trong hình vẽ. Mỗi nhận định dưới đây là đúng hay sai?\nThay nước vôi trong ống nghiệm bằng dung dịch Na(OH)₂ thì kết quả thí nghiệm vẫn không thay đổi.\nThí nghiệm chứng minh quá trình hô hấp ở thực vật thải CO₂ .\nThí nghiệm chứng minh oxygen là nguyên liệu của hô hấp.\nThí nghiệm chứng minh nước là sản phẩm và là nguyên liệu của hô hấp.",
+      "originalAnswer": "a. S, b. Đ, c. S, d. S",
+      "reviewedAnswer": "a: S; b: Đ; c: S; d: S",
+      "reviewStatus": "clarified",
+      "originalImages": [
+        "image4.png"
+      ],
+      "legacySourceIds": [
+        "qb11:tfHHOTV:level1:0"
+      ],
+      "reviewURL": "hs2/index.html?q=106#q106"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q108-nitrogen-atmosphere",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l6",
+    "section": "g11-l6-hs24",
+    "prompt": "Trong bình chứa N₂ tinh khiết, khi O₂ còn lại trong mô đã hết, tế bào khoai tây không thể tiếp tục quá trình nào?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Lên men trong mô còn sống có khả năng lên men"
+      },
+      {
+        "id": "o4",
+        "text": "Các phản ứng chuyển hóa không sử dụng O₂"
+      },
+      {
+        "id": "o1",
+        "text": "Chuỗi hô hấp hiếu khí dùng O₂ làm chất nhận electron cuối"
+      },
+      {
+        "id": "o2",
+        "text": "Đường phân còn cơ chất và NAD⁺ được tái tạo"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Chuỗi hô hấp hiếu khí dùng O₂ làm chất nhận electron cuối"
+    ],
+    "answer": [
+      "Chuỗi hô hấp hiếu khí dùng O₂ làm chất nhận electron cuối"
+    ],
+    "explanation": "Khí N₂ không thay thế O₂ ở cuối chuỗi hô hấp hiếu khí. CO₂ giảm không chứng minh mô đang hô hấp hiếu khí bình thường.",
+    "referenceIds": [
+      "hs24-oxidation",
+      "hs24-fermentation"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Lấy ý chắc chắn của câu 108c; không suy cơ chế chi tiết chỉ từ đường CO₂. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l6",
+        "section": "g11-l6-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 108,
+      "relatedNumbers": [
+        108
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "DB-HHOTV-L3-001",
+      "originalQuestion": "Người ta giữ khoai tây một tuần trong không khí sạch, sau đó giữ một tuần trong nitrogen sạch, rồi lại giữ một tuần trong không khí sạch. Lượng CO₂ giải phóng ra trong thí nghiệm được biểu diễn ở đồ thị bên. Giải thích kết quả và cho biết mỗi nhận định sau đây đúng hay sai?\nQuá trình hô hấp làm chất lượng nông sản bị giảm.\nỞ tuần 1 quá trình hô hấp hiếu khí bình thường.\nỞ tuần 2 xảy ra giai đoạn đầu hô hấp kị khí, giai đoạn sau chỉ xảy ra hô hấp hiếu khí.\nỞ tuần 3, giai đoạn đầu, các mô có oxygen sẽ đẩy mạnh oxy hóa glucose chuyển thành pyruvic acid tham gia vào chu trình Krebs → có sự tăng cao hàm lượng CO₂ thải ra, sau đó quá trình hô hấp hiếu khí bình thường → lượng CO < sub > 2 ổn định trở lại.",
+      "originalAnswer": "a. Đ, b. Đ, c. S, d. Đ",
+      "reviewedAnswer": "a: Đ trong bối cảnh tiêu hao chất dự trữ; b: Đ theo bố trí; c: S; d: cần sửa cơ chế",
+      "reviewStatus": "clarified",
+      "originalImages": [
+        "image5.png"
+      ],
+      "legacySourceIds": [
+        "qb11:tfHHOTV:level3:0"
+      ],
+      "reviewURL": "hs2/index.html?q=108#q108"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q112-soil-ph",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Đất quá chua hoặc quá kiềm có thể làm rễ hấp thụ nước và khoáng kém bằng cách nào?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Loại bỏ nhu cầu oxygen của rễ"
+      },
+      {
+        "id": "o2",
+        "text": "Luôn làm mọi khoáng dễ hấp thụ hơn"
+      },
+      {
+        "id": "o3",
+        "text": "Biến nước thành chất hữu cơ ngay trong đất"
+      },
+      {
+        "id": "o1",
+        "text": "Làm tổn thương rễ và thay đổi khả năng cung cấp khoáng"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Làm tổn thương rễ và thay đổi khả năng cung cấp khoáng"
+    ],
+    "answer": [
+      "Làm tổn thương rễ và thay đổi khả năng cung cấp khoáng"
+    ],
+    "explanation": "pH ảnh hưởng hoạt động của rễ và tính sẵn có của nhiều ion. Khoảng phù hợp tùy loài cây và loại đất.",
+    "referenceIds": [
+      "hs24-soil"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 112,
+      "relatedNumbers": [
+        112,
+        121
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L1-NT1-005",
+      "originalQuestion": "Kể tên các tác nhân có ảnh hưởng đến quá trình hấp thụ nước.",
+      "originalAnswer": "Áp suất thẩm thấu của dịch đất; pH của đất; Độ thoáng của đất; Nhiệt độ.",
+      "reviewedAnswer": "Thế nước/nồng độ muối của đất; pH; độ thoáng/O₂; nhiệt độ; tình trạng rễ",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=112#q112"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q113-two-root-pathways",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Hai con đường thường được phân biệt khi nước đi qua vỏ rễ là gì?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Ti thể và lục lạp"
+      },
+      {
+        "id": "o4",
+        "text": "Tự dưỡng và dị dưỡng"
+      },
+      {
+        "id": "o1",
+        "text": "Gian bào (apoplast) và tế bào chất liên thông (symplast)"
+      },
+      {
+        "id": "o2",
+        "text": "Mạch rây và khí khổng"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Gian bào (apoplast) và tế bào chất liên thông (symplast)"
+    ],
+    "answer": [
+      "Gian bào (apoplast) và tế bào chất liên thông (symplast)"
+    ],
+    "explanation": "Apoplast gồm thành tế bào và khoảng gian bào; symplast gồm tế bào chất nối qua cầu sinh chất. Còn có đường xuyên màng.",
+    "referenceIds": [
+      "hs24-roots"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Giữ mô hình hai đường của đề, ghi chú đường xuyên màng để không coi danh sách là mọi cơ chế có thể. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 113,
+      "relatedNumbers": [
+        92,
+        113,
+        127
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L1-NT1-003",
+      "originalQuestion": "Nêu tên hai con đường vận chuyển nước từ đất vào mạch gỗ của rễ.",
+      "originalAnswer": "Con đường qua tế bào sống (symplast) và con đường qua thành tế bào và khe gian bào (apoplast).",
+      "reviewedAnswer": "Đường gian bào (apoplast) và đường tế bào chất liên thông (symplast)",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=113#q113"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q114-casparian-strip",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Đai Caspari ở nội bì rễ tác động trực tiếp lên con đường nào?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Biến dòng mạch gỗ thành dòng mạch rây"
+      },
+      {
+        "id": "o2",
+        "text": "Chặn hoàn toàn mọi nước đi vào cây"
+      },
+      {
+        "id": "o1",
+        "text": "Chặn dòng gian bào, buộc chất đi qua màng để vào trụ giữa"
+      },
+      {
+        "id": "o4",
+        "text": "Chỉ ngăn ánh sáng chiếu vào rễ"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Chặn dòng gian bào, buộc chất đi qua màng để vào trụ giữa"
+    ],
+    "answer": [
+      "Chặn dòng gian bào, buộc chất đi qua màng để vào trụ giữa"
+    ],
+    "explanation": "Hàng rào nội bì hạn chế lối apoplast, tạo cơ hội cho màng tế bào kiểm soát chất qua trước khi vào hệ dẫn.",
+    "referenceIds": [
+      "hs24-roots",
+      "hs24-casparian"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Không dùng cách nói “lọc sạch/lọc không sạch” của câu 127; màng có tính chọn lọc, không phải bảo đảm sạch tuyệt đối. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 114,
+      "relatedNumbers": [
+        114,
+        127
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L1-NT2-004",
+      "originalQuestion": "Nêu vai trò của đai Caspari.",
+      "originalAnswer": "Đai Caspari như một đập chắn nước, làm chuyển hướng dòng nước đi từ con đường gian bào sang con đường qua tế bào sống.",
+      "reviewedAnswer": "Chặn dòng apoplast ở nội bì, buộc nước/chất tan đi qua màng theo lộ trình thích hợp trước khi vào trụ giữa",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=114#q114"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q117-tall-tree-water",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Ở cây gỗ rất cao, cơ chế chủ yếu giúp đưa nước tới tán lá là gì?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Trọng lực kéo nước lên trên"
+      },
+      {
+        "id": "o1",
+        "text": "Lực hút do thoát hơi nước và tính liên tục của cột nước"
+      },
+      {
+        "id": "o3",
+        "text": "Tế bào mạch gỗ sống bơm từng phân tử nước"
+      },
+      {
+        "id": "o2",
+        "text": "Chỉ áp suất rễ đẩy tới mọi độ cao"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Lực hút do thoát hơi nước và tính liên tục của cột nước"
+    ],
+    "answer": [
+      "Lực hút do thoát hơi nước và tính liên tục của cột nước"
+    ],
+    "explanation": "Lực căng từ lá truyền qua cột nước nhờ liên kết giữa các phân tử nước; áp suất rễ không giải thích độ cao rất lớn.",
+    "referenceIds": [
+      "hs24-transport"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Không lặp số đo/kỉ lục “hiện nay” của Hyperion; sửa mức đóng góp bị phóng đại của áp suất rễ. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 117,
+      "relatedNumbers": [
+        117
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L1-NT6-006",
+      "originalQuestion": "Hiện nay, cây giữ kỉ lục cao nhất thế giới thuộc loài tùng gỗ đỏ ven biển (coastal redwood) mang tên Hyperion. Cụ thể, cây tùng gỗ đỏ cao đến 115, 6m, vượt trội hơn cả công trình Nữ thần Tự do và Tháp đồng hồ Big Ben. Động lực nào mà nước trong cây di chuyển được theo chiều ngược với chiều của trọng lực từ rễ lên đỉnh của những cây gỗ cao như vậy?",
+      "originalAnswer": "Động lực dưới do lực đẩy áp suất rễ; Động lực trung gian do lực liên kết giữa các phân tử nước với nhau và liên kết giữa các phân tử nước với thành mạch; Động lực trên do lực hút của tán lá từ quá trình thoát hơi nước.",
+      "reviewedAnswer": "Chủ yếu lực hút do thoát hơi nước phối hợp tính liên tục của cột nước (liên kết–lực căng)",
+      "reviewStatus": "corrected",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:saTDNVK:level4:1"
+      ],
+      "reviewURL": "hs2/index.html?q=117#q117"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q118-salt-tolerant-adjustment",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Một cơ chế giúp cây chịu mặn vẫn nhận được nước từ môi trường mặn là gì?",
+    "choices": [
+      {
+        "id": "o4",
+        "text": "Làm thế nước tế bào luôn cao hơn đất"
+      },
+      {
+        "id": "o2",
+        "text": "Loại bỏ mọi chất tan khỏi tế bào"
+      },
+      {
+        "id": "o3",
+        "text": "Ngừng trao đổi nước qua màng"
+      },
+      {
+        "id": "o1",
+        "text": "Tích lũy chất tan phù hợp để hạ thế nước tế bào"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Tích lũy chất tan phù hợp để hạ thế nước tế bào"
+    ],
+    "answer": [
+      "Tích lũy chất tan phù hợp để hạ thế nước tế bào"
+    ],
+    "explanation": "Điều chỉnh thẩm thấu giúp duy trì gradient nước vào. Cây chịu mặn còn phải hạn chế độc ion và bảo vệ tế bào.",
+    "referenceIds": [
+      "hs24-salinity-research"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Mở rộng lí do nồng độ dịch bào cao thành điều chỉnh thẩm thấu, không suy cây hút tùy ý mọi muối. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 118,
+      "relatedNumbers": [
+        118
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L2-NT6-005",
+      "originalQuestion": "Những vệ sĩ bờ biển như cây sú, vẹt, đước có khả năng sống được trên vùng ngập mặn. Vậy làm thế nào để các loài cây chịu mặn này có thể hút nước để sinh trưởng và phát triển được?",
+      "originalAnswer": "Không bào trong tế bào lông hút ở các loài cây chịu mặn, có áp suất thẩm thấu rất lớn (nồng độ dịch bào rất cao), hơn cả dịch đất.",
+      "reviewedAnswer": "Điều chỉnh thẩm thấu hạ thế nước tế bào và kiểm soát muối",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=118#q118"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q119-cut-under-water",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Cắt lại gốc cành hoa dưới nước có thể giúp duy trì hút nước chủ yếu vì sao?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Hạn chế không khí lọt vào các mạch dẫn bị cắt"
+      },
+      {
+        "id": "o3",
+        "text": "Làm cành đã cắt tạo áp suất rễ lớn hơn"
+      },
+      {
+        "id": "o2",
+        "text": "Bịt kín miệng mạch gỗ để ngăn nước đi vào"
+      },
+      {
+        "id": "o4",
+        "text": "Ngăn hoàn toàn thoát hơi nước qua lá"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Hạn chế không khí lọt vào các mạch dẫn bị cắt"
+    ],
+    "answer": [
+      "Hạn chế không khí lọt vào các mạch dẫn bị cắt"
+    ],
+    "explanation": "Không khí có thể làm gián đoạn cột nước trong mạch gỗ. Giữ đầu cắt ướt hỗ trợ tiếp xúc liên tục với nước.",
+    "referenceIds": [
+      "hs24-cutflowers"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 119,
+      "relatedNumbers": [
+        119
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L2-VD1-013",
+      "originalQuestion": "Nếu bạn mua các cành hoa ngoài chợ, tại sao người bán hoa lại khuyên nên cắt đầu cành hoa ngâm dưới nước và chuyển hoa đến ngay bình hoa trong khi đầu cắt vẫn đẫm nước?",
+      "originalAnswer": "Đẩm bảo dòng nước liên tục, duy trì sự liên kết giữa các phân tử nước với nhau và sự liên kết giữa các phân tử nước với thành mạch.",
+      "reviewedAnswer": "Hạn chế khí lọt vào mạch gỗ, giúp duy trì tiếp xúc liên tục với nước",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=119#q119"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q122-salt-leaching",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Để giảm muối hòa tan trong vùng rễ, biện pháp nào có thể hiệu quả khi có đủ nước phù hợp và hệ thống thoát nước?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "Bón thêm nhiều phân tan bất kể nhu cầu"
+      },
+      {
+        "id": "o1",
+        "text": "Rửa mặn bằng nước ngọt, đưa nước chứa muối ra khỏi vùng rễ"
+      },
+      {
+        "id": "o3",
+        "text": "Giữ nước mặn tù đọng lâu hơn"
+      },
+      {
+        "id": "o4",
+        "text": "Chỉ tăng lượng muối trong đất"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Rửa mặn bằng nước ngọt, đưa nước chứa muối ra khỏi vùng rễ"
+    ],
+    "answer": [
+      "Rửa mặn bằng nước ngọt, đưa nước chứa muối ra khỏi vùng rễ"
+    ],
+    "explanation": "Nước hòa tan và mang muối ra khi thoát được. Mức phục hồi phụ thuộc tổn thương cây; không bảo đảm cứu được mọi cây.",
+    "referenceIds": [
+      "hs24-salt-extension"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Giữ giải pháp của Minh ở câu 122; bỏ bảo đảm mọi đất/cây đều phục hồi hoàn toàn. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 122,
+      "relatedNumbers": [
+        120,
+        122
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L2-VD1-009",
+      "originalQuestion": "Mùa khô năm 2019 - 2020, Đồng bằng Sông Cửu Long phải hứng chịu một đợt hạn - mặn khốc liệt. Xâm nhập mặn sẽ tác động đến 10 / 13 tỉnh với tổng cộng 71 / 137 đơn vị cấp huyện, thị xã, thành phố trực thuộc ở khu vực Đồng bằng sông Cửu Long. Dự báo, thời gian tới, toàn vùng sẽ có thêm khoảng 332.000 ha lúa Đông - Xuân, 136.000 ha cây ăn quả khả năng bị ảnh hưởng do hạn mặn. Như vậy, hiện tượng xâm nhập mặn đã gây hại cho sự sinh trưởng của cây trồng. Vậy, làm thế nào để “giải độc” cho cây? Khi đọc đoạn thông tin vừa rồi, An và Minh tranh luận với nhau: An cho rằng: Không thế giải độc cho cây vì đa số cây trồng không sống được trên đất ngập mặn. Minh không đồng ý với An nên đã cho rằng, có thể giải độc cho cây trồng bị nhiễm mặn bằng cách rửa mặn gồm hệ thống kênh thoát nước mặn và kênh tưới nước ngọt. Theo em, ý kiến của bạn nào hợp lí ? Tại sao ?",
+      "originalAnswer": "An đúng khi cho rằng mặn gây hại nghiêm trọng, nhưng kết luận không thể giải độc là phiến diện. Thực tế, nhiều mô hình tại ĐBSCL đã chứng minh rằng khi có nước ngọt trở lại và áp dụng đúng kỹ thuật rửa mặn, đất và cây trồng hoàn toàn có thể phục hồi.",
+      "reviewedAnswer": "Giải pháp của Minh hợp lí khi có nước ngọt và đường thoát; không bảo đảm cứu được mọi cây",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=122#q122"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q123-root-pressure-exudation",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Dịch ứa từ mặt cắt của thân gần gốc khi rễ còn hoạt động có thể do lực nào?",
+    "choices": [
+      {
+        "id": "o1",
+        "text": "Áp suất rễ"
+      },
+      {
+        "id": "o4",
+        "text": "Trọng lực đẩy nước lên từ rễ"
+      },
+      {
+        "id": "o3",
+        "text": "Áp suất do lá quang hợp ngay ở vết cắt"
+      },
+      {
+        "id": "o2",
+        "text": "Lực hút do tán lá đã bị cắt bỏ"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Áp suất rễ"
+    ],
+    "answer": [
+      "Áp suất rễ"
+    ],
+    "explanation": "Rễ tích lũy ion vào hệ dẫn có thể kéo nước vào và tạo áp suất dương, đẩy dịch ra vết cắt.",
+    "referenceIds": [
+      "hs24-transport"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Biến thể áp dụng từ ứa giọt đã có: không đồng nhất ứa dịch qua vết cắt với thoát hơi ở lá. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 123,
+      "relatedNumbers": [
+        94,
+        123
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L2-TH2-011",
+      "originalQuestion": "Nhà bác của Nam chuẩn bị xây nhà trên khu đất mới có nhiều loại cây, bác tiến hành dọn dẹp chặt ngang đoạn gần gốc của những cây này.Sau một thời gian, Nam quan sát thấy có nước đọng trên bề mặt vết cắt nhưng Nam không biết nguyên nhân nào gây ra. Hãy giải thích cho Nam hiểu về hiện tượng mà bạn ý đã quan sát được?",
+      "originalAnswer": "Lực đẩy áp suất rễ.",
+      "reviewedAnswer": "Áp suất rễ có thể đẩy dịch mạch gỗ ra vết cắt",
+      "reviewStatus": "agrees",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=123#q123"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q124-root-restriction",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Khi chậu quá nhỏ và đã đầy rễ, giới hạn nào không được khắc phục chỉ bằng bón thêm phân?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Lượng potassium có thể bổ sung"
+      },
+      {
+        "id": "o1",
+        "text": "Không gian để bộ rễ phát triển"
+      },
+      {
+        "id": "o4",
+        "text": "Lượng phosphorus có thể bổ sung"
+      },
+      {
+        "id": "o2",
+        "text": "Lượng nitrogen có thể bổ sung"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Không gian để bộ rễ phát triển"
+    ],
+    "answer": [
+      "Không gian để bộ rễ phát triển"
+    ],
+    "explanation": "Phân bón bổ sung dinh dưỡng, không làm chậu rộng hơn. Rễ chật còn khiến việc quản lí nước và dinh dưỡng khó hơn.",
+    "referenceIds": [
+      "hs24-root-volume"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Câu 124 được điều kiện hóa bằng “chậu quá nhỏ”; không khẳng định mọi chậu kém đất vườn. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 124,
+      "relatedNumbers": [
+        124
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L2-VD1-007",
+      "originalQuestion": "Tại sao khi trồng cây trong chậu thì cây chậm lớn so với trồng cây trong đất vườn?",
+      "originalAnswer": "Khi ta trồng cây trong chậu, khoảng đất rất hẹp, rễ của cây không thể phát triển nhanh và lan rộng và đâm sâu như cây ở đất vườn, đất trong chậu kém tơi xốp và việc chăm bón cho đất cây trong chậu cũng khó khăn hơn đất vườn nên cây chậm lớn hơn.",
+      "reviewedAnswer": "Nếu chậu quá nhỏ hoặc điều kiện kém: hạn chế rễ, nước và dinh dưỡng",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=124#q124"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q125-hollow-trunk",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Vì sao một cây thân rỗng vẫn có thể sống nếu lớp mô dẫn phía ngoài còn nguyên?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "Mọi mô bên trong và bên ngoài đều đã chết"
+      },
+      {
+        "id": "o4",
+        "text": "Cây không cần vận chuyển nước nữa"
+      },
+      {
+        "id": "o1",
+        "text": "Gỗ dác và mạch rây còn đảm nhiệm vận chuyển"
+      },
+      {
+        "id": "o2",
+        "text": "Khoang rỗng thay hoàn toàn chức năng của rễ"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Gỗ dác và mạch rây còn đảm nhiệm vận chuyển"
+    ],
+    "answer": [
+      "Gỗ dác và mạch rây còn đảm nhiệm vận chuyển"
+    ],
+    "explanation": "Phần gỗ lõi mất đi không nhất thiết cắt đứt đường dẫn ngoài. Thân rỗng vẫn có thể giảm độ bền cơ học.",
+    "referenceIds": [
+      "hs24-stems"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Không dùng giải thích “gỗ chết vì thiếu oxygen” hay “lõi vô tác dụng”: lõi vẫn góp phần nâng đỡ. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 125,
+      "relatedNumbers": [
+        125
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L2-TH2-012",
+      "originalQuestion": "Tỉnh Sơn Đông (Trung Quốc) có cây táo sống mấy trăm năm, thân cây tuy rỗng tới mức một người vào trú mưa được mà cây vẫn ra quả! Vì sao một số cây cổ thụ rỗng thân mà cây vẫn sống được?",
+      "originalAnswer": "Thân cây mỗi năm một to ra, chất gỗ ở giữa thân do ngày càng khó được cung cấp oxygen và chất dinh dưỡng, có thể bị chết dần, phần lõi cây già trở nên vô tác dụng. Mô chết này nếu bị vi khuẩn xâm nhập hoặc nước mưa thấm vào lâu ngày sẽ mục nát, tạo nên lỗ rỗng. Trên một cây, số mạch dẫn nhiều vô kể, nên nếu chỉ một phần bị mất đi, việc vận chuyển nước không bị gián đoạn hoàn toàn, do đó cây già thân rỗng vẫn sinh trưởng như thường.",
+      "reviewedAnswer": "Mạch gỗ hoạt động ở gỗ dác và mạch rây phía ngoài vẫn còn liên tục",
+      "reviewStatus": "corrected",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=125#q125"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q128-girdling",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l2",
+    "section": "g11-l2-hs24",
+    "prompt": "Bóc một vòng vỏ sâu làm đứt mạch rây quanh thân có thể khiến rễ thiếu chất nào từ lá?",
+    "choices": [
+      {
+        "id": "o2",
+        "text": "Nước trong đất được rễ hút trực tiếp"
+      },
+      {
+        "id": "o1",
+        "text": "Đường và các chất hữu cơ được vận chuyển"
+      },
+      {
+        "id": "o3",
+        "text": "Ion khoáng được rễ hấp thụ từ đất"
+      },
+      {
+        "id": "o4",
+        "text": "CO₂ từ không khí khuếch tán vào lá"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "Đường và các chất hữu cơ được vận chuyển"
+    ],
+    "answer": [
+      "Đường và các chất hữu cơ được vận chuyển"
+    ],
+    "explanation": "Mạch rây dẫn chất hữu cơ từ nguồn đến nơi nhận. Tổn thương vòng quanh thân có thể làm rễ thiếu nguồn nuôi và gây chết cây.",
+    "referenceIds": [
+      "hs24-stems",
+      "hs24-treecare"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Đối chiếu câu 128: không đưa thuốc liền sẹo thành khuyến cáo bắt buộc; vết thương lớn cần người chăm sóc cây có chuyên môn. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l2",
+        "section": "g11-l2-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 128,
+      "relatedNumbers": [
+        128
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-TĐNVMK-L3-VD2-002",
+      "originalQuestion": "Theo https://infonet.vietnamnet.vn đưa tin: Một loạt cây xà cừ cổ thụ dọc đường Láng (Quận Đống Đa, Hà Nội) gần đây bị đẽo vỏ, điều này khiến dư luận không khỏi lo ngại. Theo đó, tất cả những cây từ số nhà 452 đến 954 dọc phố xuất hiện nhiều vết đẽo trên vỏ với đủ các hình dáng từ tròn cho đến vuông với kích thước khác nhau. Thậm chí có những cây, vết khoét sâu vào tận thân cây, để lộ ra cả lớp gỗ bên trong với kích thước 30 x 40 cm. Khi được hỏi thì những người làm việc này cho biết, đi lấy vỏ cây để chữa bệnh ngứa, ghẻ. Có người nói khoét vỏ để treo biển quảng cáo. Họ lấy công khai.\n- Theo em việc làm trên gây những nguy hại gì cho sự sống của cây?\n- Hãy đưa ra những lí lẽ để thuyết phục cho những người dân không nên khoét vỏ gỗ ở thân cây? Đề xuất các biện pháp khắc phục những chỗ vết bị khoét vỏ để bảo vệ sự sống cho cây?",
+      "originalAnswer": "Cây có thể chết do mạch rây bị cắt đứt, không vận chuyển được chất dinh dưỡng tới các bộ phận của cây. Ngoài ra, vi sinh vật có thể xâm nhập làm hại cây. Giải pháp: sử dụng thuốc liền sẹo, tuyên truyền nâng cao nhận thức.",
+      "reviewedAnswer": "Làm tổn thương mạch rây/tầng sinh mạch, cản phân phối chất hữu cơ và tăng nguy cơ nhiễm bệnh",
+      "reviewStatus": "corrected",
+      "originalImages": [],
+      "legacySourceIds": [],
+      "reviewURL": "hs2/index.html?q=128#q128"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  },
+  {
+    "id": "hs24-g11-q130-c3-count",
+    "type": "qa",
+    "grade": 11,
+    "lesson": "g11-l4",
+    "section": "g11-l4-hs24",
+    "prompt": "Trong lúa, cao lương, ngô, khoai tây, sắn, mía, xương rồng, dứa, đậu và thanh long: có bao nhiêu cây thuộc nhóm C₃?",
+    "choices": [
+      {
+        "id": "o3",
+        "text": "5"
+      },
+      {
+        "id": "o4",
+        "text": "6"
+      },
+      {
+        "id": "o2",
+        "text": "3"
+      },
+      {
+        "id": "o1",
+        "text": "4"
+      }
+    ],
+    "correctChoice": "o1",
+    "accepted": [
+      "4"
+    ],
+    "answer": [
+      "4"
+    ],
+    "explanation": "Bốn cây C₃ là lúa, khoai tây, sắn, đậu. Ngô, cao lương, mía là C₄; các ví dụ còn lại thuộc CAM.",
+    "referenceIds": [
+      "hs24-c4",
+      "hs24-c4-crop",
+      "hs24-cam-pineapple"
+    ],
+    "basis": "document-adapted",
+    "editorialNote": "Đổi “khoai” không xác định loài thành khoai tây; giữ đáp án 4 và công khai thay đổi. Câu ngắn và lời giải do NMNRT biên soạn. Đề và khóa gốc được giữ riêng trong sổ HS2; không chấm tự động câu mơ hồ.",
+    "advanced": false,
+    "sourceRefs": [
+      {
+        "lesson": "g11-l4",
+        "section": "g11-l4-hs24",
+        "sourceIndices": []
+      }
+    ],
+    "source": "Đề cương HS2HK1.docx",
+    "shortAnswer": false,
+    "sourceDocument": {
+      "number": 130,
+      "relatedNumbers": [
+        54,
+        130
+      ],
+      "file": "Đề cương HS2HK1.docx",
+      "sha256": "5ad84f95adf1caa45e994726f6ea21095ee452ffc253c1aa4d3233e569ffeb8c",
+      "code": "TB-QHOTV-L1-001",
+      "originalQuestion": "Trong số các loài thực vật sau: Lúa, cao lương, ngô, khoai, sắn, mía, xương rồng, dứa, đậu, thanh long. Có bao nhiêu loài thực vật C₃.",
+      "originalAnswer": "4",
+      "reviewedAnswer": "4 theo cách hiểu “khoai” là loài C₃ như khoai tây",
+      "reviewStatus": "clarified",
+      "originalImages": [],
+      "legacySourceIds": [
+        "qb11:saQHOTV:level1:0"
+      ],
+      "reviewURL": "hs2/index.html?q=130#q130"
+    },
+    "review": {
+      "date": "2026-09-29",
+      "method": "Document-by-document comparison, explicit editorial review, cited principle checks; not independent teacher certification"
+    }
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "checks": 29,
+  "missing": [],
+  "scope": "Static HTML references against existing 2026-09-27 site merged with this patch."
+}

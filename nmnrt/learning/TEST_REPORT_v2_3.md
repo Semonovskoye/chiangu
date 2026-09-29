@@ -39,9 +39,3 @@ Screenshots are real renders. No font bytes or font files are distributed in thi
 ## Boundaries
 
 The root website, themes, icons, archive, original DOCX and original questionbank files were not edited. The output is a cumulative **NMNRT-only patch**. No deployment was made. AI editorial checks and references are not independent teacher certification; the guide visibly flags ambiguous or disputed source keys instead of forcing answers.
-
-## Final artifact checks
-
-All 47 static local references in the delivered HTML/CSS resolved against the merged site, and all nine shipped JavaScript files passed `node --check`. Three original bank file hashes and the original DOCX hash were unchanged. Six additional offline smoke checks passed on the actual self-contained HTML guide (123 entries, embedded graph, Q126 guard, theme selector, mobile overflow, and reviewed-answer/practice link). This remains an offline test, not real navigation or persistent-storage verification.
-
-The archive contains no font files or embedded font payloads and is checked with ZIP CRC validation.

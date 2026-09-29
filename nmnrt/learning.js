@@ -63,7 +63,7 @@
       const advanced=pp.filter(p=>p.card.advanced).length, gapBooks=gg.filter(b=>!b.points.length);
       const gapSections=gg.flatMap(b=>b.sections).filter(s=>!s.points.length);
       return `<details class="learn-coverage"><summary>Phạm vi học liệu · ${pp.length} ý ở Lớp ${state.grade}</summary>
-        <p>Học nhanh chuyển toàn bộ ${bank.cards.length} câu đã biên tập của ngân hàng 2.2 thành các ý học trực tiếp. Đây là cách diễn đạt lại nội dung đã có, không phải một giáo trình đầy đủ cho mọi mục trong chương trình.</p>
+        <p>Học nhanh chuyển toàn bộ ${bank.cards.length} câu đã biên tập của ngân hàng 2.4 thành các ý học trực tiếp. Đây là cách diễn đạt lại nội dung đã có, không phải một giáo trình đầy đủ cho mọi mục trong chương trình.</p>
         <p>Lớp ${state.grade}: ${pp.length-advanced} ý thông thường${advanced?` và ${advanced} ý HSG / bổ sung`:''}. ${gapBooks.length?`${gapBooks.length} tiêu đề bài chưa có ý học đã biên tập.`:''} ${gapSections.length?`${gapSections.length} mục nguồn không có ý học; một số chỉ là mục khởi động hoặc hoạt động.`:''}</p>
         ${state.grade===9?'<p><b>Lớp 9:</b> tệp gốc có 35 tiêu đề bài nhưng lặp ghi chú về phương pháp nghiên cứu. 12 ý thực có được gom thành một nhóm, không dùng tiêu đề di truyền để giả vờ đã có nội dung di truyền.</p>':''}
         <p>Thuật ngữ, điều kiện bài tính và nguồn đối chiếu đi cùng từng ý. Phần gốc chưa sửa luôn được ghi nhãn riêng; nội dung thực hành không thay thế hướng dẫn an toàn của giáo viên.</p>
@@ -74,7 +74,7 @@
       const read=pp.filter(p=>C.isRead(state.records,p.id)).length, last=catalog.points.get(state.lastCard);
       return `<div class="learn-head"><div><span class="eyebrow">HỌC TRƯỚC · ÔN SAU</span>
         <h2 data-study-heading tabindex="-1">Hiểu từng ý. Không ngợp chữ.</h2>
-        <p>Đọc điều cần nhớ ngay. Không phải đoán đáp án mới được học.</p></div><span class="tag">Học nhanh · 2.3</span></div>
+        <p>Đọc điều cần nhớ ngay. Không phải đoán đáp án mới được học.</p></div><span class="tag">Học nhanh · 2.4</span></div>
         ${resumeHTML?resumeHTML():''}${storageNotice()}
         <section class="learn-start panel"><div class="learn-start-copy"><h3>Hôm nay bắt đầu nhỏ thôi.</h3>
         <p>${last?'Mốc gần nhất: '+esc(last.title)+'.':'Một ý ngắn cũng là một chỗ để bắt đầu.'} Không hẹn giờ, không điểm đọc.</p></div>
@@ -92,7 +92,7 @@
         <details class="learn-backup"><summary>Mốc đọc & bản sao lưu</summary><p>“Đã đọc” là bạn tự đánh dấu, không có nghĩa đã thuộc. Mốc đọc tách biệt hoàn toàn với điểm và lịch ôn.</p>
           <div class="actions-row"><button class="secondary" data-study-action="export">Xuất mốc đọc</button><button class="secondary" data-study-action="import">Nhập mốc đọc</button><button class="text-btn" data-study-action="reset">Bỏ các dấu đã đọc</button></div>
           <input id="learnImport" type="file" accept=".json,application/json" hidden>
-        </details><p class="learn-footnote">Nội dung theo ngân hàng đã biên tập 2.2 · nguồn theo từng ý · không tải câu hỏi từ máy chủ.</p>`;
+        </details><p class="learn-footnote">Nội dung theo ngân hàng đã biên tập 2.4 · nguồn theo từng ý · không tải câu hỏi từ máy chủ.</p>`;
     }
     function renderCatalog() {
       const el=container.querySelector('#learnCatalog');if(!el)return;
@@ -148,7 +148,7 @@
           <p class="learn-takeaway">${esc(p.takeaway)}</p>
           <details class="learn-explanation"><summary>Giải thích & nguồn đối chiếu</summary>
             <p class="learn-why">${esc(explanation)}</p>
-            <p class="learn-provenance">Ý học được diễn đạt lại từ đáp án và giải thích của NMNRT 2.2, không phải trích nguyên văn bài giảng.</p>
+            <p class="learn-provenance">Ý học được diễn đạt lại từ đáp án và giải thích của NMNRT 2.4, không phải trích nguyên văn bài giảng.</p>
             ${c.editorialNote?`<p class="learn-provenance"><b>Ghi chú biên tập của câu nguồn:</b> ${esc(c.editorialNote)}</p>`:''}
             <details class="learn-source-question"><summary>Câu hỏi đối chiếu trong ngân hàng</summary><p>${esc(c.prompt)}</p><p><b>Đáp án:</b> ${esc(c.answer[0])}</p></details>
             ${refLinks.length?`<ul class="learn-reference-links">${refLinks.map(link=>'<li>'+link+'</li>').join('')}</ul>`:''}

@@ -1,0 +1,13 @@
+{
+  "passed": 6,
+  "checks": [
+    "All 123 originals load without external script/style/font requests",
+    "Embedded original graph loads",
+    "Incomplete graph not graded",
+    "Standalone theme selector works",
+    "390px no horizontal overflow",
+    "Reviewed key and published-site drill URL retained"
+  ],
+  "pageErrors": [],
+  "mode": "set_content of actual self-contained deliverable; no mock localStorage injected; navigation links inspected, not followed."
+}

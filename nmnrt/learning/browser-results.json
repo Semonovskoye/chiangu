@@ -1,287 +1,188 @@
 {
-  "passed": 70,
+  "mode": "Offline Chromium set_content; real localhost navigation blocked by ERR_BLOCKED_BY_ADMINISTRATOR",
+  "storage": "Test-only localStorage mock. Reload simulated from serialized state. Does not test deployment, real HTTP loading, persistence, cross-tab behavior, or other browsers.",
   "checks": [
     {
-      "name": "Five navigation destinations; one theme selector; no duplicate gear",
+      "name": "Guide opens 123 originals",
       "passed": true
     },
     {
-      "name": "Original revision remains initial view",
+      "name": "Eight originals per page",
       "passed": true
     },
     {
-      "name": "Học nhanh opens independently",
+      "name": "Guide initially hides answers",
       "passed": true
     },
     {
-      "name": "Grade9 shows one shared-notes group, not 35 fake genetics lessons",
+      "name": "No desktop horizontal overflow",
       "passed": true
     },
     {
-      "name": "Grade10 source-only chapters visibly distinguished",
+      "name": "Dark palette resolved",
       "passed": true
     },
     {
-      "name": "Source-only chapter opens existing source dialog",
+      "name": "Find exact document number",
       "passed": true
     },
     {
-      "name": "Unaccented search locates stomata teaching content",
+      "name": "Q43 source key kept as A",
       "passed": true
     },
     {
-      "name": "Search input retains focus after results update",
+      "name": "Q43 reviewed C disclosed",
       "passed": true
     },
     {
-      "name": "Reader shows authored statement immediately, not multiple-choice options",
+      "name": "Q43 uses existing NMNRT ID",
       "passed": true
     },
     {
-      "name": "Explanation hidden until requested",
+      "name": "Guide drill link keeps document number",
       "passed": true
     },
     {
-      "name": "Explanation and references accessible",
+      "name": "Q126 original image retained",
       "passed": true
     },
     {
-      "name": "Original reviewed question is explicit provenance, not the teaching prompt",
+      "name": "Q126 no drill button",
       "passed": true
     },
     {
-      "name": "Reader source button opens reviewed and original notes",
+      "name": "Q126 ambiguity explicit",
       "passed": true
     },
     {
-      "name": "Reading stores its own marked record",
+      "name": "Q126 both conditional totals shown",
       "passed": true
     },
     {
-      "name": "Reading does not create or change quiz score records",
+      "name": "16 true/false blocks retained",
       "passed": true
     },
     {
-      "name": "Mark-next moves to the next authored point",
+      "name": "19 essays retained",
       "passed": true
     },
     {
-      "name": "Previous returns to same teaching point",
+      "name": "21 original questions not text matched",
       "passed": true
     },
     {
-      "name": "Whole-lesson view groups several teaching statements",
+      "name": "Duplicate printed code displays both questions",
       "passed": true
     },
     {
-      "name": "Whole-lesson marking is explicit and stays separate from quiz scores",
+      "name": "Accent-insensitive search finds stomata",
       "passed": true
     },
     {
-      "name": "Switching back to one-idea view works",
+      "name": "Pagination works",
       "passed": true
     },
     {
-      "name": "Practice opens exactly one real MCQ with revision tab active",
+      "name": "Guide Light switch works",
       "passed": true
     },
     {
-      "name": "Practice uses current point ID without changing the bank",
+      "name": "Guide does not write revision progress",
       "passed": true
     },
     {
-      "name": "Correct practice answer is graded correctly",
+      "name": "Guide mobile no overflow",
       "passed": true
     },
     {
-      "name": "Only answering the quiz creates a scored attempt",
+      "name": "Application opens expanded bank",
       "passed": true
     },
     {
-      "name": "Feedback links back to the matching teaching idea",
+      "name": "Learning points match bank",
       "passed": true
     },
     {
-      "name": "Cancelling replacement preserves unfinished quiz and stays in learning",
+      "name": "HS2 banner exists",
       "passed": true
     },
     {
-      "name": "Section mini-quiz is at most three questions from the exact current section",
+      "name": "Main app desktop no overflow",
       "passed": true
     },
     {
-      "name": "Read filter returns marked learning points",
+      "name": "HS2 quick start picks five unique cards",
       "passed": true
     },
     {
-      "name": "No-result search is recoverable",
+      "name": "Quick start only uses HS2 mapped ideas",
       "passed": true
     },
     {
-      "name": "Clear search restores catalog",
+      "name": "Correct choice feedback works",
       "passed": true
     },
     {
-      "name": "HSG toggle exposes all 295 grade11 learning points",
+      "name": "One completed attempt recorded",
       "passed": true
     },
     {
-      "name": "Exported reading backup is separate format",
+      "name": "Skip is not labelled wrong",
       "passed": true
     },
     {
-      "name": "Reset removes reading marks only",
+      "name": "Wrong choice explicitly marked",
       "passed": true
     },
     {
-      "name": "Reading import merges newer marks",
+      "name": "Cancelling replacement preserves unfinished session",
       "passed": true
     },
     {
-      "name": "One-idea shortcut has a one-item reading scope",
+      "name": "Saved session reconstructed after simulated reload",
       "passed": true
     },
     {
-      "name": "One-idea shortcut lets user stop after one",
+      "name": "Restored scored state matches same key",
       "passed": true
     },
     {
-      "name": "Serialized reading state restores marks and resume button",
+      "name": "Feedback can open the learning tab",
       "passed": true
     },
     {
-      "name": "Resume opens saved point",
+      "name": "Learning card heading visible",
       "passed": true
     },
     {
-      "name": "Existing Light mode styles teaching surface and text together",
+      "name": "Learning includes new HS2 material",
       "passed": true
     },
     {
-      "name": "Structural learning border is black",
+      "name": "Sources page includes HS2 guide",
       "passed": true
     },
     {
-      "name": "Existing Dark mode works",
+      "name": "Sources page shows new total",
       "passed": true
     },
     {
-      "name": "System mode follows emulated OS changes",
+      "name": "App mobile no overflow",
       "passed": true
     },
     {
-      "name": "Library has no horizontal overflow at 320px",
+      "name": "Audit lists exactly 54 HS2 additions",
       "passed": true
     },
     {
-      "name": "Reader has no horizontal overflow at 320px",
+      "name": "No undefined basis labels",
       "passed": true
     },
     {
-      "name": "Whole-lesson view has no horizontal overflow at 320px",
-      "passed": true
-    },
-    {
-      "name": "Library has no horizontal overflow at 390px",
-      "passed": true
-    },
-    {
-      "name": "Reader has no horizontal overflow at 390px",
-      "passed": true
-    },
-    {
-      "name": "Whole-lesson view has no horizontal overflow at 390px",
-      "passed": true
-    },
-    {
-      "name": "Library has no horizontal overflow at 768px",
-      "passed": true
-    },
-    {
-      "name": "Reader has no horizontal overflow at 768px",
-      "passed": true
-    },
-    {
-      "name": "Whole-lesson view has no horizontal overflow at 768px",
-      "passed": true
-    },
-    {
-      "name": "Original procrastinator shortcut still opens one MCQ",
-      "passed": true
-    },
-    {
-      "name": "Skipped feedback is separate",
-      "passed": true
-    },
-    {
-      "name": "Original result screen and new learning return both appear",
-      "passed": true
-    },
-    {
-      "name": "Short-answer revision is still available",
-      "passed": true
-    },
-    {
-      "name": "Recall still uses self-assessment",
-      "passed": true
-    },
-    {
-      "name": "Exam does not show teaching answers before submission",
-      "passed": true
-    },
-    {
-      "name": "Exam submission still works",
-      "passed": true
-    },
-    {
-      "name": "Existing source/edited-note view remains available",
-      "passed": true
-    },
-    {
-      "name": "Blocked storage does not prevent reading",
-      "passed": true
-    },
-    {
-      "name": "No uncaught browser errors in offline harness",
-      "passed": true
-    },
-    {
-      "name": "Corrupt reading storage is disclosed without changing quiz storage",
-      "passed": true
-    },
-    {
-      "name": "Reading ArrowRight moves without marking",
-      "passed": true
-    },
-    {
-      "name": "Reading ArrowLeft returns to previous point",
-      "passed": true
-    },
-    {
-      "name": "Secondary control switches background and text together",
-      "passed": true
-    },
-    {
-      "name": "Whole-lesson mini-quiz samples three IDs only from that lesson",
-      "passed": true
-    },
-    {
-      "name": "Missing learning data does not stop original revision",
-      "passed": true
-    },
-    {
-      "name": "Missing asset error explains recovery",
-      "passed": true
-    },
-    {
-      "name": "Revision still usable after learning load error",
-      "passed": true
-    },
-    {
-      "name": "Extra checks have no uncaught errors",
+      "name": "No uncaught errors across harness",
       "passed": true
     }
   ],
-  "errors": [],
-  "harness": "Offline Chromium set_content, actual product JS/CSS. Test-only inlined assets and mocked localStorage. Simulated restoration, not live reload or deployment."
+  "passed": 45,
+  "errors": []
 }
