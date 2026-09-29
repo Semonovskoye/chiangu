@@ -69,3 +69,12 @@
  .reviewed-fact { break-inside: avoid; color: #000; background: #fff; }
  .reviewed-fact p, .reviewed-fact strong, .reviewed-fact h4 { color: #000 !important; }
 }
+
+/* v2.2 source provenance, scoped to disclosures. */
+.bank-origin { margin-top: 12px; padding: 10px 0 0; border-top: 1px solid var(--line); font-size: .9rem; }
+.bank-origin > summary { cursor: pointer; color: var(--accent-text); font-weight: 700; }
+.bank-origin p { margin-top: 10px; line-height: 1.6; }
+.bank-origin code { overflow-wrap: anywhere; }
+.bank-origin .source-options { list-style: none; padding-left: 0; margin: 10px 0; }
+.bank-origin .source-options li { padding: 4px 0; }
+.source-quote { white-space: pre-wrap; }

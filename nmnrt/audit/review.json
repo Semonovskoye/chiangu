@@ -1,10 +1,10 @@
 {
   "audit": {
     "bankId": "nmnrt-reviewed-2026-09-29-v2.1",
-    "release": "2.1",
+    "release": "2.2",
     "reviewDate": "2026-09-29",
     "oldCards": 1036,
-    "newQuestions": 636,
+    "newQuestions": 732,
     "oldCardsRetired": 4,
     "sectionsWithRewrites": 363,
     "counts": [
@@ -14,42 +14,157 @@
         "questions": 12,
         "primarySections": 5,
         "advanced": 0,
-        "shortAnswers": 11
+        "shortAnswers": 11,
+        "bankAdditions": 0
       },
       {
         "grade": 10,
         "oldCards": 177,
-        "questions": 139,
-        "primarySections": 58,
+        "questions": 181,
+        "primarySections": 67,
         "advanced": 56,
-        "shortAnswers": 110
+        "shortAnswers": 134,
+        "bankAdditions": 42
       },
       {
         "grade": 11,
         "oldCards": 535,
-        "questions": 271,
-        "primarySections": 160,
+        "questions": 295,
+        "primarySections": 168,
         "advanced": 53,
-        "shortAnswers": 209
+        "shortAnswers": 229,
+        "bankAdditions": 24
       },
       {
         "grade": 12,
         "oldCards": 309,
-        "questions": 214,
-        "primarySections": 140,
+        "questions": 244,
+        "primarySections": 146,
         "advanced": 16,
-        "shortAnswers": 130
+        "shortAnswers": 149,
+        "bankAdditions": 30
       }
     ],
     "basisCounts": {
       "adapted": 82,
       "source-rewrite": 390,
-      "corrected": 164
+      "corrected": 164,
+      "bank-adapted": 96
     },
-    "method": "Biên soạn và rà soát bởi trợ lí AI: mỗi câu có đề, 4 lựa chọn và lời giải viết riêng. Đối chiếu giáo trình OpenStax và tài liệu chi tiết cho các vấn đề phát hiện. Không phải phản biện độc lập bởi giáo viên; không cam kết không thể còn sai sót.",
+    "method": "Biên soạn và rà soát bởi trợ lí AI: mỗi câu có đề, 4 lựa chọn và lời giải viết riêng. Đối chiếu giáo trình OpenStax và tài liệu chi tiết cho các vấn đề phát hiện. Không phải phản biện độc lập bởi giáo viên; không cam kết không thể còn sai sót. Bổ sung 2.2 được rà soát chọn lọc từ các tệp questionbank, có truy xuất nguyên bản và phân biệt lời giải biên soạn.",
     "mappingNote": "Toàn bộ 1.036 ID cũ có quyết định trong sổ kiểm tra. 1.032 được thay theo đề mục, 4 được loại. Số câu mới không phải chuyển đổi 1:1; các câu lặp được gộp và ý dài được chọn/tách lại.",
-    "coverageNote": "Kiểm tra toàn bộ ngân hàng cũ, không bổ sung mọi phần còn trống trong các trang bài giảng. Bản mới có 636 ý kiểm tra riêng; không thay thế toàn bộ giáo trình hay ngân hàng đề chính thức.",
-    "progressNote": "ID câu mới và vùng lưu mới. Không chuyển mức thành thạo của câu cũ sang câu đã đổi nghĩa. Tiến độ cũ vẫn được giữ nguyên trong trình duyệt."
+    "coverageNote": "Bản 2.1 gồm 636 câu từ đề mục bài giảng. Bản 2.2 thêm 96 câu chọn lọc từ ba questionbank; không nhập toàn bộ 2.893 bản ghi, không thay thế toàn bộ giáo trình.",
+    "progressNote": "Tiến độ và phiên 2.1 được giữ nguyên: không đổi ID hay nghĩa của 636 câu đã có. 96 câu bổ sung bắt đầu với tiến độ mới. Dữ liệu trước 2.1 vẫn được giữ riêng.",
+    "questionbankConsultation": {
+      "release": "2.2",
+      "date": "2026-09-29",
+      "baselineQuestions": 636,
+      "addedQuestions": 96,
+      "totalQuestions": 732,
+      "scope": "Inventory and structural screening of all effective records; editorial review of the 96 selected additions plus documented problem examples. Unselected records are NOT certified.",
+      "countingNote": "Counts include placeholders and repeated records; true/false items count blocks, not individual statements. Duplicate object keys use JavaScript last-key-wins semantics.",
+      "counts": [
+        {
+          "grade": 10,
+          "effectiveRecords": 1425,
+          "mcq": 648,
+          "trueFalseBlocks": 92,
+          "shortEssayRecords": 685,
+          "selectedAdditions": 42,
+          "file": "nganhangdesinh10.js",
+          "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh10.js",
+          "sha256": "a2e6081bb3bedbfc63677ef1c490517d30e95096e74575acefdabc6c2906e000"
+        },
+        {
+          "grade": 11,
+          "effectiveRecords": 599,
+          "mcq": 399,
+          "trueFalseBlocks": 90,
+          "shortEssayRecords": 110,
+          "selectedAdditions": 24,
+          "file": "nganhangdesinh11.js",
+          "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh11.js",
+          "sha256": "5711f2233fa6d92501607fcc14ac4dfd8e1bfd073e7b21dcee08620000a5e738"
+        },
+        {
+          "grade": 12,
+          "effectiveRecords": 869,
+          "mcq": 460,
+          "trueFalseBlocks": 102,
+          "shortEssayRecords": 307,
+          "selectedAdditions": 30,
+          "file": "nganhangdesinh12.js",
+          "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh12.js",
+          "sha256": "4ed785e14099e01c71cdb51cb868eaf9cc3ec8d189923a1dfc1470b6f1500dec"
+        }
+      ],
+      "automatedFlagCounts": {
+        "image-dependent-or-image-attached": 213,
+        "repeated-prompt": 65,
+        "empty-or-placeholder-prompt": 82,
+        "duplicate-normalized-options": 20,
+        "possible-missing-figure-context": 4,
+        "invalid-option-key": 6
+      },
+      "duplicateProperties": [
+        {
+          "grade": 11,
+          "key": "tfKQTDCCHNL",
+          "effect": "later property overwrites earlier property",
+          "earlierType": "dict",
+          "laterType": "dict"
+        },
+        {
+          "grade": 12,
+          "key": "image",
+          "effect": "later property overwrites earlier property",
+          "earlierType": "str",
+          "laterType": "NoneType"
+        }
+      ],
+      "manualIssues": [
+        {
+          "uid": "qb10:mcCNTHHVN:level1:5",
+          "note": "Khóa chọn 65% cho carbon trong cơ thể người; không nhập. Cần đối chiếu dữ liệu thành phần nguyên tố."
+        },
+        {
+          "uid": "qb10:mcTDC:level1:7",
+          "note": "Nồng độ dung dịch sinh lí ghi 0,09%: có dấu hiệu nhầm dấu thập phân. Không nhập."
+        },
+        {
+          "uid": "qb10:mcCKTBVNP:level2:1",
+          "note": "Khóa điểm kiểm soát G1/M thay vì G1/S; không nhập nguyên bản."
+        },
+        {
+          "uid": "qb10:mcQTGP:level2:9",
+          "note": "Khóa gộp kì sau I và II thành NST đơn; không nhập nguyên bản."
+        },
+        {
+          "uid": "qb11:mcSTPTOTV:level1:4",
+          "note": "Khóa cytokinin không phù hợp ý hoạt hóa enzyme huy động tinh bột ở hạt; không nhập nguyên bản."
+        },
+        {
+          "uid": "qb11:mcSSOTV:level2:6",
+          "note": "Khóa chọn khoai tây trong câu về thân bò; không nhập nguyên bản."
+        },
+        {
+          "uid": "qb12:mcBSMD:level2:0",
+          "note": "Các phương án là tỉ lệ kiểu hình nhưng đề hỏi phương pháp phân biệt di truyền trong/ngoài nhân; không nhập."
+        },
+        {
+          "uid": "qb12:mcc2:level2:0",
+          "note": "Đã sửa trong câu mới: giao tử A và a có tỉ lệ bằng nhau trong điều kiện nêu rõ."
+        },
+        {
+          "uid": "qb12:mcc3:level3:4",
+          "note": "Đã sửa trong câu mới: 24 haplotype tạo 300 cặp có lặp, không phải 2.048."
+        }
+      ],
+      "selectionPolicy": "Select useful coverage gaps and applied variants; preserve source grade/group/level and original record; state added conditions, new examples and changed keys explicitly. Do not auto-import all records.",
+      "explanations": "The bank usually provides an answer key without a worked explanation. New concise explanations are editorial additions checked against cited references, not quotations from the source.",
+      "progress": "The v2.1 bankId, all 636 existing question objects, all original lesson sections and the nmnrt.v21.* namespace are retained. New IDs append; v2.1 sessions/progress remain valid.",
+      "newSectionCount": 23
+    }
   },
   "corrections": {
     "g9-l1-s0": {
@@ -1090,6 +1205,407 @@
       "title": "Smithsonian · One species, living worldwide",
       "url": "https://humanorigins.si.edu/evidence/genetics/one-species-living-worldwide",
       "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "qb22-water",
+      "title": "OpenStax · Water",
+      "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-carbon",
+      "title": "OpenStax · Carbon",
+      "url": "https://openstax.org/books/biology-2e/pages/2-3-carbon",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-endomembrane",
+      "title": "OpenStax · The endomembrane system and proteins",
+      "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-eukaryotic",
+      "title": "OpenStax · Eukaryotic cells",
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-cytoskeleton",
+      "title": "OpenStax · The cytoskeleton",
+      "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-membrane",
+      "title": "OpenStax · Membrane components and structure",
+      "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-passive",
+      "title": "OpenStax · Passive transport",
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-active",
+      "title": "OpenStax · Active transport",
+      "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-bulk",
+      "title": "OpenStax · Bulk transport",
+      "url": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-cycle",
+      "title": "OpenStax · The cell cycle",
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-checkpoints",
+      "title": "OpenStax · Control of the cell cycle",
+      "url": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-meiosis",
+      "title": "OpenStax · The process of meiosis",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-asexual",
+      "title": "OpenStax · Asexual reproduction and micropropagation",
+      "url": "https://openstax.org/books/biology-2e/pages/32-3-asexual-reproduction",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-virus",
+      "title": "OpenStax · Viral structure",
+      "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-viruscycle",
+      "title": "OpenStax · Virus infections and hosts",
+      "url": "https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-plantwater",
+      "title": "OpenStax · Transport of water and solutes in plants",
+      "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-plantnutrition",
+      "title": "OpenStax · Nutritional requirements of plants",
+      "url": "https://openstax.org/books/biology-2e/pages/31-1-nutritional-requirements-of-plants",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-mycorrhiza",
+      "title": "OpenStax · Nutritional adaptations of plants",
+      "url": "https://openstax.org/books/biology-2e/pages/31-3-nutritional-adaptations-of-plants",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-plantgrowth",
+      "title": "OpenStax · Stems: growth and modifications",
+      "url": "https://openstax.org/books/biology-2e/pages/30-2-stems",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-plantresponse",
+      "title": "OpenStax · Plant sensory systems and responses",
+      "url": "https://openstax.org/books/biology-2e/pages/30-6-plant-sensory-systems-and-responses",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-behavior",
+      "title": "OpenStax · Behavioral biology",
+      "url": "https://openstax.org/books/biology-2e/pages/45-7-behavioral-biology-proximate-and-ultimate-causes-of-behavior",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-neurons",
+      "title": "OpenStax · How neurons communicate",
+      "url": "https://openstax.org/books/biology-2e/pages/35-2-how-neurons-communicate",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-seedless",
+      "title": "OpenStax · Seedless vascular plants",
+      "url": "https://openstax.org/books/biology-2e/pages/25-4-seedless-vascular-plants",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-reproduction",
+      "title": "OpenStax · Reproduction methods",
+      "url": "https://openstax.org/books/biology-2e/pages/43-1-reproduction-methods",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-endocrine",
+      "title": "OpenStax · Endocrine glands",
+      "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-reprohormones",
+      "title": "OpenStax · Hormonal control of reproduction",
+      "url": "https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-mendel",
+      "title": "OpenStax · Laws of inheritance",
+      "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-mendeltraits",
+      "title": "OpenStax · Characteristics and traits",
+      "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-extensions",
+      "title": "OpenStax · Dominance, ABO and pleiotropy",
+      "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-linkage",
+      "title": "OpenStax · Chromosomal theory and genetic linkage",
+      "url": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-population",
+      "title": "OpenStax · Allele frequencies and Hardy–Weinberg",
+      "url": "https://openstax.org/books/biology-2e/pages/19-1-population-evolution",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-community",
+      "title": "OpenStax · Community ecology",
+      "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-demography",
+      "title": "OpenStax · Population demography",
+      "url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-popregulation",
+      "title": "OpenStax · Environmental limits to population growth",
+      "url": "https://openstax.org/books/biology-2e/pages/45-3-environmental-limits-to-population-growth",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-digestion",
+      "title": "OpenStax · Digestive systems: ruminants",
+      "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-microgrowth",
+      "title": "OpenStax · How microbes grow",
+      "url": "https://openstax.org/books/microbiology/pages/9-1-how-microbes-grow",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-microtemp",
+      "title": "OpenStax · Temperature and microbial growth",
+      "url": "https://openstax.org/books/microbiology/pages/9-4-temperature-and-microbial-growth",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-stem",
+      "title": "NIH · Stem Cell Basics",
+      "url": "https://stemcells.nih.gov/node/16",
+      "role": "Nguồn đối chiếu cho tự làm mới, biệt hóa và khối tế bào bên trong phôi nang.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-microfactors",
+      "title": "OpenStax · Nutritional requirements and growth factors",
+      "url": "https://openstax.org/books/microbiology/pages/9-6-media-used-for-bacterial-growth",
+      "role": "Đối chiếu kiến thức cho câu biên tập; không phải đề hay đáp án chính thức của nhantri.",
+      "checkedOn": "2026-09-29"
+    },
+    {
+      "id": "qb22-source-10",
+      "title": "Chiangu · questionbank10.html (trang ngân hàng gốc)",
+      "url": "../questionbank10.html",
+      "role": "Nguồn câu hỏi: nganhangdesinh10.js. Khóa gốc có thể sai; xem ghi chú biên tập từng câu."
+    },
+    {
+      "id": "qb22-source-11",
+      "title": "Chiangu · questionbank11.html (trang ngân hàng gốc)",
+      "url": "../questionbank11.html",
+      "role": "Nguồn câu hỏi: nganhangdesinh11.js. Khóa gốc có thể sai; xem ghi chú biên tập từng câu."
+    },
+    {
+      "id": "qb22-source-12",
+      "title": "Chiangu · questionbank12.html (trang ngân hàng gốc)",
+      "url": "../questionbank12.html",
+      "role": "Nguồn câu hỏi: nganhangdesinh12.js. Khóa gốc có thể sai; xem ghi chú biên tập từng câu."
     }
-  ]
+  ],
+  "questionbankConsultation": {
+    "release": "2.2",
+    "date": "2026-09-29",
+    "baselineQuestions": 636,
+    "addedQuestions": 96,
+    "totalQuestions": 732,
+    "scope": "Inventory and structural screening of all effective records; editorial review of the 96 selected additions plus documented problem examples. Unselected records are NOT certified.",
+    "countingNote": "Counts include placeholders and repeated records; true/false items count blocks, not individual statements. Duplicate object keys use JavaScript last-key-wins semantics.",
+    "counts": [
+      {
+        "grade": 10,
+        "effectiveRecords": 1425,
+        "mcq": 648,
+        "trueFalseBlocks": 92,
+        "shortEssayRecords": 685,
+        "selectedAdditions": 42,
+        "file": "nganhangdesinh10.js",
+        "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh10.js",
+        "sha256": "a2e6081bb3bedbfc63677ef1c490517d30e95096e74575acefdabc6c2906e000"
+      },
+      {
+        "grade": 11,
+        "effectiveRecords": 599,
+        "mcq": 399,
+        "trueFalseBlocks": 90,
+        "shortEssayRecords": 110,
+        "selectedAdditions": 24,
+        "file": "nganhangdesinh11.js",
+        "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh11.js",
+        "sha256": "5711f2233fa6d92501607fcc14ac4dfd8e1bfd073e7b21dcee08620000a5e738"
+      },
+      {
+        "grade": 12,
+        "effectiveRecords": 869,
+        "mcq": 460,
+        "trueFalseBlocks": 102,
+        "shortEssayRecords": 307,
+        "selectedAdditions": 30,
+        "file": "nganhangdesinh12.js",
+        "path": "NGÂN HÀNG CÂU HỎI_files/nganhangdesinh12.js",
+        "sha256": "4ed785e14099e01c71cdb51cb868eaf9cc3ec8d189923a1dfc1470b6f1500dec"
+      }
+    ],
+    "automatedFlagCounts": {
+      "image-dependent-or-image-attached": 213,
+      "repeated-prompt": 65,
+      "empty-or-placeholder-prompt": 82,
+      "duplicate-normalized-options": 20,
+      "possible-missing-figure-context": 4,
+      "invalid-option-key": 6
+    },
+    "duplicateProperties": [
+      {
+        "grade": 11,
+        "key": "tfKQTDCCHNL",
+        "effect": "later property overwrites earlier property",
+        "earlierType": "dict",
+        "laterType": "dict"
+      },
+      {
+        "grade": 12,
+        "key": "image",
+        "effect": "later property overwrites earlier property",
+        "earlierType": "str",
+        "laterType": "NoneType"
+      }
+    ],
+    "manualIssues": [
+      {
+        "uid": "qb10:mcCNTHHVN:level1:5",
+        "note": "Khóa chọn 65% cho carbon trong cơ thể người; không nhập. Cần đối chiếu dữ liệu thành phần nguyên tố."
+      },
+      {
+        "uid": "qb10:mcTDC:level1:7",
+        "note": "Nồng độ dung dịch sinh lí ghi 0,09%: có dấu hiệu nhầm dấu thập phân. Không nhập."
+      },
+      {
+        "uid": "qb10:mcCKTBVNP:level2:1",
+        "note": "Khóa điểm kiểm soát G1/M thay vì G1/S; không nhập nguyên bản."
+      },
+      {
+        "uid": "qb10:mcQTGP:level2:9",
+        "note": "Khóa gộp kì sau I và II thành NST đơn; không nhập nguyên bản."
+      },
+      {
+        "uid": "qb11:mcSTPTOTV:level1:4",
+        "note": "Khóa cytokinin không phù hợp ý hoạt hóa enzyme huy động tinh bột ở hạt; không nhập nguyên bản."
+      },
+      {
+        "uid": "qb11:mcSSOTV:level2:6",
+        "note": "Khóa chọn khoai tây trong câu về thân bò; không nhập nguyên bản."
+      },
+      {
+        "uid": "qb12:mcBSMD:level2:0",
+        "note": "Các phương án là tỉ lệ kiểu hình nhưng đề hỏi phương pháp phân biệt di truyền trong/ngoài nhân; không nhập."
+      },
+      {
+        "uid": "qb12:mcc2:level2:0",
+        "note": "Đã sửa trong câu mới: giao tử A và a có tỉ lệ bằng nhau trong điều kiện nêu rõ."
+      },
+      {
+        "uid": "qb12:mcc3:level3:4",
+        "note": "Đã sửa trong câu mới: 24 haplotype tạo 300 cặp có lặp, không phải 2.048."
+      }
+    ],
+    "selectionPolicy": "Select useful coverage gaps and applied variants; preserve source grade/group/level and original record; state added conditions, new examples and changed keys explicitly. Do not auto-import all records.",
+    "explanations": "The bank usually provides an answer key without a worked explanation. New concise explanations are editorial additions checked against cited references, not quotations from the source.",
+    "progress": "The v2.1 bankId, all 636 existing question objects, all original lesson sections and the nmnrt.v21.* namespace are retained. New IDs append; v2.1 sessions/progress remain valid.",
+    "newSectionCount": 23
+  }
 }

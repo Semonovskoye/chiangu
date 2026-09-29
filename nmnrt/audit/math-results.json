@@ -1,0 +1,189 @@
+{
+  "checks": 23,
+  "results": [
+    {
+      "sourceId": "qb10:mcSTSSVSV:level1:8",
+      "questionId": "qb22-qb10-mcSTSSVSV-level1-8",
+      "computed": "1024",
+      "displayedAnswer": "1.024",
+      "method": "One starting cell × 2^(elapsed time / generation time).",
+      "passed": true
+    },
+    {
+      "sourceId": "qb11:mcTDNVK:level3:9",
+      "questionId": "qb22-qb11-mcTDNVK-level3-9",
+      "computed": "16/25",
+      "displayedAnswer": "0,64 g/(dm²·giờ)",
+      "method": "Mass lost / (leaf area × elapsed hours), assuming loss is water.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb10:mcQTGP:level2:1",
+      "questionId": "qb22-qb10-mcQTGP-level2-1",
+      "computed": "(38, 76)",
+      "displayedAnswer": "38 NST và 76 chromatid",
+      "method": "Whole anaphase-I cell retains 2n duplicated chromosomes; two chromatids per chromosome.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb10:mcQTGP:level2:2",
+      "questionId": "qb22-qb10-mcQTGP-level2-2",
+      "computed": "80",
+      "displayedAnswer": "80",
+      "method": "Five metaphase-I cells × 8 replicated chromosomes × 2 chromatids.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc2:level1:21",
+      "questionId": "qb22-qb12-mcc2-level1-21",
+      "computed": "(2, 1)",
+      "displayedAnswer": "2 kiểu gene, 1 kiểu hình",
+      "method": "Enumerate all gametes and offspring; complete dominance.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc2:level2:0",
+      "questionId": "qb22-qb12-mcc2-level2-0",
+      "computed": "(Fraction(1, 2), Fraction(1, 2))",
+      "displayedAnswer": "1/2 A : 1/2 a",
+      "method": "Count equally likely allele choices from Aa.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc2:level2:3",
+      "questionId": "qb22-qb12-mcc2-level2-3",
+      "computed": "(Fraction(9, 16), Fraction(3, 16), Fraction(3, 16), Fraction(1, 16))",
+      "displayedAnswer": "9 : 3 : 3 : 1",
+      "method": "Enumerate 16 Punnett outcomes, group by dominant phenotype.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc2:level2:4",
+      "questionId": "qb22-qb12-mcc2-level2-4",
+      "computed": "16",
+      "displayedAnswer": "16",
+      "method": "Number of gamete pairings; not number of distinct genotypes.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc2:level3:2",
+      "questionId": "qb22-qb12-mcc2-level3-2",
+      "computed": "3",
+      "displayedAnswer": "3",
+      "method": "Deduplicate ordered gamete pairings into AA, Aa and aa.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc2:level3:4",
+      "questionId": "qb22-qb12-mcc2-level3-4",
+      "computed": "(Fraction(1, 4), Fraction(1, 4), Fraction(1, 4), Fraction(1, 4))",
+      "displayedAnswer": "1 : 1 : 1 : 1",
+      "method": "Enumerate dihybrid testcross.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc3:level2:3",
+      "questionId": "qb22-qb12-mcc3-level2-3",
+      "computed": "24",
+      "displayedAnswer": "2n = 24",
+      "method": "Under specified textbook linkage-group model n=12.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc3:level3:1",
+      "questionId": "qb22-qb12-mcc3-level3-1",
+      "computed": "4",
+      "displayedAnswer": "4",
+      "method": "Enumerate independent A × fixed B × two linked D-E haplotypes.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc3:level3:3",
+      "questionId": "qb22-qb12-mcc3-level3-3",
+      "computed": "1/4",
+      "displayedAnswer": "25%",
+      "method": "Independent P(d) × P(Ab), no recombination.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc3:level3:4",
+      "questionId": "qb22-qb12-mcc3-level3-4",
+      "computed": "300",
+      "displayedAnswer": "300",
+      "method": "Enumerate unordered pairs of 24 haplotypes with repetition; phase distinctions retained.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc3:level3:6",
+      "questionId": "qb22-qb12-mcc3-level3-6",
+      "computed": "4",
+      "displayedAnswer": "4",
+      "method": "Enumerate unordered chromosome pairs from specified nonrecombinant gametes.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcc3:level3:8",
+      "questionId": "qb22-qb12-mcc3-level3-8",
+      "computed": "1/4",
+      "displayedAnswer": "25%",
+      "method": "Enumerate four linked-gamete combinations and count A_B_.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcDTQT:level1:7",
+      "questionId": "qb22-qb12-mcDTQT-level1-7",
+      "computed": "3/5",
+      "displayedAnswer": "0,60",
+      "method": "Direct allele count; equilibrium not assumed.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcDTQT:level1:8",
+      "questionId": "qb22-qb12-mcDTQT-level1-8",
+      "computed": "(Fraction(3, 5), Fraction(4, 25))",
+      "displayedAnswer": "0,60",
+      "method": "Recover q=0.4 from q²=0.16; check by squaring.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcDTQT:level1:12",
+      "questionId": "qb22-qb12-mcDTQT-level1-12",
+      "computed": "5",
+      "displayedAnswer": "5",
+      "method": "Count homozygous allele pairs only.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcDTQT:level1:13",
+      "questionId": "qb22-qb12-mcDTQT-level1-13",
+      "computed": "51/200",
+      "displayedAnswer": "25,5%",
+      "method": "Hardy–Weinberg heterozygote fraction 2pq.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcDTQT:level2:3",
+      "questionId": "qb22-qb12-mcDTQT-level2-3",
+      "computed": "19/100",
+      "displayedAnswer": "19%",
+      "method": "Complement of AA when both gamete pools have p=0.9.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcDTQT:level3:0",
+      "questionId": "qb22-qb12-mcDTQT-level3-0",
+      "computed": "63/160",
+      "displayedAnswer": "39,375%",
+      "method": "Explicitly iterate self-fertilization for three generations.",
+      "passed": true
+    },
+    {
+      "sourceId": "qb12:mcDTQT:level3:2",
+      "questionId": "qb22-qb12-mcDTQT-level3-2",
+      "computed": "(Fraction(17, 40), Fraction(3, 20), Fraction(17, 40))",
+      "displayedAnswer": "0,425 AA : 0,15 Aa : 0,425 aa",
+      "method": "Explicitly iterate self-fertilization twice from the source distribution.",
+      "passed": true
+    }
+  ]
+}

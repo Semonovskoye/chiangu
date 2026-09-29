@@ -1,10 +1,92 @@
 {
-  "status": "passed",
-  "bankQuestions": 636,
-  "choiceEvaluationsAcrossAll24Orders": 61056,
-  "acceptedAliasChecks": 683,
-  "assertions": 136009,
-  "oldCardDecisions": 1036,
-  "retired": 4,
-  "notes": "Structural/scoring tests are not a substitute for biological content review."
+  "date": "2026-09-29",
+  "release": "2.2",
+  "checks": 20,
+  "choiceCases": 70272,
+  "additionChoiceCases": 9216,
+  "tests": [
+    {
+      "name": "validate all 732 cards",
+      "passed": true
+    },
+    {
+      "name": "v2.1 bankId and all 636 card objects unchanged",
+      "passed": true
+    },
+    {
+      "name": "all original lesson sections unchanged; additions only",
+      "passed": true
+    },
+    {
+      "name": "96 original source records and keys retained",
+      "passed": true
+    },
+    {
+      "name": "sources referenced by every addition exist",
+      "passed": true
+    },
+    {
+      "name": "no missing or mismatched new question/lesson/section links",
+      "passed": true
+    },
+    {
+      "name": "all choices in all 24 display permutations, including correct at every letter",
+      "passed": true
+    },
+    {
+      "name": "skipped results remain distinct for every card",
+      "passed": true
+    },
+    {
+      "name": "accepted aliases do not match distractors",
+      "passed": true
+    },
+    {
+      "name": "allele case distinctions are preserved; symbolic genetics kept out of short-answer pool",
+      "passed": true
+    },
+    {
+      "name": "explicit numeric aliases accept decimal-dot/comma variants",
+      "passed": true
+    },
+    {
+      "name": "v2.1 progress import remains compatible",
+      "passed": true
+    },
+    {
+      "name": "v2.1 saved sessions remain valid in all four modes",
+      "passed": true
+    },
+    {
+      "name": "new and mixed sessions serialize correctly",
+      "passed": true
+    },
+    {
+      "name": "corrupted choice/order or foreign bankId rejected",
+      "passed": true
+    },
+    {
+      "name": "exam has separate correct/wrong/skipped totals",
+      "passed": true
+    },
+    {
+      "name": "wrong-first review chooses a recorded weak item",
+      "passed": true
+    },
+    {
+      "name": "additions by grade are 42 / 24 / 30 with Grade9 unchanged",
+      "passed": true
+    },
+    {
+      "name": "new structural text lengths stay bounded",
+      "passed": true
+    },
+    {
+      "name": "no original scripts loaded by the app",
+      "passed": true
+    }
+  ],
+  "baselineCardHash": "d74ec99fd83c1b6ea39111dc15557e890c92cc30e1c7bfe4702fcee2a0fb82a6",
+  "retainedCardHash": "d74ec99fd83c1b6ea39111dc15557e890c92cc30e1c7bfe4702fcee2a0fb82a6",
+  "contentScope": "Automated structural/scoring tests are not proof of scientific correctness. Editorial review of the 96 additions is documented separately."
 }

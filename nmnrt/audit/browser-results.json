@@ -1,68 +1,305 @@
 {
-  "status": "passed",
-  "checks": [
-    "four grades",
-    "natural stoma prompt",
-    "correct choice actually correct",
-    "selected label visible",
-    "reloading answered question does not score twice",
-    "correct feedback survives resume",
-    "correct summary",
-    "wrong feedback",
-    "wrong chosen label",
-    "correct reveal explicitly labelled",
-    "skip is not wrong label",
-    "skip no fake selected wrong option",
-    "skip resumes accurately",
-    "skip summary separate",
-    "exam no answer before submit",
-    "exam selection survives reload",
-    "exam score 1 of 3",
-    "exam categories",
-    "keyboard maps displayed option to stable ID",
-    "enter next",
-    "short accepted numeric alias",
-    "reason not just filled source sentence",
-    "four self-assessment ratings",
-    "recall self-assessment distinct",
-    "lazy 1 questions",
-    "lazy 1 excludes advanced",
-    "lazy 3 questions",
-    "lazy 3 excludes advanced",
-    "lazy 5 questions",
-    "lazy 5 excludes advanced",
-    "lazy 10 questions",
-    "lazy 10 excludes advanced",
-    "lazy respects selected section",
-    "notes dialog opens",
-    "reviewed facts present",
-    "original uncorrected text collapsed",
-    "reference links in notes",
-    "old records untouched",
-    "old session untouched",
-    "expired exam auto-submitted",
-    "expired session cleared",
-    "grade 9 list",
-    "grade 10 list",
-    "grade 11 list",
-    "grade 12 list",
-    "no page errors: []",
-    "mobile no horizontal overflow",
-    "mobile light no overflow",
-    "audit pagination",
-    "audit search",
-    "old-to-new ID lookup",
-    "no errors including audit: []"
+  "release": "2.2",
+  "checks": 71,
+  "passed": true,
+  "browser": "Chromium / Playwright",
+  "transport": "Navigation to local HTTP blocked by administrator policy. Offline set_content with actual bundled scripts/CSS, inlined local fonts/images; localStorage and audit fetch mocked. Reload simulated from a serialized storage snapshot.",
+  "screens": [
+    1440,
+    390
   ],
-  "count": 52,
-  "browser": "Chromium / Playwright offline DOM rendering",
-  "limitation": "Environment blocks URL navigation. Local files were inlined with set_content; Web Storage and local audit fetch were emulated. Save/load serialization was tested, not network deployment or native storage permissions.",
-  "screenshots": [
-    "mcq-mobile-dark.png",
-    "audit-desktop.png",
-    "mcq-desktop-light.png",
-    "mcq-mobile-light.png",
-    "setup-desktop.png",
-    "mcq-desktop-dark.png"
-  ]
+  "themes": [
+    "light",
+    "dark",
+    "system"
+  ],
+  "tests": [
+    {
+      "name": "2.2 bank loads in offline browser DOM",
+      "passed": true
+    },
+    {
+      "name": "new release and question count visible",
+      "passed": true
+    },
+    {
+      "name": "shared Dark controller applied",
+      "passed": true
+    },
+    {
+      "name": "shared Light controller still works",
+      "passed": true
+    },
+    {
+      "name": "System resolves to context Dark",
+      "passed": true
+    },
+    {
+      "name": "grade 9 still selectable",
+      "passed": true
+    },
+    {
+      "name": "grade 10 still selectable",
+      "passed": true
+    },
+    {
+      "name": "grade 11 still selectable",
+      "passed": true
+    },
+    {
+      "name": "grade 12 still selectable",
+      "passed": true
+    },
+    {
+      "name": "source screen has inventory and limited review scope",
+      "passed": true
+    },
+    {
+      "name": "source screen total is 732",
+      "passed": true
+    },
+    {
+      "name": "no desktop horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "grade 10 new section visible",
+      "passed": true
+    },
+    {
+      "name": "grade 10 lazy selection stays in selected new section",
+      "passed": true
+    },
+    {
+      "name": "grade 11 new section visible",
+      "passed": true
+    },
+    {
+      "name": "grade 11 lazy selection stays in selected new section",
+      "passed": true
+    },
+    {
+      "name": "grade 12 new section visible",
+      "passed": true
+    },
+    {
+      "name": "grade 12 lazy selection stays in selected new section",
+      "passed": true
+    },
+    {
+      "name": "1440 correct: complete authored prompt",
+      "passed": true
+    },
+    {
+      "name": "1440 correct: feedback distinct",
+      "passed": true
+    },
+    {
+      "name": "1440 correct: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440 correct: stores only one attempt",
+      "passed": true
+    },
+    {
+      "name": "1440: source dialog opens",
+      "passed": true
+    },
+    {
+      "name": "1440: original key and editorial note disclosed",
+      "passed": true
+    },
+    {
+      "name": "1440: original page link resolves correctly",
+      "passed": true
+    },
+    {
+      "name": "1440 correct: result screen reached",
+      "passed": true
+    },
+    {
+      "name": "1440 wrong: complete authored prompt",
+      "passed": true
+    },
+    {
+      "name": "1440 wrong: feedback distinct",
+      "passed": true
+    },
+    {
+      "name": "1440 wrong: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440 wrong: stores only one attempt",
+      "passed": true
+    },
+    {
+      "name": "1440 wrong: result screen reached",
+      "passed": true
+    },
+    {
+      "name": "1440 skip: complete authored prompt",
+      "passed": true
+    },
+    {
+      "name": "1440 skip: feedback distinct",
+      "passed": true
+    },
+    {
+      "name": "1440 skip: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440 skip: stores only one attempt",
+      "passed": true
+    },
+    {
+      "name": "1440 skip: result screen reached",
+      "passed": true
+    },
+    {
+      "name": "390 correct: complete authored prompt",
+      "passed": true
+    },
+    {
+      "name": "390 correct: feedback distinct",
+      "passed": true
+    },
+    {
+      "name": "390 correct: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390 correct: stores only one attempt",
+      "passed": true
+    },
+    {
+      "name": "390: source dialog opens",
+      "passed": true
+    },
+    {
+      "name": "390: original key and editorial note disclosed",
+      "passed": true
+    },
+    {
+      "name": "390: original page link resolves correctly",
+      "passed": true
+    },
+    {
+      "name": "390 correct: result screen reached",
+      "passed": true
+    },
+    {
+      "name": "390 wrong: complete authored prompt",
+      "passed": true
+    },
+    {
+      "name": "390 wrong: feedback distinct",
+      "passed": true
+    },
+    {
+      "name": "390 wrong: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390 wrong: stores only one attempt",
+      "passed": true
+    },
+    {
+      "name": "390 wrong: result screen reached",
+      "passed": true
+    },
+    {
+      "name": "390 skip: complete authored prompt",
+      "passed": true
+    },
+    {
+      "name": "390 skip: feedback distinct",
+      "passed": true
+    },
+    {
+      "name": "390 skip: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390 skip: stores only one attempt",
+      "passed": true
+    },
+    {
+      "name": "390 skip: result screen reached",
+      "passed": true
+    },
+    {
+      "name": "short-answer decimal alias accepted",
+      "passed": true
+    },
+    {
+      "name": "recall remains self-assessment",
+      "passed": true
+    },
+    {
+      "name": "recall explicit self-assessment result",
+      "passed": true
+    },
+    {
+      "name": "exam does not reveal answer before submit",
+      "passed": true
+    },
+    {
+      "name": "mixed old/new exam score is 1 / 3",
+      "passed": true
+    },
+    {
+      "name": "exam has separate wrong and skipped counts",
+      "passed": true
+    },
+    {
+      "name": "pre-existing v2.1 record retains attempts",
+      "passed": true
+    },
+    {
+      "name": "reload resumes the same unanswered next question",
+      "passed": true
+    },
+    {
+      "name": "reload does not double count answered question",
+      "passed": true
+    },
+    {
+      "name": "audit filter returns exactly 96 additions",
+      "passed": true
+    },
+    {
+      "name": "audit searches original stable source IDs",
+      "passed": true
+    },
+    {
+      "name": "audit local source link resolves to questionbank12",
+      "passed": true
+    },
+    {
+      "name": "audit discloses corrected source key",
+      "passed": true
+    },
+    {
+      "name": "mobile audit no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "old ID ledger still fetches",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser JS errors",
+      "passed": true
+    },
+    {
+      "name": "no failed responses in the inlined offline harness (not a network test)",
+      "passed": true
+    }
+  ],
+  "jsErrors": [],
+  "httpErrors": [],
+  "limits": "No deployment or real-URL navigation test; only offline Chromium. Does not verify real browser persistence, cross-tab storage, network loading, Safari/Firefox, or external links. Scientific review is separate."
 }

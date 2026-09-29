@@ -1,92 +1,46 @@
-# NMNRT 2.1 test report
+# NMNRT 2.2 — test report
+29 September 2026
 
-## Data and scoring
+## Bank and regression tests
 
-- 636 explicit questions validated.
-- 61,056 choice evaluations: four options in all 24 permutations of each question.
-- 683 accepted-answer variant checks.
-- 136,009 total automated assertions in the data/core suite.
-- All 1,036 old IDs represented in the decision ledger; four retired.
-- Original section summary/task/prompt/media fields match the baseline exactly.
-- Ten numerical examples independently recalculated in the test script.
-- Core/app/viewer syntax checked by Node.
+- **20 test groups passed.**
+- All **732** cards passed schema validation, including four unique choice IDs and text alternatives, one matching answer key and accepted short-answer aliases.
+- **70,272 choice-scoring cases passed:** 732 questions × 24 option orders × 4 selected options. This includes **9,216 cases for the 96 additions**.
+- Correct/incorrect/skipped outcomes are separate. Invalid choices are rejected.
+- Every new source ID resolves to an extracted original record; original question/options/key are retained.
+- Every new lesson, section and reference ID resolves.
+- Existing v2.1 `bankId`, the 636 original question objects and all original lesson sections remain unchanged.
+- v2.1 progress import and sessions in all four modes still validate. Mixed old/new sessions serialize and validate.
+- All new prompts are at most 200 characters, explanations at most 240 and options at most 100. Character limits are safeguards, not the only editorial review.
 
-These are structural and logical checks, not proof of biological correctness. Biology review is described separately in review.json.
+Baseline card-object SHA-256: `d74ec99fd83c1b6ea39111dc15557e890c92cc30e1c7bfe4702fcee2a0fb82a6`
+Retained card-object SHA-256: `d74ec99fd83c1b6ea39111dc15557e890c92cc30e1c7bfe4702fcee2a0fb82a6`
 
-## Browser interface
+## Arithmetic/genetics checks
 
-52 checks passed in Chromium using Playwright:
+**23 checks passed**, using exact rational arithmetic and explicit enumeration where appropriate. Covered microbial doubling, transpiration units, chromosomes/chromatids, gamete combinations, Punnett outcomes, linked haplotype pairs, allele frequencies, Hardy–Weinberg and iterative self-fertilization. Results and methods are recorded in `math-results.json`.
 
-- four grades
-- natural stoma prompt
-- correct choice actually correct
-- selected label visible
-- reloading answered question does not score twice
-- correct feedback survives resume
-- correct summary
-- wrong feedback
-- wrong chosen label
-- correct reveal explicitly labelled
-- skip is not wrong label
-- skip no fake selected wrong option
-- skip resumes accurately
-- skip summary separate
-- exam no answer before submit
-- exam selection survives reload
-- exam score 1 of 3
-- exam categories
-- keyboard maps displayed option to stable ID
-- enter next
-- short accepted numeric alias
-- reason not just filled source sentence
-- four self-assessment ratings
-- recall self-assessment distinct
-- lazy 1 questions
-- lazy 1 excludes advanced
-- lazy 3 questions
-- lazy 3 excludes advanced
-- lazy 5 questions
-- lazy 5 excludes advanced
-- lazy 10 questions
-- lazy 10 excludes advanced
-- lazy respects selected section
-- notes dialog opens
-- reviewed facts present
-- original uncorrected text collapsed
-- reference links in notes
-- old records untouched
-- old session untouched
-- expired exam auto-submitted
-- expired session cleared
-- grade 9 list
-- grade 10 list
-- grade 11 list
-- grade 12 list
-- no page errors: []
-- mobile no horizontal overflow
-- mobile light no overflow
-- audit pagination
-- audit search
-- old-to-new ID lookup
-- no errors including audit: []
+## Browser-interface checks
 
-### Browser test limitation
+**71 offline Chromium checks passed**, at 1440-pixel and 390-pixel viewport widths. Covered release/count labels, shared theme selector, all four grades, new-section selection, lazy shortcuts, correct/wrong/skipped feedback, one-attempt recording, source disclosures and source-link resolution, short answers, recall self-assessment, mixed exams and simulated session restoration. The audit filter returns exactly 96 additions and can search stable original source IDs. Existing old-ID lookup still works with the local JSON fixture.
 
-Environment blocks URL navigation. Local files were inlined with set_content; Web Storage and local audit fetch were emulated. Save/load serialization was tested, not network deployment or native storage permissions.
+**Important environment limitation:** navigation to `http://127.0.0.1` failed with `ERR_BLOCKED_BY_ADMINISTRATOR`. Tests therefore used `page.set_content` with the actual scripts and CSS; local images/fonts were inlined for the test only. `localStorage` and the old-ID JSON fetch were mocked. Reload was simulated from serialized storage. This does not establish real browser persistence, cross-tab behavior, network loading, deployment, or Safari/Firefox compatibility.
 
-Desktop 1440px and phone 390px screenshots were inspected in light and dark modes. The test did not verify the live hosted site, native browser download permission, native localStorage permission, other browser engines or every question's screen rendering. The 61,056 permutation checks were pure scoring tests, not 61,056 browser screenshots.
+No uncaught JavaScript errors occurred in the offline harness. The zero failed-response result reflects inlined assets, not a network availability test. Static local file references are checked separately against the merged site tree.
 
-## Patch isolation
+The screenshots contain the real rendered CSS and app data, not generated artwork. Test-only embedded font bytes are not distributed in the patch.
 
-The only modified existing files relative to the supplied 27 September build are:
+## Scientific-review scope
 
-- nmnrt/data.js
-- nmnrt/index.html
-- nmnrt/app.js
-- nmnrt/core.js
+The 96 additions were editorially reviewed with original records, stated conditions, short explanations and topic-level references. The 2,893-record inventory is **not** a scientific audit of every source question. Automated scoring tests establish key/order consistency, not independent biological correctness. No teacher certification or guarantee of zero remaining errors is claimed.
 
-Added files are scoped to NMNRT audit styling/data/viewer. No root page, shared theme controller, image, font, homepage bridge or existing stylesheet is replaced.
+## Boundaries
 
-## Remaining review limits
+- `core.js` is unchanged from v2.1; it is included for cumulative installation.
+- Root/homepage/theme/mascot/font/questionbank files are not changed.
+- No site deployment was performed.
+- The earlier release report is retained as `TEST_REPORT_v2_1.md` and does not describe these additions.
 
-AI authorship and review, with topic-level textbook references and more specific sources for identified errors. No independent educator sign-off. This is a section-level redesign; the decision ledger is not a one-to-one semantic mapping of old questions. New IDs intentionally start with new mastery records.
+## Static reference check
+
+29 local HTML references resolved in the merged site. This is a filesystem check, not a live HTTP check.
