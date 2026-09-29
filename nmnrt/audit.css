@@ -1,0 +1,71 @@
+/* NMNRT 2.1: scoped additions only. Existing site/theme CSS stays in place. */
+.audit-update { margin: 0 0 18px; padding: 12px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+.audit-update summary { cursor: pointer; font-size: .88rem; color: var(--muted); }
+.audit-update p { margin-top: 10px; font-size: .86rem; }
+.grade-caveat { margin: 8px 18px 16px; padding: 12px; border-radius: 10px; background: var(--warn-bg); color: var(--warn); font-size: .85rem; line-height: 1.65; }
+.lesson-title-btn { padding: 0; color: var(--ink); font-size: .94rem; text-align: left; line-height: 1.65; }
+.lesson-title-btn:hover { text-decoration: underline; }
+.setup-info { padding: 14px 0; color: var(--muted); font-size: .88rem; }
+.start-btn { width: 100%; }
+.question.mcq-question { font-size: clamp(1.16rem, 1.7vw, 1.5rem); font-weight: 600; line-height: 1.65; text-align: left; }
+.choice-content { min-width: 0; flex: 1; }
+.choice-state { display: block; margin-top: 4px; font-size: .72rem; font-weight: 700; }
+.mcq-option { min-height: 64px; }
+.mcq-option:disabled { opacity: 1; cursor: default; }
+.mcq-feedback h3.skipped { color: var(--warn); }
+.your-answer { margin: 10px 0; overflow-wrap: anywhere; }
+.mcq-feedback .mcq-explain { line-height: 1.8; }
+.audit-disclosure { margin: 14px 0; color: var(--muted); font-size: .83rem; }
+.audit-disclosure summary { cursor: pointer; }
+.audit-disclosure p { padding-top: 8px; }
+.rating-buttons { margin-top: 18px; }
+.review-item > summary { gap: 12px; align-items: baseline; }
+.review-item > summary > span:last-child { min-width: 0; line-height: 1.6; }
+.review-item { padding: 16px 20px; }
+.review-item .your-answer { padding-top: 14px; }
+.result-hero { padding: 26px; }
+.result-hero .result-score { display: block; font-size: 3rem; color: var(--accent-text); }
+.panel-pad { padding: 22px; }
+.source-page .panel { margin-bottom: 20px; }
+.reference-list { padding-left: 22px; line-height: 1.7; font-size: .88rem; }
+.reference-list li { margin: 8px 0; }
+.reviewed-fact { margin-top: 14px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel2); }
+.reviewed-fact h4 { margin: 0 0 8px; font-size: 1rem; }
+.reviewed-fact p { margin: 8px 0; }
+.reviewed-fact small { color: var(--muted); font-size: .73rem; overflow-wrap: anywhere; }
+.audit-note { margin: 12px 0; color: var(--muted); font-size: .88rem; }
+.reference-disclosure, .original-source { margin-top: 16px; }
+.reference-disclosure summary, .original-source summary { cursor: pointer; color: var(--accent-text); font-size: .9rem; }
+.original-source .teacher-task { margin-top: 12px; }
+.original-source .notice { margin-top: 12px; }
+#notesBody .section-block { border-bottom: 1px solid var(--line); padding-bottom: 22px; }
+.audit-shell { max-width: 1120px; margin: auto; padding: 28px 20px 60px; }
+.audit-shell .audit-controls { display: flex; gap: 12px; margin: 22px 0; align-items: center; flex-wrap: wrap; }
+.audit-shell input[type=search] { flex: 1; min-width: 200px; }
+.audit-shell .audit-card { padding: 22px; margin-bottom: 14px; }
+.audit-shell .audit-card h3 { font-size: 1.1rem; line-height: 1.6; margin: 12px 0; }
+.audit-shell .audit-card li { margin: 8px 0; }
+.audit-shell .audit-card .audit-correct { color: var(--good); font-weight: 700; }
+.audit-shell .audit-card small { color: var(--muted); }
+.audit-shell .audit-pager { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 20px 0; }
+.audit-shell .audit-pager button { min-height: 44px; }
+.audit-shell .panel-pad p { margin: 12px 0; }
+.audit-shell code { overflow-wrap: anywhere; }
+@media (max-width: 650px) {
+ .question.mcq-question { font-size: 1.14rem; }
+ .mcq-options { grid-template-columns: 1fr; }
+ .study-card.mcq-card { padding: 22px 16px; }
+ .study-meta { gap: 8px; font-size: .73rem; }
+ .mcq-option { min-height: 62px; padding: 12px; font-size: .93rem; }
+ .mcq-feedback-foot { align-items: stretch; }
+ .review-item { padding: 14px; }
+ .review-item > summary { flex-wrap: wrap; }
+ .rating-buttons { grid-template-columns: 1fr 1fr; }
+ .panel-pad { padding: 16px; }
+ .audit-shell { padding-inline: 12px; }
+}
+@media print {
+ .original-source, .reference-disclosure, .audit-note, .toolbar, .sidebar, .topbar, .audit-update { display: none !important; }
+ .reviewed-fact { break-inside: avoid; color: #000; background: #fff; }
+ .reviewed-fact p, .reviewed-fact strong, .reviewed-fact h4 { color: #000 !important; }
+}

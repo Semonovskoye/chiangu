@@ -1,0 +1,1095 @@
+{
+  "audit": {
+    "bankId": "nmnrt-reviewed-2026-09-29-v2.1",
+    "release": "2.1",
+    "reviewDate": "2026-09-29",
+    "oldCards": 1036,
+    "newQuestions": 636,
+    "oldCardsRetired": 4,
+    "sectionsWithRewrites": 363,
+    "counts": [
+      {
+        "grade": 9,
+        "oldCards": 15,
+        "questions": 12,
+        "primarySections": 5,
+        "advanced": 0,
+        "shortAnswers": 11
+      },
+      {
+        "grade": 10,
+        "oldCards": 177,
+        "questions": 139,
+        "primarySections": 58,
+        "advanced": 56,
+        "shortAnswers": 110
+      },
+      {
+        "grade": 11,
+        "oldCards": 535,
+        "questions": 271,
+        "primarySections": 160,
+        "advanced": 53,
+        "shortAnswers": 209
+      },
+      {
+        "grade": 12,
+        "oldCards": 309,
+        "questions": 214,
+        "primarySections": 140,
+        "advanced": 16,
+        "shortAnswers": 130
+      }
+    ],
+    "basisCounts": {
+      "adapted": 82,
+      "source-rewrite": 390,
+      "corrected": 164
+    },
+    "method": "Biên soạn và rà soát bởi trợ lí AI: mỗi câu có đề, 4 lựa chọn và lời giải viết riêng. Đối chiếu giáo trình OpenStax và tài liệu chi tiết cho các vấn đề phát hiện. Không phải phản biện độc lập bởi giáo viên; không cam kết không thể còn sai sót.",
+    "mappingNote": "Toàn bộ 1.036 ID cũ có quyết định trong sổ kiểm tra. 1.032 được thay theo đề mục, 4 được loại. Số câu mới không phải chuyển đổi 1:1; các câu lặp được gộp và ý dài được chọn/tách lại.",
+    "coverageNote": "Kiểm tra toàn bộ ngân hàng cũ, không bổ sung mọi phần còn trống trong các trang bài giảng. Bản mới có 636 ý kiểm tra riêng; không thay thế toàn bộ giáo trình hay ngân hàng đề chính thức.",
+    "progressNote": "ID câu mới và vùng lưu mới. Không chuyển mức thành thạo của câu cũ sang câu đã đổi nghĩa. Tiến độ cũ vẫn được giữ nguyên trong trình duyệt."
+  },
+  "corrections": {
+    "g9-l1-s0": {
+      "kind": "adapted",
+      "note": "Lớp 9 được xác nhận bởi chủ website. Tiêu đề bài di truyền không khớp các ghi chú mẫu về phương pháp nghiên cứu. Câu mới chỉ kiểm tra nội dung ghi chú thực sự có, không được xem là ngân hàng đủ chương trình lớp 9.",
+      "referenceIds": []
+    },
+    "g9-l1-s1": {
+      "kind": "adapted",
+      "note": "Lớp 9 được xác nhận bởi chủ website. Tiêu đề bài di truyền không khớp các ghi chú mẫu về phương pháp nghiên cứu. Câu mới chỉ kiểm tra nội dung ghi chú thực sự có, không được xem là ngân hàng đủ chương trình lớp 9.",
+      "referenceIds": []
+    },
+    "g9-l1-s2": {
+      "kind": "adapted",
+      "note": "Lớp 9 được xác nhận bởi chủ website. Tiêu đề bài di truyền không khớp các ghi chú mẫu về phương pháp nghiên cứu. Câu mới chỉ kiểm tra nội dung ghi chú thực sự có, không được xem là ngân hàng đủ chương trình lớp 9.",
+      "referenceIds": []
+    },
+    "g9-l2-s0": {
+      "kind": "adapted",
+      "note": "Lớp 9 được xác nhận bởi chủ website. Tiêu đề bài di truyền không khớp các ghi chú mẫu về phương pháp nghiên cứu. Câu mới chỉ kiểm tra nội dung ghi chú thực sự có, không được xem là ngân hàng đủ chương trình lớp 9.",
+      "referenceIds": []
+    },
+    "g9-l2-s1": {
+      "kind": "adapted",
+      "note": "Lớp 9 được xác nhận bởi chủ website. Tiêu đề bài di truyền không khớp các ghi chú mẫu về phương pháp nghiên cứu. Câu mới chỉ kiểm tra nội dung ghi chú thực sự có, không được xem là ngân hàng đủ chương trình lớp 9.",
+      "referenceIds": []
+    },
+    "g10-l4-s1": {
+      "kind": "corrected",
+      "note": "Không gộp “nhân/vùng nhân” thành một cấu trúc của tế bào nhân thực; câu mới phân biệt rõ nhân có màng và vùng nhân.",
+      "referenceIds": []
+    },
+    "g10-l5-s2": {
+      "kind": "corrected",
+      "note": "Không giữ khẳng định phân tử sinh học chỉ tồn tại trong tế bào sống hay mọi đường đơn đều có 6 carbon. Câu mới nêu đúng cấu trúc hoặc chức năng cụ thể.",
+      "referenceIds": []
+    },
+    "g10-l5-s3": {
+      "kind": "corrected",
+      "note": "Không giữ khẳng định phân tử sinh học chỉ tồn tại trong tế bào sống hay mọi đường đơn đều có 6 carbon. Câu mới nêu đúng cấu trúc hoặc chức năng cụ thể.",
+      "referenceIds": []
+    },
+    "g10-l5-s5": {
+      "kind": "corrected",
+      "note": "Phân biệt nhóm amino, nhóm carboxyl và liên kết peptide; không yêu cầu ghi lại đoạn mô tả dài hoặc công thức nhóm amino thiếu chỉ số.",
+      "referenceIds": []
+    },
+    "g10-l7-s2": {
+      "kind": "corrected",
+      "note": "Không coi mọi plasmid đều mang gene kháng thuốc, và không cộng số S như khối lượng. Chỉ dùng chức năng được xác định rõ trong từng câu.",
+      "referenceIds": []
+    },
+    "g10-l7-s6": {
+      "kind": "corrected",
+      "note": "Không coi mọi plasmid đều mang gene kháng thuốc, và không cộng số S như khối lượng. Chỉ dùng chức năng được xác định rõ trong từng câu.",
+      "referenceIds": []
+    },
+    "g10-l7-s8": {
+      "kind": "corrected",
+      "note": "Bỏ khẳng định tất cả vi khuẩn tạo nội bào tử đều gây bệnh và mốc “lớn hơn 12°C”. Nội bào tử giúp tồn tại, không phải sinh sản; câu mới không cung cấp quy trình khử trùng thiếu điều kiện.",
+      "referenceIds": []
+    },
+    "g10-l7-s9": {
+      "kind": "corrected",
+      "note": "Không giữ mô tả sai về Mycoplasma sinh sản bằng nội bào tử hoặc khái quát mọi vi khuẩn có cấu trúc giống nhau.",
+      "referenceIds": []
+    },
+    "g10-l20-s4": {
+      "kind": "corrected",
+      "note": "Phân biệt lipid ether của cổ khuẩn với lipid ester điển hình của vi khuẩn; không đồng nhất bacteriorhodopsin với bacteriochlorophyll.",
+      "referenceIds": []
+    },
+    "g10-l20-s5": {
+      "kind": "corrected",
+      "note": "Thành tế bào vi tảo rất đa dạng; chỉ hỏi ví dụ cụ thể thay vì quy mọi vi tảo về cellulose.",
+      "referenceIds": []
+    },
+    "g10-l28-s0": {
+      "kind": "adapted",
+      "note": "Nguồn tham chiếu hình không được cung cấp đầy đủ trong ngân hàng. Thay bằng câu độc lập có đủ đặc điểm cấu trúc/chức năng ngay trong đề; không đoán nhãn của hình.",
+      "referenceIds": []
+    },
+    "g10-l29-s0": {
+      "kind": "adapted",
+      "note": "Nguồn tham chiếu hình không được cung cấp đầy đủ trong ngân hàng. Thay bằng câu độc lập có đủ đặc điểm cấu trúc/chức năng ngay trong đề; không đoán nhãn của hình.",
+      "referenceIds": []
+    },
+    "g10-l30-s0": {
+      "kind": "corrected",
+      "note": "Với ức chế cạnh tranh thuận nghịch theo Michaelis–Menten, Vmax không đổi và Km biểu kiến tăng. Câu hỏi ghi rõ mô hình và điều kiện.",
+      "referenceIds": [
+        "competitive"
+      ]
+    },
+    "g10-l30-s1": {
+      "kind": "corrected",
+      "note": "Phân biệt NADH/FADH₂ với NADPH; không coi lactate còn tích tụ là nguyên nhân trực tiếp của đau cơ khởi phát muộn.",
+      "referenceIds": [
+        "doms"
+      ]
+    },
+    "g10-l31-s0": {
+      "kind": "corrected",
+      "note": "PLCζ của tinh trùng có thể kích hoạt tín hiệu IP₃/Ca²⁺ trong trứng; không suy ra vai trò này chỉ từ DNA nhân.",
+      "referenceIds": [
+        "plcz"
+      ]
+    },
+    "g10-l32-s0": {
+      "kind": "corrected",
+      "note": "Không coi tái bản DNA ti thể bị giới hạn vào pha S của DNA nhân.",
+      "referenceIds": [
+        "mtdna"
+      ]
+    },
+    "g11-l2-s2": {
+      "kind": "corrected",
+      "note": "Nêu đúng thế nước, tính chọn lọc của nội bì và dòng từ nguồn tới nơi tiêu thụ của mạch rây; không khái quát mạch rây luôn đi xuống.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l2-s3": {
+      "kind": "corrected",
+      "note": "Nêu đúng thế nước, tính chọn lọc của nội bì và dòng từ nguồn tới nơi tiêu thụ của mạch rây; không khái quát mạch rây luôn đi xuống.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l2-s4": {
+      "kind": "corrected",
+      "note": "Nêu đúng thế nước, tính chọn lọc của nội bì và dòng từ nguồn tới nơi tiêu thụ của mạch rây; không khái quát mạch rây luôn đi xuống.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l3-s1": {
+      "kind": "adapted",
+      "note": "Viết lại thành câu hỏi về mục đích, biến khảo sát hoặc kết quả giải thích được. Không hỏi “bước 3” bị tách ngữ cảnh; không biến thẻ ngắn thành hướng dẫn thực hành đầy đủ.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l3-s2": {
+      "kind": "adapted",
+      "note": "Viết lại thành câu hỏi về mục đích, biến khảo sát hoặc kết quả giải thích được. Không hỏi “bước 3” bị tách ngữ cảnh; không biến thẻ ngắn thành hướng dẫn thực hành đầy đủ.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l3-s3": {
+      "kind": "adapted",
+      "note": "Viết lại thành câu hỏi về mục đích, biến khảo sát hoặc kết quả giải thích được. Không hỏi “bước 3” bị tách ngữ cảnh; không biến thẻ ngắn thành hướng dẫn thực hành đầy đủ.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l3-s4": {
+      "kind": "adapted",
+      "note": "Viết lại thành câu hỏi về mục đích, biến khảo sát hoặc kết quả giải thích được. Không hỏi “bước 3” bị tách ngữ cảnh; không biến thẻ ngắn thành hướng dẫn thực hành đầy đủ.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l3-s5": {
+      "kind": "adapted",
+      "note": "Viết lại thành câu hỏi về mục đích, biến khảo sát hoặc kết quả giải thích được. Không hỏi “bước 3” bị tách ngữ cảnh; không biến thẻ ngắn thành hướng dẫn thực hành đầy đủ.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l3-s6": {
+      "kind": "adapted",
+      "note": "Viết lại thành câu hỏi về mục đích, biến khảo sát hoặc kết quả giải thích được. Không hỏi “bước 3” bị tách ngữ cảnh; không biến thẻ ngắn thành hướng dẫn thực hành đầy đủ.",
+      "referenceIds": [
+        "transport"
+      ]
+    },
+    "g11-l4-s4": {
+      "kind": "corrected",
+      "note": "Phân biệt nguồn O₂, ATP/NADPH, nơi cố định CO₂ và sự tách biệt không gian (C4) / thời gian (CAM). “Pha tối” không có nghĩa chỉ xảy ra ban đêm.",
+      "referenceIds": []
+    },
+    "g11-l4-s5": {
+      "kind": "corrected",
+      "note": "Phân biệt nguồn O₂, ATP/NADPH, nơi cố định CO₂ và sự tách biệt không gian (C4) / thời gian (CAM). “Pha tối” không có nghĩa chỉ xảy ra ban đêm.",
+      "referenceIds": []
+    },
+    "g11-l4-s6": {
+      "kind": "corrected",
+      "note": "Phân biệt nguồn O₂, ATP/NADPH, nơi cố định CO₂ và sự tách biệt không gian (C4) / thời gian (CAM). “Pha tối” không có nghĩa chỉ xảy ra ban đêm.",
+      "referenceIds": []
+    },
+    "g11-l4-s7": {
+      "kind": "corrected",
+      "note": "Phân biệt nguồn O₂, ATP/NADPH, nơi cố định CO₂ và sự tách biệt không gian (C4) / thời gian (CAM). “Pha tối” không có nghĩa chỉ xảy ra ban đêm.",
+      "referenceIds": []
+    },
+    "g11-l4-s8": {
+      "kind": "corrected",
+      "note": "Phân biệt nguồn O₂, ATP/NADPH, nơi cố định CO₂ và sự tách biệt không gian (C4) / thời gian (CAM). “Pha tối” không có nghĩa chỉ xảy ra ban đêm.",
+      "referenceIds": []
+    },
+    "g11-l4-s9": {
+      "kind": "corrected",
+      "note": "Phân biệt nguồn O₂, ATP/NADPH, nơi cố định CO₂ và sự tách biệt không gian (C4) / thời gian (CAM). “Pha tối” không có nghĩa chỉ xảy ra ban đêm.",
+      "referenceIds": []
+    },
+    "g11-l4-s13": {
+      "kind": "corrected",
+      "note": "Không dùng một nồng độ CO₂ duy nhất làm giới hạn gây độc chung cho mọi cây; nêu điều kiện ánh sáng/nhiệt độ và giới hạn đáp ứng.",
+      "referenceIds": []
+    },
+    "g11-l6-s4": {
+      "kind": "corrected",
+      "note": "Lên men tái sinh NAD⁺; không nhầm năng lượng toàn bộ hô hấp hiếu khí với 2 ATP ròng của đường phân.",
+      "referenceIds": []
+    },
+    "g11-l12-s2": {
+      "kind": "corrected",
+      "note": "Tách rõ tác nhân gây bệnh, miễn dịch bẩm sinh/thích ứng, kháng nguyên, kháng thể và tế bào T/B; không coi mọi kháng nguyên là từ bên ngoài.",
+      "referenceIds": []
+    },
+    "g11-l12-s7": {
+      "kind": "corrected",
+      "note": "Tách rõ tác nhân gây bệnh, miễn dịch bẩm sinh/thích ứng, kháng nguyên, kháng thể và tế bào T/B; không coi mọi kháng nguyên là từ bên ngoài.",
+      "referenceIds": []
+    },
+    "g11-l12-s8": {
+      "kind": "corrected",
+      "note": "Tách rõ tác nhân gây bệnh, miễn dịch bẩm sinh/thích ứng, kháng nguyên, kháng thể và tế bào T/B; không coi mọi kháng nguyên là từ bên ngoài.",
+      "referenceIds": []
+    },
+    "g11-l12-s9": {
+      "kind": "corrected",
+      "note": "Tách rõ tác nhân gây bệnh, miễn dịch bẩm sinh/thích ứng, kháng nguyên, kháng thể và tế bào T/B; không coi mọi kháng nguyên là từ bên ngoài.",
+      "referenceIds": []
+    },
+    "g11-l12-s10": {
+      "kind": "corrected",
+      "note": "Tách rõ tác nhân gây bệnh, miễn dịch bẩm sinh/thích ứng, kháng nguyên, kháng thể và tế bào T/B; không coi mọi kháng nguyên là từ bên ngoài.",
+      "referenceIds": []
+    },
+    "g11-l12-s11": {
+      "kind": "corrected",
+      "note": "Tách rõ tác nhân gây bệnh, miễn dịch bẩm sinh/thích ứng, kháng nguyên, kháng thể và tế bào T/B; không coi mọi kháng nguyên là từ bên ngoài.",
+      "referenceIds": []
+    },
+    "g11-l12-s12": {
+      "kind": "corrected",
+      "note": "Tách rõ tác nhân gây bệnh, miễn dịch bẩm sinh/thích ứng, kháng nguyên, kháng thể và tế bào T/B; không coi mọi kháng nguyên là từ bên ngoài.",
+      "referenceIds": []
+    },
+    "g11-l12-s4": {
+      "kind": "corrected",
+      "note": "Cyanide ức chế cytochrome c oxidase, làm cản trở hô hấp tế bào; không coi đây chỉ là độc tố tác động riêng lên hệ thần kinh.",
+      "referenceIds": [
+        "cyanide"
+      ]
+    },
+    "g11-l13-s3": {
+      "kind": "corrected",
+      "note": "Phân biệt lọc, tái hấp thu, bài tiết thêm; ADH tăng tính thấm với nước của ống góp. Không đánh đồng lượng dịch lọc với nước tiểu thải ra.",
+      "referenceIds": []
+    },
+    "g11-l13-s5": {
+      "kind": "corrected",
+      "note": "Phân biệt lọc, tái hấp thu, bài tiết thêm; ADH tăng tính thấm với nước của ống góp. Không đánh đồng lượng dịch lọc với nước tiểu thải ra.",
+      "referenceIds": []
+    },
+    "g11-l13-s6": {
+      "kind": "adapted",
+      "note": "Câu hỏi chỉ kiểm tra sinh lí và cách đọc thông tin có bối cảnh; không chẩn đoán bệnh từ một trị số tách rời hoặc đưa lời khuyên điều trị.",
+      "referenceIds": []
+    },
+    "g11-l13-s7": {
+      "kind": "adapted",
+      "note": "Câu hỏi chỉ kiểm tra sinh lí và cách đọc thông tin có bối cảnh; không chẩn đoán bệnh từ một trị số tách rời hoặc đưa lời khuyên điều trị.",
+      "referenceIds": []
+    },
+    "g11-l13-s8": {
+      "kind": "adapted",
+      "note": "Câu hỏi chỉ kiểm tra sinh lí và cách đọc thông tin có bối cảnh; không chẩn đoán bệnh từ một trị số tách rời hoặc đưa lời khuyên điều trị.",
+      "referenceIds": []
+    },
+    "g11-l17-s3": {
+      "kind": "corrected",
+      "note": "Tín hiệu sau synapse có thể kích thích hoặc ức chế; không mặc định mỗi chất trung gian đều tạo điện thế hoạt động.",
+      "referenceIds": []
+    },
+    "g11-l17-s6": {
+      "kind": "corrected",
+      "note": "Không gọi mọi chất tác động thần kinh là chất kích thích; rượu, opioid và các chất khác có cơ chế khác nhau.",
+      "referenceIds": []
+    },
+    "g11-l18-s4": {
+      "kind": "corrected",
+      "note": "Pheromone có nhiều vai trò trong liên lạc cùng loài, gồm thu hút sinh sản; không giới hạn ở báo động hoặc loại trừ sinh sản.",
+      "referenceIds": []
+    },
+    "g11-l20-s6": {
+      "kind": "adapted",
+      "note": "Thay ghi chú thiếu lời giải bằng ví dụ độc lập theo đúng chủ đề; các chi tiết bổ sung được đối chiếu giáo trình, không mạo nhận là đáp án gốc.",
+      "referenceIds": []
+    },
+    "g11-l25-s2": {
+      "kind": "adapted",
+      "note": "Thay ghi chú thiếu lời giải bằng ví dụ độc lập theo đúng chủ đề; các chi tiết bổ sung được đối chiếu giáo trình, không mạo nhận là đáp án gốc.",
+      "referenceIds": []
+    },
+    "g11-l27-s2": {
+      "kind": "adapted",
+      "note": "Thay ghi chú thiếu lời giải bằng ví dụ độc lập theo đúng chủ đề; các chi tiết bổ sung được đối chiếu giáo trình, không mạo nhận là đáp án gốc.",
+      "referenceIds": []
+    },
+    "g11-l27-s3": {
+      "kind": "adapted",
+      "note": "Thay ghi chú thiếu lời giải bằng ví dụ độc lập theo đúng chủ đề; các chi tiết bổ sung được đối chiếu giáo trình, không mạo nhận là đáp án gốc.",
+      "referenceIds": []
+    },
+    "g11-l31-s3": {
+      "kind": "corrected",
+      "note": "S2 liên quan đóng van bán nguyệt; phân biệt van nhĩ–thất với van động mạch. Các con số trong câu mới được nêu đầy đủ.",
+      "referenceIds": [
+        "cardiac"
+      ]
+    },
+    "g11-l31-s4": {
+      "kind": "corrected",
+      "note": "S2 liên quan đóng van bán nguyệt; phân biệt van nhĩ–thất với van động mạch. Các con số trong câu mới được nêu đầy đủ.",
+      "referenceIds": [
+        "cardiac"
+      ]
+    },
+    "g11-l31-s27": {
+      "kind": "corrected",
+      "note": "S2 liên quan đóng van bán nguyệt; phân biệt van nhĩ–thất với van động mạch. Các con số trong câu mới được nêu đầy đủ.",
+      "referenceIds": [
+        "cardiac"
+      ]
+    },
+    "g11-l31-s22": {
+      "kind": "adapted",
+      "note": "Bổ sung giả định tiền gánh và hậu gánh không đổi khi so sánh ảnh hưởng của sức co bóp lên thể tích cuối tâm thu.",
+      "referenceIds": [
+        "cardiac"
+      ]
+    },
+    "g11-l32-s1": {
+      "kind": "adapted",
+      "note": "Thay yêu cầu đọc hình thiếu bằng câu tự đủ ngữ cảnh về đường đi thức ăn trong hệ tiêu hóa người.",
+      "referenceIds": []
+    },
+    "g11-l36-s1": {
+      "kind": "adapted",
+      "note": "Thay việc suy từ biểu đồ hormone chưa có bằng câu về đỉnh LH và rụng trứng; không gán ngày rụng trứng cố định cho mọi chu kì.",
+      "referenceIds": []
+    },
+    "g11-l38-s2": {
+      "kind": "adapted",
+      "note": "Thay yêu cầu suy từ hình thiếu bằng câu sinh lí thần kinh có bối cảnh rõ; phân biệt điện thế thụ cảm và điện thế hoạt động.",
+      "referenceIds": [
+        "optic"
+      ]
+    },
+    "g11-l42-s1": {
+      "kind": "corrected",
+      "note": "Lọc sinh học hiếu khí chuyển NH₄⁺ qua NO₂⁻ tới NO₃⁻; không gộp với phản nitrate hóa và không đặt ngưỡng áp dụng chung khi thiếu điều kiện.",
+      "referenceIds": []
+    },
+    "g11-l42-s2": {
+      "kind": "corrected",
+      "note": "Lọc sinh học hiếu khí chuyển NH₄⁺ qua NO₂⁻ tới NO₃⁻; không gộp với phản nitrate hóa và không đặt ngưỡng áp dụng chung khi thiếu điều kiện.",
+      "referenceIds": []
+    },
+    "g12-l1-s3": {
+      "kind": "corrected",
+      "note": "Phiên mã có thể tạo nhiều loại RNA; dịch mã không chỉ xảy ra ở pha S. Không coi mọi gene nhân thực là phân mảnh hay mọi virus RNA đều phiên mã ngược.",
+      "referenceIds": []
+    },
+    "g12-l2-s2": {
+      "kind": "corrected",
+      "note": "Phiên mã có thể tạo nhiều loại RNA; dịch mã không chỉ xảy ra ở pha S. Không coi mọi gene nhân thực là phân mảnh hay mọi virus RNA đều phiên mã ngược.",
+      "referenceIds": []
+    },
+    "g12-l2-s4": {
+      "kind": "corrected",
+      "note": "Phiên mã có thể tạo nhiều loại RNA; dịch mã không chỉ xảy ra ở pha S. Không coi mọi gene nhân thực là phân mảnh hay mọi virus RNA đều phiên mã ngược.",
+      "referenceIds": []
+    },
+    "g12-l2-s5": {
+      "kind": "corrected",
+      "note": "Phiên mã có thể tạo nhiều loại RNA; dịch mã không chỉ xảy ra ở pha S. Không coi mọi gene nhân thực là phân mảnh hay mọi virus RNA đều phiên mã ngược.",
+      "referenceIds": []
+    },
+    "g12-l2-s7": {
+      "kind": "corrected",
+      "note": "Phiên mã có thể tạo nhiều loại RNA; dịch mã không chỉ xảy ra ở pha S. Không coi mọi gene nhân thực là phân mảnh hay mọi virus RNA đều phiên mã ngược.",
+      "referenceIds": []
+    },
+    "g12-l3-s2": {
+      "kind": "corrected",
+      "note": "LacI nằm ngoài operon; allolactose làm giảm gắn của protein ức chế vào operator. Nêu lactose có / glucose thấp khi hỏi biểu hiện mạnh.",
+      "referenceIds": [
+        "lac"
+      ]
+    },
+    "g12-l4-s1": {
+      "kind": "corrected",
+      "note": "Không coi thay thế nucleotide luôn đổi amino acid hoặc mọi đột biến đều gây bệnh. Câu dịch khung chỉ xét thêm/mất không phải bội của 3 trong vùng mã hóa.",
+      "referenceIds": []
+    },
+    "g12-l4-s5": {
+      "kind": "corrected",
+      "note": "Không coi thay thế nucleotide luôn đổi amino acid hoặc mọi đột biến đều gây bệnh. Câu dịch khung chỉ xét thêm/mất không phải bội của 3 trong vùng mã hóa.",
+      "referenceIds": []
+    },
+    "g12-l9-s2": {
+      "kind": "corrected",
+      "note": "Đồng trội không đồng nghĩa với đa allele; tương tác át chế giữa các gene khác với trội–lặn của cùng gene.",
+      "referenceIds": []
+    },
+    "g12-l9-s4": {
+      "kind": "corrected",
+      "note": "Đồng trội không đồng nghĩa với đa allele; tương tác át chế giữa các gene khác với trội–lặn của cùng gene.",
+      "referenceIds": []
+    },
+    "g12-l11-s1": {
+      "kind": "corrected",
+      "note": "Gene cùng NST thường di truyền cùng nhau nhưng hoán vị có thể tách chúng; tần số tái tổ hợp tối đa 50%, không phải mọi cặp gene trên cùng NST luôn liên kết hoàn toàn.",
+      "referenceIds": []
+    },
+    "g12-l11-s2": {
+      "kind": "corrected",
+      "note": "Gene cùng NST thường di truyền cùng nhau nhưng hoán vị có thể tách chúng; tần số tái tổ hợp tối đa 50%, không phải mọi cặp gene trên cùng NST luôn liên kết hoàn toàn.",
+      "referenceIds": []
+    },
+    "g12-l11-s4": {
+      "kind": "corrected",
+      "note": "Gene cùng NST thường di truyền cùng nhau nhưng hoán vị có thể tách chúng; tần số tái tổ hợp tối đa 50%, không phải mọi cặp gene trên cùng NST luôn liên kết hoàn toàn.",
+      "referenceIds": []
+    },
+    "g12-l12-s3": {
+      "kind": "corrected",
+      "note": "Phân biệt lệch bội với đa bội và nêu rối loạn phân li thay cho một phát biểu thiếu căn cứ rằng cơ chế không rõ.",
+      "referenceIds": []
+    },
+    "g12-l13-s4": {
+      "kind": "corrected",
+      "note": "Tư vấn di truyền cung cấp thông tin và hỗ trợ quyết định tự nguyện; không ra lệnh hay kì thị người có bệnh di truyền.",
+      "referenceIds": [
+        "counsel"
+      ]
+    },
+    "g12-l13-s5": {
+      "kind": "corrected",
+      "note": "Liệu pháp gene có thể thêm, sửa hoặc điều chỉnh hoạt động gene; không chỉ là thay một đoạn gene trong mọi tế bào.",
+      "referenceIds": [
+        "therapy"
+      ]
+    },
+    "g12-l13-s6": {
+      "kind": "corrected",
+      "note": "Liệu pháp gene có thể thêm, sửa hoặc điều chỉnh hoạt động gene; không chỉ là thay một đoạn gene trong mọi tế bào.",
+      "referenceIds": [
+        "therapy"
+      ]
+    },
+    "g12-l13-s8": {
+      "kind": "adapted",
+      "note": "RFLP / chỉ thị phân tử được hỏi bằng dữ liệu đủ rõ; một băng DNA hoặc liên kết chỉ thị không tự chứng minh biến thể gây bệnh.",
+      "referenceIds": []
+    },
+    "g12-l13-s9": {
+      "kind": "adapted",
+      "note": "RFLP / chỉ thị phân tử được hỏi bằng dữ liệu đủ rõ; một băng DNA hoặc liên kết chỉ thị không tự chứng minh biến thể gây bệnh.",
+      "referenceIds": []
+    },
+    "g12-l15-s4": {
+      "kind": "corrected",
+      "note": "Không dùng kết quả lai thuận nghịch khác nhau như bằng chứng duy nhất của di truyền ti thể; ví dụ ghi rõ di truyền qua tế bào chất mẹ.",
+      "referenceIds": []
+    },
+    "g12-l18-s3": {
+      "kind": "corrected",
+      "note": "Các phép tính di truyền quần thể ghi rõ điều kiện Hardy–Weinberg hoặc tự phối không chịu tác động tiến hóa khác; tránh suy tần số allele từ kiểu hình khi thiếu giả định.",
+      "referenceIds": []
+    },
+    "g12-l18-s4": {
+      "kind": "corrected",
+      "note": "Các phép tính di truyền quần thể ghi rõ điều kiện Hardy–Weinberg hoặc tự phối không chịu tác động tiến hóa khác; tránh suy tần số allele từ kiểu hình khi thiếu giả định.",
+      "referenceIds": []
+    },
+    "g12-l22-s2": {
+      "kind": "corrected",
+      "note": "Thí nghiệm Miller tạo được một số hợp chất hữu cơ như amino acid, không tạo tế bào sống hoàn chỉnh.",
+      "referenceIds": [
+        "miller"
+      ]
+    },
+    "g12-l22-s5": {
+      "kind": "corrected",
+      "note": "Người và tinh tinh có tổ tiên chung; không coi loài tinh tinh hiện đại là tổ tiên trực tiếp của người.",
+      "referenceIds": [
+        "humans",
+        "commonancestor"
+      ]
+    },
+    "g12-l24-s4": {
+      "kind": "corrected",
+      "note": "Phân biệt độ tăng ΔN = B − D + I − E với kích thước mới N(t+1) = N(t) + ΔN; câu tính cho đủ số ban đầu.",
+      "referenceIds": []
+    },
+    "g12-l26-s2": {
+      "kind": "corrected",
+      "note": "Phân biệt loài ưu thế, loài chủ chốt, độ phong phú và đa dạng; không coi đa dạng cao bảo đảm ổn định trong mọi tình huống.",
+      "referenceIds": []
+    },
+    "g12-l29-s1": {
+      "kind": "corrected",
+      "note": "Vật chất có thể tuần hoàn, năng lượng truyền theo dòng và tản thành nhiệt. Tháp năng lượng không đảo ngược; không đồng nhất với tháp sinh khối.",
+      "referenceIds": []
+    },
+    "g12-l29-s6": {
+      "kind": "corrected",
+      "note": "Vật chất có thể tuần hoàn, năng lượng truyền theo dòng và tản thành nhiệt. Tháp năng lượng không đảo ngược; không đồng nhất với tháp sinh khối.",
+      "referenceIds": []
+    },
+    "g12-l29-s7": {
+      "kind": "corrected",
+      "note": "Vật chất có thể tuần hoàn, năng lượng truyền theo dòng và tản thành nhiệt. Tháp năng lượng không đảo ngược; không đồng nhất với tháp sinh khối.",
+      "referenceIds": []
+    },
+    "g12-l30-s1": {
+      "kind": "corrected",
+      "note": "Diễn thế không nhất thiết theo một tuyến cố định tới quần xã duy nhất; phân biệt có/không còn đất và tác động nhiễu động.",
+      "referenceIds": []
+    },
+    "g12-l30-s2": {
+      "kind": "corrected",
+      "note": "Diễn thế không nhất thiết theo một tuyến cố định tới quần xã duy nhất; phân biệt có/không còn đất và tác động nhiễu động.",
+      "referenceIds": []
+    },
+    "g12-l30-s3": {
+      "kind": "corrected",
+      "note": "Diễn thế không nhất thiết theo một tuyến cố định tới quần xã duy nhất; phân biệt có/không còn đất và tác động nhiễu động.",
+      "referenceIds": []
+    },
+    "g12-l34-s3": {
+      "kind": "corrected",
+      "note": "Khuếch đại sinh học thường nói tới chất ô nhiễm bền tích lũy qua bậc dinh dưỡng, không phải chủ trương tăng dinh dưỡng cho cây.",
+      "referenceIds": []
+    },
+    "g12-l34-s6": {
+      "kind": "adapted",
+      "note": "Không giữ khẳng định chính sách “mọi gia đình hai con” như kiến thức phổ quát. Câu mới hỏi tương tác giữa dân số, tiêu dùng và tài nguyên.",
+      "referenceIds": []
+    },
+    "g12-l37-s0": {
+      "kind": "corrected",
+      "note": "Southern blot phát hiện đoạn DNA đặc hiệu bằng lai đầu dò; không mặc định cần PCR hoặc đầu dò phải luôn là phóng xạ.",
+      "referenceIds": []
+    },
+    "g10-l13-s1": {
+      "kind": "adapted",
+      "note": "Ghi chú gốc ngắn hoặc thiếu lời giải; câu độc lập được bổ sung điều kiện và đối chiếu giáo trình theo chủ đề.",
+      "referenceIds": []
+    },
+    "g10-l13-s2": {
+      "kind": "adapted",
+      "note": "Ghi chú gốc ngắn hoặc thiếu lời giải; câu độc lập được bổ sung điều kiện và đối chiếu giáo trình theo chủ đề.",
+      "referenceIds": []
+    },
+    "g10-l14-s2": {
+      "kind": "adapted",
+      "note": "Ghi chú gốc ngắn hoặc thiếu lời giải; câu độc lập được bổ sung điều kiện và đối chiếu giáo trình theo chủ đề.",
+      "referenceIds": []
+    },
+    "g10-l16-s1": {
+      "kind": "adapted",
+      "note": "Ghi chú gốc ngắn hoặc thiếu lời giải; câu độc lập được bổ sung điều kiện và đối chiếu giáo trình theo chủ đề.",
+      "referenceIds": []
+    },
+    "g10-l28-s1": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s11": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s13": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s14": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s15": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s16": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s17": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s18": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s19": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s20": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s21": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s23": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s24": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s26": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s28": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s29": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l31-s30": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l34-s1": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l38-s1": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l39-s1": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l40-s1": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l40-s2": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l43-s2": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    },
+    "g11-l43-s3": {
+      "kind": "adapted",
+      "note": "Bài tập vận dụng được viết mới thành câu tự đủ dữ kiện theo chủ đề. Đây không phải lời giải cho hình/đồ thị gốc bị thiếu.",
+      "referenceIds": []
+    }
+  },
+  "references": [
+    {
+      "id": "os1",
+      "title": "OpenStax Biology 2e · Chương 1: Nghiên cứu sự sống",
+      "url": "https://openstax.org/books/biology-2e/pages/1-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os2",
+      "title": "OpenStax Biology 2e · Chương 2: Cơ sở hóa học của sự sống",
+      "url": "https://openstax.org/books/biology-2e/pages/2-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os3",
+      "title": "OpenStax Biology 2e · Chương 3: Đại phân tử sinh học",
+      "url": "https://openstax.org/books/biology-2e/pages/3-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os4",
+      "title": "OpenStax Biology 2e · Chương 4: Cấu trúc tế bào",
+      "url": "https://openstax.org/books/biology-2e/pages/4-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os5",
+      "title": "OpenStax Biology 2e · Chương 5: Màng sinh chất",
+      "url": "https://openstax.org/books/biology-2e/pages/5-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os6",
+      "title": "OpenStax Biology 2e · Chương 6: Trao đổi chất và enzyme",
+      "url": "https://openstax.org/books/biology-2e/pages/6-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os7",
+      "title": "OpenStax Biology 2e · Chương 7: Hô hấp tế bào",
+      "url": "https://openstax.org/books/biology-2e/pages/7-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os8",
+      "title": "OpenStax Biology 2e · Chương 8: Quang hợp",
+      "url": "https://openstax.org/books/biology-2e/pages/8-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os9",
+      "title": "OpenStax Biology 2e · Chương 9: Truyền tin tế bào",
+      "url": "https://openstax.org/books/biology-2e/pages/9-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os10",
+      "title": "OpenStax Biology 2e · Chương 10: Sinh sản tế bào",
+      "url": "https://openstax.org/books/biology-2e/pages/10-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os11",
+      "title": "OpenStax Biology 2e · Chương 11: Giảm phân",
+      "url": "https://openstax.org/books/biology-2e/pages/11-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os12",
+      "title": "OpenStax Biology 2e · Chương 12: Mendel và di truyền",
+      "url": "https://openstax.org/books/biology-2e/pages/12-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os13",
+      "title": "OpenStax Biology 2e · Chương 13: Di truyền nhiễm sắc thể",
+      "url": "https://openstax.org/books/biology-2e/pages/13-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os14",
+      "title": "OpenStax Biology 2e · Chương 14: DNA và hệ gene",
+      "url": "https://openstax.org/books/biology-2e/pages/14-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os15",
+      "title": "OpenStax Biology 2e · Chương 15: Gene và protein",
+      "url": "https://openstax.org/books/biology-2e/pages/15-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os16",
+      "title": "OpenStax Biology 2e · Chương 16: Điều hòa biểu hiện gene",
+      "url": "https://openstax.org/books/biology-2e/pages/16-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os17",
+      "title": "OpenStax Biology 2e · Chương 17: Công nghệ sinh học và hệ gene",
+      "url": "https://openstax.org/books/biology-2e/pages/17-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os18",
+      "title": "OpenStax Biology 2e · Chương 18: Tiến hóa và nguồn gốc loài",
+      "url": "https://openstax.org/books/biology-2e/pages/18-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os19",
+      "title": "OpenStax Biology 2e · Chương 19: Tiến hóa quần thể",
+      "url": "https://openstax.org/books/biology-2e/pages/19-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os20",
+      "title": "OpenStax Biology 2e · Chương 20: Phát sinh chủng loại",
+      "url": "https://openstax.org/books/biology-2e/pages/20-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os21",
+      "title": "OpenStax Biology 2e · Chương 21: Virus",
+      "url": "https://openstax.org/books/biology-2e/pages/21-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os22",
+      "title": "OpenStax Biology 2e · Chương 22: Vi khuẩn và cổ khuẩn",
+      "url": "https://openstax.org/books/biology-2e/pages/22-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os23",
+      "title": "OpenStax Biology 2e · Chương 23: Sinh vật nguyên sinh",
+      "url": "https://openstax.org/books/biology-2e/pages/23-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os24",
+      "title": "OpenStax Biology 2e · Chương 24: Nấm",
+      "url": "https://openstax.org/books/biology-2e/pages/24-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os30",
+      "title": "OpenStax Biology 2e · Chương 30: Cấu trúc và chức năng thực vật",
+      "url": "https://openstax.org/books/biology-2e/pages/30-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os31",
+      "title": "OpenStax Biology 2e · Chương 31: Dinh dưỡng thực vật",
+      "url": "https://openstax.org/books/biology-2e/pages/31-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os32",
+      "title": "OpenStax Biology 2e · Chương 32: Sinh sản thực vật",
+      "url": "https://openstax.org/books/biology-2e/pages/32-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os33",
+      "title": "OpenStax Biology 2e · Chương 33: Cơ thể động vật",
+      "url": "https://openstax.org/books/biology-2e/pages/33-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os34",
+      "title": "OpenStax Biology 2e · Chương 34: Dinh dưỡng động vật",
+      "url": "https://openstax.org/books/biology-2e/pages/34-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os35",
+      "title": "OpenStax Biology 2e · Chương 35: Hệ thần kinh",
+      "url": "https://openstax.org/books/biology-2e/pages/35-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os36",
+      "title": "OpenStax Biology 2e · Chương 36: Hệ cảm giác",
+      "url": "https://openstax.org/books/biology-2e/pages/36-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os37",
+      "title": "OpenStax Biology 2e · Chương 37: Hệ nội tiết",
+      "url": "https://openstax.org/books/biology-2e/pages/37-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os39",
+      "title": "OpenStax Biology 2e · Chương 39: Hệ hô hấp",
+      "url": "https://openstax.org/books/biology-2e/pages/39-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os40",
+      "title": "OpenStax Biology 2e · Chương 40: Hệ tuần hoàn",
+      "url": "https://openstax.org/books/biology-2e/pages/40-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os41",
+      "title": "OpenStax Biology 2e · Chương 41: Điều hòa thẩm thấu và bài tiết",
+      "url": "https://openstax.org/books/biology-2e/pages/41-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os42",
+      "title": "OpenStax Biology 2e · Chương 42: Hệ miễn dịch",
+      "url": "https://openstax.org/books/biology-2e/pages/42-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os43",
+      "title": "OpenStax Biology 2e · Chương 43: Sinh sản động vật",
+      "url": "https://openstax.org/books/biology-2e/pages/43-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os44",
+      "title": "OpenStax Biology 2e · Chương 44: Sinh thái và sinh quyển",
+      "url": "https://openstax.org/books/biology-2e/pages/44-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os45",
+      "title": "OpenStax Biology 2e · Chương 45: Sinh thái quần thể và quần xã",
+      "url": "https://openstax.org/books/biology-2e/pages/45-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os46",
+      "title": "OpenStax Biology 2e · Chương 46: Hệ sinh thái",
+      "url": "https://openstax.org/books/biology-2e/pages/46-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "os47",
+      "title": "OpenStax Biology 2e · Chương 47: Sinh học bảo tồn",
+      "url": "https://openstax.org/books/biology-2e/pages/47-chapter-summary",
+      "role": "Đối chiếu giáo trình theo chủ đề; không phải đáp án chính thức của học liệu nhantri."
+    },
+    {
+      "id": "transport",
+      "title": "OpenStax Biology 2e · 30.5: Transport of Water and Solutes in Plants",
+      "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "lac",
+      "title": "OpenStax Biology 2e · 16.2: Prokaryotic Gene Regulation",
+      "url": "https://openstax.org/books/biology-2e/pages/16-2-prokaryotic-gene-regulation",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "competitive",
+      "title": "Nghiên cứu động học ức chế cạnh tranh · PubMed 6172236",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6172236/",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "doms",
+      "title": "Schwane và cộng sự (1983) · đau cơ muộn và lactate",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27409551/",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "plcz",
+      "title": "Saunders và cộng sự (2002) · PLCζ của tinh trùng và dao động Ca²⁺",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12117804/",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "mtdna",
+      "title": "Nghiên cứu điều phối tái bản mtDNA trong chu kì tế bào (2013)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23345615/",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "cardiac",
+      "title": "OpenStax Anatomy and Physiology · 19.3: Cardiac Cycle",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/19-3-cardiac-cycle",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "cyanide",
+      "title": "Wilson và cộng sự (1994) · cyanide và cytochrome c oxidase",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7929065/",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "optic",
+      "title": "O’Connell (1973) · chèn ép giao thoa thị giác và bán manh",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4753869/",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "bird",
+      "title": "Powell và Wagner (1982) · trao đổi khí phổi chim",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7123013/",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "counsel",
+      "title": "NHGRI · Genetic Counseling",
+      "url": "https://www.genome.gov/genetics-glossary/Genetic-Counseling",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "therapy",
+      "title": "NHGRI · Gene Therapy",
+      "url": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "miller",
+      "title": "Miller (1953) · A production of amino acids under possible primitive earth conditions",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13056598/",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "humans",
+      "title": "Smithsonian · Homo sapiens",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    },
+    {
+      "id": "commonancestor",
+      "title": "Smithsonian · One species, living worldwide",
+      "url": "https://humanorigins.si.edu/evidence/genetics/one-species-living-worldwide",
+      "role": "Đối chiếu chi tiết / công trình gốc."
+    }
+  ]
+}
